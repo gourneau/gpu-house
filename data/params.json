@@ -281,8 +281,8 @@
    "label": "AMD Instinct MI355X 288GB",
    "rates": {
     "ondemand": {
-     "value": 2.59,
-     "source": "https://www.vultr.com/pricing/",
+     "value": 2.65,
+     "source": "Vultr live page 'starting at $2.65' per GPU-hr, 8-GPU plan (the earlier $2.59 figure was older; getdeploying shows the plan as spot and out of stock); research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
      "checked": "2026-10-22",
      "provider": "Vultr Cloud GPU, MI355X 8-GPU plan ($20.72 per node-hour)",
      "note": "Cheapest and only permissive-terms on-demand MI355X (gap-closing note table). Terms verified in the gap-closing note: Vultr ToS 5(b) and AUP bar reselling Vultr's own products or access to the Services, contain no service-bureau clause, and repeatedly contemplate 'end users' and 'downstream customers', so a public paid API is not forbidden. Vultr sells H100, B200, MI300X and MI355X only as 8-GPU plans, and new accounts face a manually reviewed account limit (docs: 'your account must demonstrate consistent usage and a positive billing history'; two 2026 reviews describe a GPU approval gate and a 30-day usage wait), so the month-to-month TEST phase should assume the single-GPU test_rate (Koyeb or Lambda) rather than this rate. getdeploying marked Vultr MI355X out of stock on 2026-10-22 (Vultr's own page shows no stock indicator). Others: TensorWave $2.95 custom (secondary), Daytona $5.99 (1x, in stock, terms not read), Oracle $8.60; DigitalOcean lists MI355X spot only. research_notes/GPU rental inference business plan/gap_closing_terms_quotas_prices.md; research_notes/GPU rental inference business plan/alternative_accelerators_amd_tpu_trainium_others.md"
@@ -295,14 +295,14 @@
      "note": "Only terms-verified MI355X spot price. Daytona lists MI355X spot at $3.44 (1x; terms not read); DigitalOcean MI350X spot $3.50. Not used by the model. research_notes/GPU rental inference business plan/gap_closing_terms_quotas_prices.md; research_notes/GPU rental inference business plan/alternative_accelerators_amd_tpu_trainium_others.md"
     },
     "m1": {
-     "value": 2.59,
-     "source": "https://www.vultr.com/pricing/",
+     "value": 2.65,
+     "source": "Vultr live page 'starting at $2.65' per GPU-hr, 8-GPU plan (the earlier $2.59 figure was older; getdeploying shows the plan as spot and out of stock); research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
      "checked": "2026-10-22",
      "provider": "Vultr Cloud GPU, MI355X 8-GPU plan (stock varies)",
      "note": "Cheapest permissive-terms month-to-month rate; the accelerator note calls Vultr's MI355X stock 'the single most important variable'. Terms verified in the gap-closing note: Vultr ToS 5(b) and AUP bar reselling Vultr's own products or access to the Services, contain no service-bureau clause, and repeatedly contemplate 'end users' and 'downstream customers', so a public paid API is not forbidden. Vultr sells H100, B200, MI300X and MI355X only as 8-GPU plans, and new accounts face a manually reviewed account limit (docs: 'your account must demonstrate consistent usage and a positive billing history'; two 2026 reviews describe a GPU approval gate and a 30-day usage wait), so the month-to-month TEST phase should assume the single-GPU test_rate (Koyeb or Lambda) rather than this rate. No other terms-verified provider lists MI355X on demand. research_notes/GPU rental inference business plan/gap_closing_terms_quotas_prices.md; research_notes/GPU rental inference business plan/alternative_accelerators_amd_tpu_trainium_others.md"
     },
     "m3": {
-     "value": 2.46,
+     "value": 2.52,
      "source": "estimate: m1 x 0.95",
      "checked": "2026-10-22",
      "provider": "estimate",
@@ -310,19 +310,18 @@
      "estimate": true
     },
     "m12": {
-     "value": 2.59,
-     "source": "https://www.vultr.com/pricing/",
+     "value": 2.65,
+     "source": "Vultr bare metal prepaid 'from $2.65'; research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
      "checked": "2026-10-22",
      "provider": "Vultr on-demand rate used as the ceiling for a Vultr pre-paid contract",
      "note": "Vultr's bare metal MI355X pre-paid contract 'Starting from $2.650/GPU/hour' is ABOVE its $2.59 on-demand rate, and no other provider publishes any MI355X term price; no rational buyer prepays more than on-demand, so the on-demand rate is used as the ceiling. DigitalOcean MI350X 12-month $4.76 is a different part; getdeploying cites a $2.29 per GPU 36-month MI355X offer from an unnamed provider. research_notes/GPU rental inference business plan/gap_closing_terms_quotas_prices.md; research_notes/GPU rental inference business plan/alternative_accelerators_amd_tpu_trainium_others.md",
      "estimate": true
     },
     "test_rate": {
-     "value": null,
-     "source": "",
+     "value": 5.99,
+     "source": "Daytona 1x MI355X in stock, $5.99; research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
      "checked": "2026-10-22",
-     "provider": "none",
-     "note": "No single-GPU MI355X source with verified terms: Koyeb, Lambda and DigitalOcean (on-demand) list none. Daytona $5.99 (1x, in stock, terms not read) and DigitalOcean spot $5.50 (8x, interruptible) are the only small-scale options. research_notes/GPU rental inference business plan/gap_closing_terms_quotas_prices.md; research_notes/GPU rental inference business plan/alternative_accelerators_amd_tpu_trainium_others.md"
+     "provider": "Daytona 1x"
     }
    },
    "vast_median_rent": {
@@ -495,6 +494,53 @@
     "source": "https://vast.ai/pricing",
     "checked": "2026-10-22",
     "note": "Vast pricing page median for RTX 5090; the host calculator's listed-market median was $0.65 to $0.69 on two loads. research_notes/GPU rental inference business plan/gpu_time_resale_marketplaces.md"
+   }
+  },
+  {
+   "key": "B300",
+   "label": "B300 288GB (Blackwell Ultra)",
+   "rates": {
+    "ondemand": {
+     "value": 8.99,
+     "source": "RunPod Secure Cloud 1x B300 in stock (terms ambiguous); Nebius 1x $9.50; Daytona $7.10; see research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
+     "checked": "2026-10-22",
+     "provider": "RunPod 1x"
+    },
+    "spot": {
+     "value": 6.17,
+     "source": "DigitalOcean B300 spot, 8-GPU only; research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
+     "checked": "2026-10-22",
+     "provider": "DigitalOcean spot 8x"
+    },
+    "m1": {
+     "value": 9.5,
+     "source": "Nebius 1x B300 on-demand (terms contemplate end users); research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
+     "checked": "2026-10-22",
+     "provider": "Nebius 1x"
+    },
+    "m3": {
+     "value": 9.0,
+     "source": "estimate: m1 x 0.95",
+     "checked": "2026-10-22",
+     "provider": "estimate"
+    },
+    "m12": {
+     "value": 7.94,
+     "source": "DigitalOcean B300 12-month reserved (sales-led); research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
+     "checked": "2026-10-22",
+     "provider": "DigitalOcean 12-month"
+    },
+    "test_rate": {
+     "value": 8.99,
+     "source": "RunPod 1x B300 in stock; research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
+     "checked": "2026-10-22",
+     "provider": "RunPod 1x"
+    }
+   },
+   "vast_median_rent": {
+    "value": null,
+    "source": "Vast lists B300 from $8.38; median not read",
+    "checked": "2026-10-22"
    }
   }
  ],
@@ -2230,6 +2276,24 @@
       "checked": "2026-10-22"
      },
      "gpus_per_replica": 8
+    },
+    "B300": {
+     "tps_out_per_gpu": {
+      "value": 1725,
+      "source": "estimate: B200 planning number x 1.15 (B300 measured uplift 5% to 25%); research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
+      "checked": "2026-10-22"
+     },
+     "tps_out_per_gpu_typical": {
+      "value": 3450,
+      "source": "estimate: B200 typical x 1.15",
+      "checked": "2026-10-22"
+     },
+     "ratio_in": {
+      "value": 1.0,
+      "source": "benchmark shape is 1k/1k-like (ShareGPT or 1000/1000); input tokens per output token = 1.0",
+      "checked": "2026-10-22"
+     },
+     "gpus_per_replica": 8
     }
    },
    "note": "770B total / 49B active MoE, open weights (tencent/Hy4-preview). Does not fit 8x H100 at FP8, so H100 omitted."
@@ -2678,6 +2742,24 @@
       "checked": "2026-10-22"
      },
      "gpus_per_replica": 8
+    },
+    "B300": {
+     "tps_out_per_gpu": {
+      "value": 1725,
+      "source": "estimate: B200 planning number x 1.15 (B300 measured uplift 5% to 25%); research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
+      "checked": "2026-10-22"
+     },
+     "tps_out_per_gpu_typical": {
+      "value": 3450,
+      "source": "estimate: B200 typical x 1.15",
+      "checked": "2026-10-22"
+     },
+     "ratio_in": {
+      "value": 1.0,
+      "source": "benchmark shape is 1k/1k-like (ShareGPT or 1000/1000); input tokens per output token = 1.0",
+      "checked": "2026-10-22"
+     },
+     "gpus_per_replica": 8
     }
    },
    "note": "600B total / 27B active MoE, open weights (stepfun-ai/Step-5-Preview). Weekly volume fell 88% week over week on the rankings page."
@@ -2814,6 +2896,24 @@
       "checked": "2026-10-22"
      },
      "gpus_per_replica": 8
+    },
+    "B300": {
+     "tps_out_per_gpu": {
+      "value": 1725,
+      "source": "estimate: B200 planning number x 1.15 (B300 measured uplift 5% to 25%); research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
+      "checked": "2026-10-22"
+     },
+     "tps_out_per_gpu_typical": {
+      "value": 3450,
+      "source": "estimate: B200 typical x 1.15",
+      "checked": "2026-10-22"
+     },
+     "ratio_in": {
+      "value": 1.0,
+      "source": "benchmark shape is 1k/1k-like (ShareGPT or 1000/1000); input tokens per output token = 1.0",
+      "checked": "2026-10-22"
+     },
+     "gpus_per_replica": 8
     }
    },
    "note": "Sparse MoE (8B active on input, 16B on output); total parameter count not in the notes; assumed DeepSeek V3/R1 class, so H100 omitted."
@@ -2943,6 +3043,24 @@
       "source": "estimate: DeepSeek-class mapping. estimate: Convention: the NVIDIA cells are output-only 1k/1k planning numbers with ratio_in 1.0, so this AMD cell is the matching NVIDIA planning number scaled by the InferenceX tok/s-per-GPU ratio at 50 tok/s per user (the same method the throughput notes used for H200 vs H100). InferenceX 'tok/s per GPU' on its 8k-input/1k-output ladder counts input plus output tokens; its output-only value is about listed/9 with ratio_in 8.0, which is NOT used here so shapes are not mixed. InferenceX MI355X DeepSeek R1: SGLang FP8 1,608 at 50 tok/s/user (about 179 output/GPU at 8k/1k) vs B200 SGLang FP4 4,610 at 50: ratio 0.35 applied to the B200 conservative number (1,500 -> 500). The tuned MoRI SGLang FP4 config was not run at 50 but gives 4,027 at 75 and 3,616 at 100, about level with B200 at those points (InferenceX per-dollar page: $0.053 vs $0.060 per M at 87 tok/s/user at TCO $1.50 vs $1.73, a throughput ratio of about 0.98), so the typical number uses ratio 0.9 x the B200 typical (3,000 -> 2,700). 8x MI355X (2,304 GB) holds FP8 or FP4 weights. https://inferencex.semianalysis.com/run/deepseek-r1-on-mi355x ; research_notes/GPU rental inference business plan/alternative_accelerators_amd_tpu_trainium_others.md",
       "checked": "2026-10-22",
       "estimate": true
+     },
+     "ratio_in": {
+      "value": 1.0,
+      "source": "benchmark shape is 1k/1k-like (ShareGPT or 1000/1000); input tokens per output token = 1.0",
+      "checked": "2026-10-22"
+     },
+     "gpus_per_replica": 8
+    },
+    "B300": {
+     "tps_out_per_gpu": {
+      "value": 1725,
+      "source": "estimate: B200 planning number x 1.15 (B300 measured uplift 5% to 25%); research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
+      "checked": "2026-10-22"
+     },
+     "tps_out_per_gpu_typical": {
+      "value": 3450,
+      "source": "estimate: B200 typical x 1.15",
+      "checked": "2026-10-22"
      },
      "ratio_in": {
       "value": 1.0,
@@ -3162,7 +3280,42 @@
     "checked": "2026-10-22",
     "note": "OpenRouter's gpt-oss-120b activity panel showed about 91% prompt tokens (about 10 prompt tokens per completion token), so 3 is on the low side for that model. research_notes/GPU rental inference business plan/openrouter_model_prices_and_volume.md"
    },
-   "throughput": {},
+   "throughput": {
+    "MI355X": {
+     "tps_out_per_gpu": {
+      "value": 1024,
+      "source": "estimate: InferenceX AgentX 8x MI355X 9,217 tok/s per GPU at 50 tok/s/user divided by 9 in case the figure counts prompt plus output tokens; research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
+      "checked": "2026-10-22"
+     },
+     "tps_out_per_gpu_typical": {
+      "value": 3072,
+      "source": "estimate: the same figure divided by 3 (unit ambiguous; a GPUStack real-world run at 64K context made only 63 tok/s per GPU)",
+      "checked": "2026-10-22"
+     },
+     "ratio_in": {
+      "value": 1.0,
+      "source": "estimate"
+     },
+     "gpus_per_replica": 8
+    },
+    "B300": {
+     "tps_out_per_gpu": {
+      "value": 676,
+      "source": "estimate: InferenceX AgentX 8x B300 6,083 tok/s per GPU divided by 9; research_notes/GPU rental inference business plan/newer_accelerators_b300_rubin_mi400_kimi_k3.md",
+      "checked": "2026-10-22"
+     },
+     "tps_out_per_gpu_typical": {
+      "value": 2028,
+      "source": "estimate: the same figure divided by 3",
+      "checked": "2026-10-22"
+     },
+     "ratio_in": {
+      "value": 1.0,
+      "source": "estimate"
+     },
+     "gpus_per_replica": 8
+    }
+   },
    "note": "2.8T parameters (OpenRouter card). The OpenRouter notes say 'a 2.8T-parameter checkpoint needs well over 1 TB of GPU memory even at 4-bit'; FP4 weights about 1.4 TB exceed one 8x H200 node (1,128 GB) and leave no KV room on one 8x B200 node (1,440 GB) or 8x MI300X (1,536 GB). An 8x MI355X node (2,304 GB) could hold FP4 weights with about 900 GB headroom, but no throughput measurement exists on any rentable node (InferenceX K3 data: GB300 NVL72 and TPU v7 only), so no GPU key is filled and the model drops out of Plans B, C and E."
   }
  ],
@@ -3262,6 +3415,32 @@
     "qwen/qwen3-235b-a22b-2507"
    ],
    "note": "Owned scenario uses owned.RTXPRO6000 (Bizon X7000 G3 + 6x RTX PRO 6000 Server Edition, Psychz 1-year cabinet). The rented scenarios for this plan use the RTXPRO6000 rental rates (Koyeb) for comparison. Throughput cells are estimates from single-card vLLM and TensorRT-LLM FP4 tables."
+  },
+  {
+   "key": "H",
+   "label": "Plan H: one 8x MI355X node, Kimi K3 plus big MoE models (unverified throughput)",
+   "gpu": "MI355X",
+   "node_size": 8,
+   "price_point": "min",
+   "models": [
+    "moonshotai/kimi-k3",
+    "tencent/hy4-preview",
+    "z-ai/glm-5.3",
+    "stepfun/step-5-preview"
+   ]
+  },
+  {
+   "key": "I",
+   "label": "Plan I: one 8x B300 node, Kimi K3 plus big MoE models (unverified throughput)",
+   "gpu": "B300",
+   "node_size": 8,
+   "price_point": "min",
+   "models": [
+    "moonshotai/kimi-k3",
+    "tencent/hy4-preview",
+    "z-ai/glm-5.3",
+    "stepfun/step-5-preview"
+   ]
   }
  ],
  "test_start_date": "2026-11-15",

@@ -10,16 +10,18 @@
 | deepseek/deepseek-r1-0528 | H200 | min | 7.99 | 1.60 | 3.20 | 5.59 | 3.00 | 3.00 |
 | deepseek/deepseek-r1-0528 | MI300X | median | 2.12 | 0.42 | 0.85 | 1.48 | 1.85 | 1.75 |
 | deepseek/deepseek-r1-0528 | MI300X | min | 2.00 | 0.40 | 0.80 | 1.40 | 1.85 | 1.75 |
-| deepseek/deepseek-r1-0528 | MI355X | median | 28.62 | 5.72 | 11.45 | 20.03 | 2.59 | 2.59 |
-| deepseek/deepseek-r1-0528 | MI355X | min | 26.96 | 5.39 | 10.79 | 18.87 | 2.59 | 2.59 |
+| deepseek/deepseek-r1-0528 | MI355X | median | 28.62 | 5.72 | 11.45 | 20.03 | 2.65 | 2.65 |
+| deepseek/deepseek-r1-0528 | MI355X | min | 26.96 | 5.39 | 10.79 | 18.87 | 2.65 | 2.65 |
 | deepseek/deepseek-v4.1-flash | B200 | median | 11.79 | 2.36 | 4.72 | 8.26 | 3.50 | 3.50 |
 | deepseek/deepseek-v4.1-flash | B200 | min | 3.20 | 0.64 | 1.28 | 2.24 | 3.50 | 3.50 |
+| deepseek/deepseek-v4.1-flash | B300 | median | 13.56 | 2.71 | 5.43 | 9.49 | 8.99 | 7.94 |
+| deepseek/deepseek-v4.1-flash | B300 | min | 3.68 | 0.74 | 1.47 | 2.58 | 8.99 | 7.94 |
 | deepseek/deepseek-v4.1-flash | H200 | median | 3.14 | 0.63 | 1.26 | 2.20 | 3.00 | 3.00 |
 | deepseek/deepseek-v4.1-flash | H200 | min | 0.85 | 0.17 | 0.34 | 0.60 | 3.00 | 3.00 |
 | deepseek/deepseek-v4.1-flash | MI300X | median | 0.79 | 0.16 | 0.31 | 0.55 | 1.85 | 1.75 |
 | deepseek/deepseek-v4.1-flash | MI300X | min | 0.21 | 0.04 | 0.09 | 0.15 | 1.85 | 1.75 |
-| deepseek/deepseek-v4.1-flash | MI355X | median | 10.61 | 2.12 | 4.25 | 7.43 | 2.59 | 2.59 |
-| deepseek/deepseek-v4.1-flash | MI355X | min | 2.88 | 0.58 | 1.15 | 2.02 | 2.59 | 2.59 |
+| deepseek/deepseek-v4.1-flash | MI355X | median | 10.61 | 2.12 | 4.25 | 7.43 | 2.65 | 2.65 |
+| deepseek/deepseek-v4.1-flash | MI355X | min | 2.88 | 0.58 | 1.15 | 2.02 | 2.65 | 2.65 |
 | meta-llama/llama-3.3-70b-instruct | B200 | median | 23.71 | 4.74 | 9.48 | 16.60 | 3.50 | 3.50 |
 | meta-llama/llama-3.3-70b-instruct | B200 | min | 7.63 | 1.53 | 3.05 | 5.34 | 3.50 | 3.50 |
 | meta-llama/llama-3.3-70b-instruct | H100 | median | 6.32 | 1.26 | 2.53 | 4.43 | 2.30 | 2.30 |
@@ -28,8 +30,8 @@
 | meta-llama/llama-3.3-70b-instruct | H200 | min | 2.71 | 0.54 | 1.09 | 1.90 | 3.00 | 3.00 |
 | meta-llama/llama-3.3-70b-instruct | MI300X | median | 6.32 | 1.26 | 2.53 | 4.43 | 1.85 | 1.75 |
 | meta-llama/llama-3.3-70b-instruct | MI300X | min | 2.04 | 0.41 | 0.81 | 1.42 | 1.85 | 1.75 |
-| meta-llama/llama-3.3-70b-instruct | MI355X | median | 11.06 | 2.21 | 4.43 | 7.75 | 2.59 | 2.59 |
-| meta-llama/llama-3.3-70b-instruct | MI355X | min | 3.56 | 0.71 | 1.42 | 2.49 | 2.59 | 2.59 |
+| meta-llama/llama-3.3-70b-instruct | MI355X | median | 11.06 | 2.21 | 4.43 | 7.75 | 2.65 | 2.65 |
+| meta-llama/llama-3.3-70b-instruct | MI355X | min | 3.56 | 0.71 | 1.42 | 2.49 | 2.65 | 2.65 |
 | meta-llama/llama-3.3-70b-instruct | RTXPRO6000 | median | 4.90 | 0.98 | 1.96 | 3.43 | 2.20 | 2.20 |
 | meta-llama/llama-3.3-70b-instruct | RTXPRO6000 | min | 1.58 | 0.32 | 0.63 | 1.10 | 2.20 | 2.20 |
 | meta-llama/llama-4-maverick | B200 | median | 41.33 | 8.27 | 16.53 | 28.93 | 3.50 | 3.50 |
@@ -40,8 +42,8 @@
 | meta-llama/llama-4-maverick | H200 | min | 8.31 | 1.66 | 3.32 | 5.82 | 3.00 | 3.00 |
 | meta-llama/llama-4-maverick | MI300X | median | 12.69 | 2.54 | 5.08 | 8.89 | 1.85 | 1.75 |
 | meta-llama/llama-4-maverick | MI300X | min | 7.15 | 1.43 | 2.86 | 5.00 | 1.85 | 1.75 |
-| meta-llama/llama-4-maverick | MI355X | median | 35.42 | 7.08 | 14.17 | 24.80 | 2.59 | 2.59 |
-| meta-llama/llama-4-maverick | MI355X | min | 19.95 | 3.99 | 7.98 | 13.96 | 2.59 | 2.59 |
+| meta-llama/llama-4-maverick | MI355X | median | 35.42 | 7.08 | 14.17 | 24.80 | 2.65 | 2.65 |
+| meta-llama/llama-4-maverick | MI355X | min | 19.95 | 3.99 | 7.98 | 13.96 | 2.65 | 2.65 |
 | mistralai/mistral-small-2603 | B200 | median | 8.01 | 1.60 | 3.21 | 5.61 | 3.50 | 3.50 |
 | mistralai/mistral-small-2603 | B200 | min | 7.61 | 1.52 | 3.05 | 5.33 | 3.50 | 3.50 |
 | mistralai/mistral-small-2603 | H100 | median | 2.12 | 0.42 | 0.85 | 1.48 | 2.30 | 2.30 |
@@ -50,16 +52,20 @@
 | mistralai/mistral-small-2603 | H200 | min | 2.70 | 0.54 | 1.08 | 1.89 | 3.00 | 3.00 |
 | mistralai/mistral-small-2603 | MI300X | median | 2.12 | 0.42 | 0.85 | 1.48 | 1.85 | 1.75 |
 | mistralai/mistral-small-2603 | MI300X | min | 2.01 | 0.40 | 0.80 | 1.41 | 1.85 | 1.75 |
-| mistralai/mistral-small-2603 | MI355X | median | 3.78 | 0.76 | 1.51 | 2.65 | 2.59 | 2.59 |
-| mistralai/mistral-small-2603 | MI355X | min | 3.59 | 0.72 | 1.44 | 2.51 | 2.59 | 2.59 |
+| mistralai/mistral-small-2603 | MI355X | median | 3.78 | 0.76 | 1.51 | 2.65 | 2.65 | 2.65 |
+| mistralai/mistral-small-2603 | MI355X | min | 3.59 | 0.72 | 1.44 | 2.51 | 2.65 | 2.65 |
 | moonshotai/kimi-k2-0905 | B200 | median | 30.96 | 6.19 | 12.38 | 21.67 | 3.50 | 3.50 |
 | moonshotai/kimi-k2-0905 | B200 | min | 29.41 | 5.88 | 11.76 | 20.59 | 3.50 | 3.50 |
 | moonshotai/kimi-k2-0905 | H200 | median | 8.67 | 1.73 | 3.47 | 6.07 | 3.00 | 3.00 |
 | moonshotai/kimi-k2-0905 | H200 | min | 8.24 | 1.65 | 3.29 | 5.76 | 3.00 | 3.00 |
 | moonshotai/kimi-k2-0905 | MI300X | median | 2.23 | 0.45 | 0.89 | 1.56 | 1.85 | 1.75 |
 | moonshotai/kimi-k2-0905 | MI300X | min | 2.12 | 0.42 | 0.85 | 1.48 | 1.85 | 1.75 |
-| moonshotai/kimi-k2-0905 | MI355X | median | 27.86 | 5.57 | 11.15 | 19.50 | 2.59 | 2.59 |
-| moonshotai/kimi-k2-0905 | MI355X | min | 26.47 | 5.29 | 10.59 | 18.53 | 2.59 | 2.59 |
+| moonshotai/kimi-k2-0905 | MI355X | median | 27.86 | 5.57 | 11.15 | 19.50 | 2.65 | 2.65 |
+| moonshotai/kimi-k2-0905 | MI355X | min | 26.47 | 5.29 | 10.59 | 18.53 | 2.65 | 2.65 |
+| moonshotai/kimi-k3 | B300 | median | 123.24 | 24.65 | 49.30 | 86.27 | 8.99 | 7.94 |
+| moonshotai/kimi-k3 | B300 | min | 34.50 | 6.90 | 13.80 | 24.15 | 8.99 | 7.94 |
+| moonshotai/kimi-k3 | MI355X | median | 186.68 | 37.34 | 74.67 | 130.68 | 2.65 | 2.65 |
+| moonshotai/kimi-k3 | MI355X | min | 52.25 | 10.45 | 20.90 | 36.58 | 2.65 | 2.65 |
 | openai/gpt-oss-120b | B200 | median | 34.56 | 6.91 | 13.82 | 24.19 | 3.50 | 3.50 |
 | openai/gpt-oss-120b | B200 | min | 9.85 | 1.97 | 3.94 | 6.89 | 3.50 | 3.50 |
 | openai/gpt-oss-120b | H100 | median | 6.91 | 1.38 | 2.76 | 4.84 | 2.30 | 2.30 |
@@ -68,8 +74,8 @@
 | openai/gpt-oss-120b | H200 | min | 2.63 | 0.53 | 1.05 | 1.84 | 3.00 | 3.00 |
 | openai/gpt-oss-120b | MI300X | median | 6.22 | 1.24 | 2.49 | 4.35 | 1.85 | 1.75 |
 | openai/gpt-oss-120b | MI300X | min | 1.77 | 0.35 | 0.71 | 1.24 | 1.85 | 1.75 |
-| openai/gpt-oss-120b | MI355X | median | 29.95 | 5.99 | 11.98 | 20.97 | 2.59 | 2.59 |
-| openai/gpt-oss-120b | MI355X | min | 8.54 | 1.71 | 3.41 | 5.98 | 2.59 | 2.59 |
+| openai/gpt-oss-120b | MI355X | median | 29.95 | 5.99 | 11.98 | 20.97 | 2.65 | 2.65 |
+| openai/gpt-oss-120b | MI355X | min | 8.54 | 1.71 | 3.41 | 5.98 | 2.65 | 2.65 |
 | openai/gpt-oss-120b | RTXPRO6000 | median | 3.46 | 0.69 | 1.38 | 2.42 | 2.20 | 2.20 |
 | openai/gpt-oss-120b | RTXPRO6000 | min | 0.98 | 0.20 | 0.39 | 0.69 | 2.20 | 2.20 |
 | openai/gpt-oss-20b | B200 | median | 23.18 | 4.64 | 9.27 | 16.23 | 3.50 | 3.50 |
@@ -80,8 +86,8 @@
 | openai/gpt-oss-20b | H200 | min | 3.55 | 0.71 | 1.42 | 2.48 | 3.00 | 3.00 |
 | openai/gpt-oss-20b | MI300X | median | 4.50 | 0.90 | 1.80 | 3.15 | 1.85 | 1.75 |
 | openai/gpt-oss-20b | MI300X | min | 2.68 | 0.54 | 1.07 | 1.88 | 1.85 | 1.75 |
-| openai/gpt-oss-20b | MI355X | median | 19.87 | 3.97 | 7.95 | 13.91 | 2.59 | 2.59 |
-| openai/gpt-oss-20b | MI355X | min | 11.82 | 2.36 | 4.73 | 8.27 | 2.59 | 2.59 |
+| openai/gpt-oss-20b | MI355X | median | 19.87 | 3.97 | 7.95 | 13.91 | 2.65 | 2.65 |
+| openai/gpt-oss-20b | MI355X | min | 11.82 | 2.36 | 4.73 | 8.27 | 2.65 | 2.65 |
 | qwen/qwen3-235b-a22b-2507 | B200 | median | 8.60 | 1.72 | 3.44 | 6.02 | 3.50 | 3.50 |
 | qwen/qwen3-235b-a22b-2507 | B200 | min | 5.03 | 1.01 | 2.01 | 3.52 | 3.50 | 3.50 |
 | qwen/qwen3-235b-a22b-2507 | H100 | median | 2.87 | 0.57 | 1.15 | 2.01 | 2.30 | 2.30 |
@@ -90,8 +96,8 @@
 | qwen/qwen3-235b-a22b-2507 | H200 | min | 2.85 | 0.57 | 1.14 | 1.99 | 3.00 | 3.00 |
 | qwen/qwen3-235b-a22b-2507 | MI300X | median | 4.30 | 0.86 | 1.72 | 3.01 | 1.85 | 1.75 |
 | qwen/qwen3-235b-a22b-2507 | MI300X | min | 2.51 | 0.50 | 1.01 | 1.76 | 1.85 | 1.75 |
-| qwen/qwen3-235b-a22b-2507 | MI355X | median | 7.45 | 1.49 | 2.98 | 5.22 | 2.59 | 2.59 |
-| qwen/qwen3-235b-a22b-2507 | MI355X | min | 4.36 | 0.87 | 1.74 | 3.05 | 2.59 | 2.59 |
+| qwen/qwen3-235b-a22b-2507 | MI355X | median | 7.45 | 1.49 | 2.98 | 5.22 | 2.65 | 2.65 |
+| qwen/qwen3-235b-a22b-2507 | MI355X | min | 4.36 | 0.87 | 1.74 | 3.05 | 2.65 | 2.65 |
 | qwen/qwen3-235b-a22b-2507 | RTXPRO6000 | median | 2.29 | 0.46 | 0.92 | 1.60 | 2.20 | 2.20 |
 | qwen/qwen3-235b-a22b-2507 | RTXPRO6000 | min | 1.34 | 0.27 | 0.54 | 0.94 | 2.20 | 2.20 |
 | qwen/qwen3-32b | B200 | median | 8.27 | 1.65 | 3.31 | 5.79 | 3.50 | 3.50 |
@@ -102,16 +108,18 @@
 | qwen/qwen3-32b | H200 | min | 1.85 | 0.37 | 0.74 | 1.29 | 3.00 | 3.00 |
 | qwen/qwen3-32b | MI300X | median | 2.36 | 0.47 | 0.94 | 1.65 | 1.85 | 1.75 |
 | qwen/qwen3-32b | MI300X | min | 1.42 | 0.28 | 0.57 | 1.00 | 1.85 | 1.75 |
-| qwen/qwen3-32b | MI355X | median | 3.90 | 0.78 | 1.56 | 2.73 | 2.59 | 2.59 |
-| qwen/qwen3-32b | MI355X | min | 2.35 | 0.47 | 0.94 | 1.64 | 2.59 | 2.59 |
+| qwen/qwen3-32b | MI355X | median | 3.90 | 0.78 | 1.56 | 2.73 | 2.65 | 2.65 |
+| qwen/qwen3-32b | MI355X | min | 2.35 | 0.47 | 0.94 | 1.64 | 2.65 | 2.65 |
 | stepfun/step-5-preview | B200 | median | 49.25 | 9.85 | 19.70 | 34.47 | 3.50 | 3.50 |
 | stepfun/step-5-preview | B200 | min | 46.79 | 9.36 | 18.71 | 32.75 | 3.50 | 3.50 |
+| stepfun/step-5-preview | B300 | median | 56.64 | 11.33 | 22.65 | 39.64 | 8.99 | 7.94 |
+| stepfun/step-5-preview | B300 | min | 53.80 | 10.76 | 21.52 | 37.66 | 8.99 | 7.94 |
 | stepfun/step-5-preview | H200 | median | 13.13 | 2.63 | 5.25 | 9.19 | 3.00 | 3.00 |
 | stepfun/step-5-preview | H200 | min | 12.48 | 2.50 | 4.99 | 8.73 | 3.00 | 3.00 |
 | stepfun/step-5-preview | MI300X | median | 3.28 | 0.66 | 1.31 | 2.30 | 1.85 | 1.75 |
 | stepfun/step-5-preview | MI300X | min | 3.12 | 0.62 | 1.25 | 2.18 | 1.85 | 1.75 |
-| stepfun/step-5-preview | MI355X | median | 44.32 | 8.86 | 17.73 | 31.03 | 2.59 | 2.59 |
-| stepfun/step-5-preview | MI355X | min | 42.11 | 8.42 | 16.84 | 29.47 | 2.59 | 2.59 |
+| stepfun/step-5-preview | MI355X | median | 44.32 | 8.86 | 17.73 | 31.03 | 2.65 | 2.65 |
+| stepfun/step-5-preview | MI355X | min | 42.11 | 8.42 | 16.84 | 29.47 | 2.65 | 2.65 |
 | tencent/hy3 | B200 | median | 8.64 | 1.73 | 3.46 | 6.05 | 3.50 | 3.50 |
 | tencent/hy3 | B200 | min | 7.58 | 1.52 | 3.03 | 5.31 | 3.50 | 3.50 |
 | tencent/hy3 | H100 | median | 1.15 | 0.23 | 0.46 | 0.81 | 2.30 | 2.30 |
@@ -120,16 +128,18 @@
 | tencent/hy3 | H200 | min | 2.28 | 0.46 | 0.91 | 1.59 | 3.00 | 3.00 |
 | tencent/hy3 | MI300X | median | 2.25 | 0.45 | 0.90 | 1.57 | 1.85 | 1.75 |
 | tencent/hy3 | MI300X | min | 1.97 | 0.39 | 0.79 | 1.38 | 1.85 | 1.75 |
-| tencent/hy3 | MI355X | median | 7.49 | 1.50 | 3.00 | 5.24 | 2.59 | 2.59 |
-| tencent/hy3 | MI355X | min | 6.57 | 1.31 | 2.63 | 4.60 | 2.59 | 2.59 |
+| tencent/hy3 | MI355X | median | 7.49 | 1.50 | 3.00 | 5.24 | 2.65 | 2.65 |
+| tencent/hy3 | MI355X | min | 6.57 | 1.31 | 2.63 | 4.60 | 2.65 | 2.65 |
 | tencent/hy4-preview | B200 | median | 43.23 | 8.65 | 17.29 | 30.26 | 3.50 | 3.50 |
 | tencent/hy4-preview | B200 | min | 41.06 | 8.21 | 16.43 | 28.75 | 3.50 | 3.50 |
+| tencent/hy4-preview | B300 | median | 49.71 | 9.94 | 19.88 | 34.80 | 8.99 | 7.94 |
+| tencent/hy4-preview | B300 | min | 47.22 | 9.44 | 18.89 | 33.06 | 8.99 | 7.94 |
 | tencent/hy4-preview | H200 | median | 11.53 | 2.31 | 4.61 | 8.07 | 3.00 | 3.00 |
 | tencent/hy4-preview | H200 | min | 10.95 | 2.19 | 4.38 | 7.67 | 3.00 | 3.00 |
 | tencent/hy4-preview | MI300X | median | 2.88 | 0.58 | 1.15 | 2.02 | 1.85 | 1.75 |
 | tencent/hy4-preview | MI300X | min | 2.74 | 0.55 | 1.10 | 1.92 | 1.85 | 1.75 |
-| tencent/hy4-preview | MI355X | median | 38.90 | 7.78 | 15.56 | 27.23 | 2.59 | 2.59 |
-| tencent/hy4-preview | MI355X | min | 36.96 | 7.39 | 14.78 | 25.87 | 2.59 | 2.59 |
+| tencent/hy4-preview | MI355X | median | 38.90 | 7.78 | 15.56 | 27.23 | 2.65 | 2.65 |
+| tencent/hy4-preview | MI355X | min | 36.96 | 7.39 | 14.78 | 25.87 | 2.65 | 2.65 |
 | xiaomi/mimo-v2.6-flash | B200 | median | 5.96 | 1.19 | 2.38 | 4.17 | 3.50 | 3.50 |
 | xiaomi/mimo-v2.6-flash | B200 | min | 4.65 | 0.93 | 1.86 | 3.25 | 3.50 | 3.50 |
 | xiaomi/mimo-v2.6-flash | H100 | median | 0.79 | 0.16 | 0.32 | 0.56 | 2.30 | 2.30 |
@@ -138,8 +148,8 @@
 | xiaomi/mimo-v2.6-flash | H200 | min | 1.39 | 0.28 | 0.56 | 0.98 | 3.00 | 3.00 |
 | xiaomi/mimo-v2.6-flash | MI300X | median | 1.55 | 0.31 | 0.62 | 1.08 | 1.85 | 1.75 |
 | xiaomi/mimo-v2.6-flash | MI300X | min | 1.21 | 0.24 | 0.48 | 0.85 | 1.85 | 1.75 |
-| xiaomi/mimo-v2.6-flash | MI355X | median | 5.16 | 1.03 | 2.07 | 3.61 | 2.59 | 2.59 |
-| xiaomi/mimo-v2.6-flash | MI355X | min | 4.03 | 0.81 | 1.61 | 2.82 | 2.59 | 2.59 |
+| xiaomi/mimo-v2.6-flash | MI355X | median | 5.16 | 1.03 | 2.07 | 3.61 | 2.65 | 2.65 |
+| xiaomi/mimo-v2.6-flash | MI355X | min | 4.03 | 0.81 | 1.61 | 2.82 | 2.65 | 2.65 |
 | z-ai/glm-4.6 | B200 | median | 33.26 | 6.65 | 13.31 | 23.28 | 3.50 | 3.50 |
 | z-ai/glm-4.6 | B200 | min | 22.98 | 4.60 | 9.19 | 16.09 | 3.50 | 3.50 |
 | z-ai/glm-4.6 | H100 | median | 4.44 | 0.89 | 1.77 | 3.10 | 2.30 | 2.30 |
@@ -148,16 +158,18 @@
 | z-ai/glm-4.6 | H200 | min | 6.89 | 1.38 | 2.76 | 4.83 | 3.00 | 3.00 |
 | z-ai/glm-4.6 | MI300X | median | 8.65 | 1.73 | 3.46 | 6.05 | 1.85 | 1.75 |
 | z-ai/glm-4.6 | MI300X | min | 5.98 | 1.20 | 2.39 | 4.18 | 1.85 | 1.75 |
-| z-ai/glm-4.6 | MI355X | median | 28.83 | 5.77 | 11.53 | 20.18 | 2.59 | 2.59 |
-| z-ai/glm-4.6 | MI355X | min | 19.92 | 3.98 | 7.97 | 13.94 | 2.59 | 2.59 |
+| z-ai/glm-4.6 | MI355X | median | 28.83 | 5.77 | 11.53 | 20.18 | 2.65 | 2.65 |
+| z-ai/glm-4.6 | MI355X | min | 19.92 | 3.98 | 7.97 | 13.94 | 2.65 | 2.65 |
 | z-ai/glm-5.3 | B200 | median | 61.63 | 12.33 | 24.65 | 43.14 | 3.50 | 3.50 |
 | z-ai/glm-5.3 | B200 | min | 13.44 | 2.69 | 5.37 | 9.41 | 3.50 | 3.50 |
+| z-ai/glm-5.3 | B300 | median | 70.87 | 14.17 | 28.35 | 49.61 | 8.99 | 7.94 |
+| z-ai/glm-5.3 | B300 | min | 15.45 | 3.09 | 6.18 | 10.82 | 8.99 | 7.94 |
 | z-ai/glm-5.3 | H200 | median | 16.43 | 3.29 | 6.57 | 11.50 | 3.00 | 3.00 |
 | z-ai/glm-5.3 | H200 | min | 3.58 | 0.72 | 1.43 | 2.51 | 3.00 | 3.00 |
 | z-ai/glm-5.3 | MI300X | median | 4.11 | 0.82 | 1.64 | 2.88 | 1.85 | 1.75 |
 | z-ai/glm-5.3 | MI300X | min | 0.90 | 0.18 | 0.36 | 0.63 | 1.85 | 1.75 |
-| z-ai/glm-5.3 | MI355X | median | 55.46 | 11.09 | 22.19 | 38.83 | 2.59 | 2.59 |
-| z-ai/glm-5.3 | MI355X | min | 12.09 | 2.42 | 4.84 | 8.46 | 2.59 | 2.59 |
+| z-ai/glm-5.3 | MI355X | median | 55.46 | 11.09 | 22.19 | 38.83 | 2.65 | 2.65 |
+| z-ai/glm-5.3 | MI355X | min | 12.09 | 2.42 | 4.84 | 8.46 | 2.65 | 2.65 |
 | z-ai/glm-5.3-flash | B200 | median | 8.21 | 1.64 | 3.28 | 5.75 | 3.50 | 3.50 |
 | z-ai/glm-5.3-flash | B200 | min | 1.76 | 0.35 | 0.70 | 1.23 | 3.50 | 3.50 |
 | z-ai/glm-5.3-flash | H100 | median | 1.09 | 0.22 | 0.44 | 0.77 | 2.30 | 2.30 |
@@ -166,8 +178,8 @@
 | z-ai/glm-5.3-flash | H200 | min | 0.53 | 0.11 | 0.21 | 0.37 | 3.00 | 3.00 |
 | z-ai/glm-5.3-flash | MI300X | median | 2.13 | 0.43 | 0.85 | 1.49 | 1.85 | 1.75 |
 | z-ai/glm-5.3-flash | MI300X | min | 0.46 | 0.09 | 0.18 | 0.32 | 1.85 | 1.75 |
-| z-ai/glm-5.3-flash | MI355X | median | 7.11 | 1.42 | 2.85 | 4.98 | 2.59 | 2.59 |
-| z-ai/glm-5.3-flash | MI355X | min | 1.52 | 0.30 | 0.61 | 1.07 | 2.59 | 2.59 |
+| z-ai/glm-5.3-flash | MI355X | median | 7.11 | 1.42 | 2.85 | 4.98 | 2.65 | 2.65 |
+| z-ai/glm-5.3-flash | MI355X | min | 1.52 | 0.30 | 0.61 | 1.07 | 2.65 | 2.65 |
 
 ## Scenarios
 
@@ -1373,153 +1385,153 @@ GPUs: 12.41 (about 12). Monthly cost: $20,833. Cash at risk: $284,991. Lock-in: 
 
 ### 1. Month-to-month, inference | MI355X | spend $50,000
 
-GPUs: 2.20 (about 2). Monthly cost: $4,167. Cash at risk: $4,167. Lock-in: None. Exit: Cancel at the end of any month.
+GPUs: 2.15 (about 2). Monthly cost: $4,167. Cash at risk: $4,167. Lock-in: None. Exit: Cancel at the end of any month.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $5,570 | $1,403 | $5,677 | $4,247 | $0 | $66,837 | $16,837 | $16,837 |
-| 40% | 6.92 | $11,139 | $6,973 | $11,353 | $4,247 | $0 | $133,673 | $83,673 | $83,673 |
-| 70% | 12.12 | $19,494 | $15,327 | $19,868 | $4,247 | $0 | $233,928 | $183,928 | $183,928 |
+| 20% | 5.21 | $8,191 | $4,024 | $8,348 | $4,247 | $0 | $98,289 | $48,289 | $48,289 |
+| 40% | 10.42 | $16,381 | $12,215 | $16,696 | $4,247 | $0 | $196,577 | $146,577 | $146,577 |
+| 70% | 18.23 | $28,667 | $24,501 | $29,217 | $4,247 | $0 | $344,010 | $294,010 | $294,010 |
 
 ### 2a. 3-month prepaid, inference | MI355X | spend $50,000
 
-GPUs: 2.32 (about 2). Monthly cost: $4,167. Cash at risk: $12,500. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
+GPUs: 2.26 (about 2). Monthly cost: $4,167. Cash at risk: $12,500. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $5,864 | $1,697 | $5,977 | $12,500 | $3,216 | $70,369 | $20,369 | $23,585 |
-| 40% | 6.92 | $11,728 | $7,561 | $11,953 | $12,500 | $270 | $140,737 | $90,737 | $91,007 |
-| 70% | 12.12 | $20,524 | $16,358 | $20,918 | $12,500 | $0 | $246,290 | $196,290 | $196,290 |
+| 20% | 5.21 | $8,613 | $4,447 | $8,778 | $12,500 | $1,835 | $103,359 | $53,359 | $55,194 |
+| 40% | 10.42 | $17,226 | $13,060 | $17,557 | $12,500 | $0 | $206,718 | $156,718 | $156,718 |
+| 70% | 18.23 | $30,146 | $25,980 | $30,725 | $12,500 | $0 | $361,756 | $311,756 | $311,756 |
 
 ### 2b. 12-month prepaid, inference | MI355X | spend $50,000
 
-GPUs: 2.20 (about 2). Monthly cost: $4,167. Cash at risk: $50,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
+GPUs: 2.15 (about 2). Monthly cost: $4,167. Cash at risk: $50,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $5,570 | $1,403 | $5,677 | $50,000 | $21,851 | $66,837 | $16,837 | $38,688 |
-| 40% | 6.92 | $11,139 | $6,973 | $11,353 | $50,000 | $19,053 | $133,673 | $83,673 | $102,726 |
-| 70% | 12.12 | $19,494 | $15,327 | $19,868 | $50,000 | $14,855 | $233,928 | $183,928 | $198,783 |
+| 20% | 5.21 | $8,191 | $4,024 | $8,348 | $50,000 | $20,535 | $98,289 | $48,289 | $68,823 |
+| 40% | 10.42 | $16,381 | $12,215 | $16,696 | $50,000 | $16,419 | $196,577 | $146,577 | $162,996 |
+| 70% | 18.23 | $28,667 | $24,501 | $29,217 | $50,000 | $10,246 | $344,010 | $294,010 | $304,256 |
 
-### 6a. Staged: test month-to-month, then 3-month prepaid | MI355X | spend $56,779
+### 6a. Staged: test month-to-month, then 3-month prepaid | MI355X | spend $65,304
 
-GPUs: 2.32 (about 2). Monthly cost: $4,167. Cash at risk: $19,279. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
-
-| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $5,864 | $1,697 | $9,061 | $19,279 | $5,037 | $79,430 | $22,651 | $27,688 |
-| 40% | 6.92 | $11,728 | $7,561 | $18,122 | $19,279 | $570 | $158,859 | $102,081 | $102,651 |
-| 70% | 12.12 | $20,524 | $16,358 | $31,714 | $19,279 | $0 | $278,004 | $221,226 | $221,226 |
-
-### 6b. Staged: test month-to-month, then 12-month prepaid | MI355X | spend $56,438
-
-GPUs: 2.20 (about 2). Monthly cost: $4,167. Cash at risk: $56,438. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+GPUs: 2.26 (about 2). Monthly cost: $4,167. Cash at risk: $27,804. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $5,570 | $1,403 | $8,606 | $56,438 | $23,581 | $75,443 | $19,005 | $42,586 |
-| 40% | 6.92 | $11,139 | $6,973 | $17,213 | $56,438 | $19,338 | $150,886 | $94,447 | $113,786 |
-| 70% | 12.12 | $19,494 | $15,327 | $30,122 | $56,438 | $12,974 | $264,050 | $207,612 | $220,586 |
+| 20% | 5.21 | $8,613 | $4,447 | $13,309 | $27,804 | $7,146 | $116,668 | $51,364 | $58,510 |
+| 40% | 10.42 | $17,226 | $13,060 | $26,618 | $27,804 | $584 | $233,336 | $168,033 | $168,617 |
+| 70% | 18.23 | $30,146 | $25,980 | $46,582 | $27,804 | $0 | $408,339 | $343,035 | $343,035 |
+
+### 6b. Staged: test month-to-month, then 12-month prepaid | MI355X | spend $64,553
+
+GPUs: 2.15 (about 2). Monthly cost: $4,167. Cash at risk: $64,553. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 5.21 | $8,191 | $4,024 | $12,656 | $64,553 | $25,585 | $110,945 | $46,392 | $71,977 |
+| 40% | 10.42 | $16,381 | $12,215 | $25,313 | $64,553 | $19,346 | $221,890 | $157,337 | $176,682 |
+| 70% | 18.23 | $28,667 | $24,501 | $44,297 | $64,553 | $9,986 | $388,307 | $323,754 | $333,740 |
 
 ### 1. Month-to-month, inference | MI355X | spend $100,000
 
-GPUs: 4.41 (about 4). Monthly cost: $8,333. Cash at risk: $8,333. Lock-in: None. Exit: Cancel at the end of any month.
+GPUs: 4.31 (about 4). Monthly cost: $8,333. Cash at risk: $8,333. Lock-in: None. Exit: Cancel at the end of any month.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $11,139 | $2,806 | $11,353 | $8,493 | $0 | $133,673 | $33,673 | $33,673 |
-| 40% | 6.92 | $22,279 | $13,946 | $22,706 | $8,493 | $0 | $267,346 | $167,346 | $167,346 |
-| 70% | 12.12 | $38,988 | $30,655 | $39,736 | $8,493 | $0 | $467,856 | $367,856 | $367,856 |
+| 20% | 5.21 | $16,381 | $8,048 | $16,696 | $8,493 | $0 | $196,577 | $96,577 | $96,577 |
+| 40% | 10.42 | $32,763 | $24,430 | $33,391 | $8,493 | $0 | $393,154 | $293,154 | $293,154 |
+| 70% | 18.23 | $57,335 | $49,002 | $58,435 | $8,493 | $0 | $688,020 | $588,020 | $588,020 |
 
 ### 2a. 3-month prepaid, inference | MI355X | spend $100,000
 
-GPUs: 4.64 (about 5). Monthly cost: $8,333. Cash at risk: $25,000. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
+GPUs: 4.53 (about 5). Monthly cost: $8,333. Cash at risk: $25,000. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $11,728 | $3,395 | $11,953 | $25,000 | $6,432 | $140,737 | $40,737 | $47,169 |
-| 40% | 6.92 | $23,456 | $15,123 | $23,906 | $25,000 | $539 | $281,474 | $181,474 | $182,014 |
-| 70% | 12.12 | $41,048 | $32,715 | $41,836 | $25,000 | $0 | $492,580 | $392,580 | $392,580 |
+| 20% | 5.21 | $17,226 | $8,893 | $17,557 | $25,000 | $3,669 | $206,718 | $106,718 | $110,387 |
+| 40% | 10.42 | $34,453 | $26,120 | $35,114 | $25,000 | $0 | $413,436 | $313,436 | $313,436 |
+| 70% | 18.23 | $60,293 | $51,959 | $61,449 | $25,000 | $0 | $723,513 | $623,513 | $623,513 |
 
 ### 2b. 12-month prepaid, inference | MI355X | spend $100,000
 
-GPUs: 4.41 (about 4). Monthly cost: $8,333. Cash at risk: $100,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
+GPUs: 4.31 (about 4). Monthly cost: $8,333. Cash at risk: $100,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $11,139 | $2,806 | $11,353 | $100,000 | $43,703 | $133,673 | $33,673 | $77,376 |
-| 40% | 6.92 | $22,279 | $13,946 | $22,706 | $100,000 | $38,106 | $267,346 | $167,346 | $205,452 |
-| 70% | 12.12 | $38,988 | $30,655 | $39,736 | $100,000 | $29,710 | $467,856 | $367,856 | $397,566 |
+| 20% | 5.21 | $16,381 | $8,048 | $16,696 | $100,000 | $41,069 | $196,577 | $96,577 | $137,646 |
+| 40% | 10.42 | $32,763 | $24,430 | $33,391 | $100,000 | $32,838 | $393,154 | $293,154 | $325,992 |
+| 70% | 18.23 | $57,335 | $49,002 | $58,435 | $100,000 | $20,492 | $688,020 | $588,020 | $608,512 |
 
-### 6a. Staged: test month-to-month, then 3-month prepaid | MI355X | spend $113,557
+### 6a. Staged: test month-to-month, then 3-month prepaid | MI355X | spend $130,608
 
-GPUs: 4.64 (about 5). Monthly cost: $8,333. Cash at risk: $38,557. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
-
-| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $11,728 | $3,395 | $18,122 | $38,557 | $10,074 | $158,859 | $45,302 | $55,377 |
-| 40% | 6.92 | $23,456 | $15,123 | $36,245 | $38,557 | $1,140 | $317,719 | $204,162 | $205,302 |
-| 70% | 12.12 | $41,048 | $32,715 | $63,428 | $38,557 | $0 | $556,008 | $442,451 | $442,451 |
-
-### 6b. Staged: test month-to-month, then 12-month prepaid | MI355X | spend $112,877
-
-GPUs: 4.41 (about 4). Monthly cost: $8,333. Cash at risk: $112,877. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+GPUs: 4.53 (about 5). Monthly cost: $8,333. Cash at risk: $55,608. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $11,139 | $2,806 | $17,213 | $112,877 | $47,162 | $150,886 | $38,009 | $85,171 |
-| 40% | 6.92 | $22,279 | $13,946 | $34,425 | $112,877 | $38,676 | $301,772 | $188,895 | $227,571 |
-| 70% | 12.12 | $38,988 | $30,655 | $60,244 | $112,877 | $25,948 | $528,100 | $415,224 | $441,171 |
+| 20% | 5.21 | $17,226 | $8,893 | $26,618 | $55,608 | $14,292 | $233,336 | $102,729 | $117,020 |
+| 40% | 10.42 | $34,453 | $26,120 | $53,237 | $55,608 | $1,169 | $466,673 | $336,065 | $337,234 |
+| 70% | 18.23 | $60,293 | $51,959 | $93,165 | $55,608 | $0 | $816,678 | $686,070 | $686,070 |
+
+### 6b. Staged: test month-to-month, then 12-month prepaid | MI355X | spend $129,106
+
+GPUs: 4.31 (about 4). Monthly cost: $8,333. Cash at risk: $129,106. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 5.21 | $16,381 | $8,048 | $25,313 | $129,106 | $51,170 | $221,890 | $92,784 | $143,954 |
+| 40% | 10.42 | $32,763 | $24,430 | $50,625 | $129,106 | $38,691 | $443,779 | $314,673 | $353,364 |
+| 70% | 18.23 | $57,335 | $49,002 | $88,594 | $129,106 | $19,972 | $776,614 | $647,508 | $667,480 |
 
 ### 1. Month-to-month, inference | MI355X | spend $250,000
 
-GPUs: 11.02 (about 11). Monthly cost: $20,833. Cash at risk: $20,833. Lock-in: None. Exit: Cancel at the end of any month.
+GPUs: 10.77 (about 11). Monthly cost: $20,833. Cash at risk: $20,833. Lock-in: None. Exit: Cancel at the end of any month.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $27,849 | $7,015 | $28,383 | $21,233 | $0 | $334,183 | $84,183 | $84,183 |
-| 40% | 6.92 | $55,697 | $34,864 | $56,765 | $21,233 | $0 | $668,366 | $418,366 | $418,366 |
-| 70% | 12.12 | $97,470 | $76,637 | $99,339 | $21,233 | $0 | $1,169,640 | $919,640 | $919,640 |
+| 20% | 5.21 | $40,954 | $20,120 | $41,739 | $21,233 | $0 | $491,443 | $241,443 | $241,443 |
+| 40% | 10.42 | $81,907 | $61,074 | $83,478 | $21,233 | $0 | $982,885 | $732,885 | $732,885 |
+| 70% | 18.23 | $143,337 | $122,504 | $146,086 | $21,233 | $0 | $1,720,049 | $1,470,049 | $1,470,049 |
 
 ### 2a. 3-month prepaid, inference | MI355X | spend $250,000
 
-GPUs: 11.60 (about 12). Monthly cost: $20,833. Cash at risk: $62,500. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
+GPUs: 11.32 (about 11). Monthly cost: $20,833. Cash at risk: $62,500. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $29,320 | $8,487 | $29,883 | $62,500 | $16,080 | $351,843 | $101,843 | $117,923 |
-| 40% | 6.92 | $58,640 | $37,807 | $59,765 | $62,500 | $1,348 | $703,686 | $453,686 | $455,034 |
-| 70% | 12.12 | $102,621 | $81,788 | $104,589 | $62,500 | $0 | $1,231,450 | $981,450 | $981,450 |
+| 20% | 5.21 | $43,066 | $22,233 | $43,892 | $62,500 | $9,174 | $516,795 | $266,795 | $275,969 |
+| 40% | 10.42 | $86,132 | $65,299 | $87,784 | $62,500 | $0 | $1,033,590 | $783,590 | $783,590 |
+| 70% | 18.23 | $150,732 | $129,899 | $153,623 | $62,500 | $0 | $1,808,782 | $1,558,782 | $1,558,782 |
 
 ### 2b. 12-month prepaid, inference | MI355X | spend $250,000
 
-GPUs: 11.02 (about 11). Monthly cost: $20,833. Cash at risk: $250,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
+GPUs: 10.77 (about 11). Monthly cost: $20,833. Cash at risk: $250,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $27,849 | $7,015 | $28,383 | $250,000 | $109,257 | $334,183 | $84,183 | $193,440 |
-| 40% | 6.92 | $55,697 | $34,864 | $56,765 | $250,000 | $95,265 | $668,366 | $418,366 | $513,630 |
-| 70% | 12.12 | $97,470 | $76,637 | $99,339 | $250,000 | $74,276 | $1,169,640 | $919,640 | $993,916 |
+| 20% | 5.21 | $40,954 | $20,120 | $41,739 | $250,000 | $102,673 | $491,443 | $241,443 | $344,115 |
+| 40% | 10.42 | $81,907 | $61,074 | $83,478 | $250,000 | $82,095 | $982,885 | $732,885 | $814,981 |
+| 70% | 18.23 | $143,337 | $122,504 | $146,086 | $250,000 | $51,229 | $1,720,049 | $1,470,049 | $1,521,279 |
 
-### 6a. Staged: test month-to-month, then 3-month prepaid | MI355X | spend $283,893
+### 6a. Staged: test month-to-month, then 3-month prepaid | MI355X | spend $326,519
 
-GPUs: 11.60 (about 12). Monthly cost: $20,833. Cash at risk: $96,393. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
-
-| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $29,320 | $8,487 | $45,306 | $96,393 | $25,186 | $397,149 | $113,256 | $138,442 |
-| 40% | 6.92 | $58,640 | $37,807 | $90,612 | $96,393 | $2,850 | $794,297 | $510,404 | $513,255 |
-| 70% | 12.12 | $102,621 | $81,788 | $158,570 | $96,393 | $0 | $1,390,021 | $1,106,128 | $1,106,128 |
-
-### 6b. Staged: test month-to-month, then 12-month prepaid | MI355X | spend $282,192
-
-GPUs: 11.02 (about 11). Monthly cost: $20,833. Cash at risk: $282,192. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+GPUs: 11.32 (about 11). Monthly cost: $20,833. Cash at risk: $139,019. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
 
 | Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20% | 3.46 | $27,849 | $7,015 | $43,032 | $282,192 | $117,906 | $377,215 | $95,023 | $212,929 |
-| 40% | 6.92 | $55,697 | $34,864 | $86,064 | $282,192 | $96,691 | $754,429 | $472,237 | $568,929 |
-| 70% | 12.12 | $97,470 | $76,637 | $150,611 | $282,192 | $64,869 | $1,320,251 | $1,038,059 | $1,102,929 |
+| 20% | 5.21 | $43,066 | $22,233 | $66,546 | $139,019 | $35,729 | $583,341 | $256,822 | $292,551 |
+| 40% | 10.42 | $86,132 | $65,299 | $133,092 | $139,019 | $2,922 | $1,166,682 | $840,163 | $843,085 |
+| 70% | 18.23 | $150,732 | $129,899 | $232,912 | $139,019 | $0 | $2,041,694 | $1,715,174 | $1,715,174 |
+
+### 6b. Staged: test month-to-month, then 12-month prepaid | MI355X | spend $322,766
+
+GPUs: 10.77 (about 11). Monthly cost: $20,833. Cash at risk: $322,766. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 5.21 | $40,954 | $20,120 | $63,282 | $322,766 | $126,637 | $554,724 | $231,959 | $358,595 |
+| 40% | 10.42 | $81,907 | $61,074 | $126,563 | $322,766 | $96,728 | $1,109,449 | $786,683 | $883,411 |
+| 70% | 18.23 | $143,337 | $122,504 | $221,486 | $322,766 | $49,931 | $1,941,535 | $1,618,770 | $1,668,701 |
 
 ### 1. Month-to-month, inference | MI300X | spend $50,000
 
@@ -1970,3 +1982,303 @@ GPUs: 12.97 (about 13). Monthly cost: $20,833. Cash at risk: $282,192. Lock-in: 
 | 20% | 0.26 | $2,464 | $-18,369 | $3,808 | $282,192 | $128,961 | $33,377 | $-248,815 | $-119,853 |
 | 40% | 0.52 | $4,928 | $-15,905 | $7,615 | $282,192 | $128,493 | $66,754 | $-215,438 | $-86,945 |
 | 70% | 0.91 | $8,624 | $-12,209 | $13,327 | $282,192 | $127,790 | $116,820 | $-165,372 | $-37,581 |
+
+### 1. Month-to-month, inference | MI355X | spend $50,000
+
+GPUs: 2.15 (about 2). Monthly cost: $4,167. Cash at risk: $4,167. Lock-in: None. Exit: Cancel at the end of any month.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $11,275 | $7,108 | $11,491 | $4,247 | $0 | $135,294 | $85,294 | $85,294 |
+| 40% | 14.34 | $22,549 | $18,382 | $22,981 | $4,247 | $0 | $270,588 | $220,588 | $220,588 |
+| 70% | 25.10 | $39,461 | $35,294 | $40,218 | $4,247 | $0 | $473,530 | $423,530 | $423,530 |
+
+### 2a. 3-month prepaid, inference | MI355X | spend $50,000
+
+GPUs: 2.26 (about 2). Monthly cost: $4,167. Cash at risk: $12,500. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $11,856 | $7,689 | $12,084 | $12,500 | $205 | $142,274 | $92,274 | $92,479 |
+| 40% | 14.34 | $23,712 | $19,546 | $24,167 | $12,500 | $0 | $284,547 | $234,547 | $234,547 |
+| 70% | 25.10 | $41,496 | $37,330 | $42,292 | $12,500 | $0 | $497,958 | $447,958 | $447,958 |
+
+### 2b. 12-month prepaid, inference | MI355X | spend $50,000
+
+GPUs: 2.15 (about 2). Monthly cost: $4,167. Cash at risk: $50,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $11,275 | $7,108 | $11,491 | $50,000 | $18,985 | $135,294 | $85,294 | $104,279 |
+| 40% | 14.34 | $22,549 | $18,382 | $22,981 | $50,000 | $13,320 | $270,588 | $220,588 | $233,909 |
+| 70% | 25.10 | $39,461 | $35,294 | $40,218 | $50,000 | $4,823 | $473,530 | $423,530 | $428,353 |
+
+### 6a. Staged: test month-to-month, then 3-month prepaid | MI355X | spend $65,304
+
+GPUs: 2.26 (about 2). Monthly cost: $4,167. Cash at risk: $27,804. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $11,856 | $7,689 | $18,320 | $27,804 | $4,675 | $160,594 | $95,290 | $99,965 |
+| 40% | 14.34 | $23,712 | $19,546 | $36,640 | $27,804 | $0 | $321,188 | $255,884 | $255,884 |
+| 70% | 25.10 | $41,496 | $37,330 | $64,121 | $27,804 | $0 | $562,079 | $496,775 | $496,775 |
+
+### 6b. Staged: test month-to-month, then 12-month prepaid | MI355X | spend $64,553
+
+GPUs: 2.15 (about 2). Monthly cost: $4,167. Cash at risk: $64,553. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $11,275 | $7,108 | $17,421 | $64,553 | $23,236 | $152,716 | $88,163 | $111,398 |
+| 40% | 14.34 | $22,549 | $18,382 | $34,843 | $64,553 | $14,647 | $305,431 | $240,878 | $255,525 |
+| 70% | 25.10 | $39,461 | $35,294 | $60,975 | $64,553 | $1,764 | $534,505 | $469,952 | $471,716 |
+
+### 1. Month-to-month, inference | MI355X | spend $100,000
+
+GPUs: 4.31 (about 4). Monthly cost: $8,333. Cash at risk: $8,333. Lock-in: None. Exit: Cancel at the end of any month.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $22,549 | $14,216 | $22,981 | $8,493 | $0 | $270,588 | $170,588 | $170,588 |
+| 40% | 14.34 | $45,098 | $36,765 | $45,963 | $8,493 | $0 | $541,177 | $441,177 | $441,177 |
+| 70% | 25.10 | $78,922 | $70,588 | $80,435 | $8,493 | $0 | $947,060 | $847,060 | $847,060 |
+
+### 2a. 3-month prepaid, inference | MI355X | spend $100,000
+
+GPUs: 4.53 (about 5). Monthly cost: $8,333. Cash at risk: $25,000. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $23,712 | $15,379 | $24,167 | $25,000 | $411 | $284,547 | $184,547 | $184,958 |
+| 40% | 14.34 | $47,425 | $39,091 | $48,334 | $25,000 | $0 | $569,095 | $469,095 | $469,095 |
+| 70% | 25.10 | $82,993 | $74,660 | $84,585 | $25,000 | $0 | $995,916 | $895,916 | $895,916 |
+
+### 2b. 12-month prepaid, inference | MI355X | spend $100,000
+
+GPUs: 4.31 (about 4). Monthly cost: $8,333. Cash at risk: $100,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $22,549 | $14,216 | $22,981 | $100,000 | $37,970 | $270,588 | $170,588 | $208,559 |
+| 40% | 14.34 | $45,098 | $36,765 | $45,963 | $100,000 | $26,640 | $541,177 | $441,177 | $467,817 |
+| 70% | 25.10 | $78,922 | $70,588 | $80,435 | $100,000 | $9,645 | $947,060 | $847,060 | $856,705 |
+
+### 6a. Staged: test month-to-month, then 3-month prepaid | MI355X | spend $130,608
+
+GPUs: 4.53 (about 5). Monthly cost: $8,333. Cash at risk: $55,608. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $23,712 | $15,379 | $36,640 | $55,608 | $9,351 | $321,188 | $190,580 | $199,931 |
+| 40% | 14.34 | $47,425 | $39,091 | $73,281 | $55,608 | $0 | $642,375 | $511,768 | $511,768 |
+| 70% | 25.10 | $82,993 | $74,660 | $128,241 | $55,608 | $0 | $1,124,157 | $993,549 | $993,549 |
+
+### 6b. Staged: test month-to-month, then 12-month prepaid | MI355X | spend $129,106
+
+GPUs: 4.31 (about 4). Monthly cost: $8,333. Cash at risk: $129,106. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $22,549 | $14,216 | $34,843 | $129,106 | $46,472 | $305,431 | $176,325 | $222,797 |
+| 40% | 14.34 | $45,098 | $36,765 | $69,686 | $129,106 | $29,294 | $610,863 | $481,756 | $511,051 |
+| 70% | 25.10 | $78,922 | $70,588 | $121,950 | $129,106 | $3,528 | $1,069,010 | $939,904 | $943,431 |
+
+### 1. Month-to-month, inference | MI355X | spend $250,000
+
+GPUs: 10.77 (about 11). Monthly cost: $20,833. Cash at risk: $20,833. Lock-in: None. Exit: Cancel at the end of any month.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $56,373 | $35,539 | $57,454 | $21,233 | $0 | $676,471 | $426,471 | $426,471 |
+| 40% | 14.34 | $112,745 | $91,912 | $114,907 | $21,233 | $0 | $1,352,942 | $1,102,942 | $1,102,942 |
+| 70% | 25.10 | $197,304 | $176,471 | $201,088 | $21,233 | $0 | $2,367,649 | $2,117,649 | $2,117,649 |
+
+### 2a. 3-month prepaid, inference | MI355X | spend $250,000
+
+GPUs: 11.32 (about 11). Monthly cost: $20,833. Cash at risk: $62,500. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $59,281 | $38,447 | $60,418 | $62,500 | $1,027 | $711,368 | $461,368 | $462,395 |
+| 40% | 14.34 | $118,561 | $97,728 | $120,835 | $62,500 | $0 | $1,422,737 | $1,172,737 | $1,172,737 |
+| 70% | 25.10 | $207,482 | $186,649 | $211,462 | $62,500 | $0 | $2,489,790 | $2,239,790 | $2,239,790 |
+
+### 2b. 12-month prepaid, inference | MI355X | spend $250,000
+
+GPUs: 10.77 (about 11). Monthly cost: $20,833. Cash at risk: $250,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $56,373 | $35,539 | $57,454 | $250,000 | $94,925 | $676,471 | $426,471 | $521,396 |
+| 40% | 14.34 | $112,745 | $91,912 | $114,907 | $250,000 | $66,601 | $1,352,942 | $1,102,942 | $1,169,543 |
+| 70% | 25.10 | $197,304 | $176,471 | $201,088 | $250,000 | $24,114 | $2,367,649 | $2,117,649 | $2,141,763 |
+
+### 6a. Staged: test month-to-month, then 3-month prepaid | MI355X | spend $326,519
+
+GPUs: 11.32 (about 11). Monthly cost: $20,833. Cash at risk: $139,019. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $59,281 | $38,447 | $91,601 | $139,019 | $23,377 | $802,969 | $476,450 | $499,827 |
+| 40% | 14.34 | $118,561 | $97,728 | $183,202 | $139,019 | $0 | $1,605,939 | $1,279,419 | $1,279,419 |
+| 70% | 25.10 | $207,482 | $186,649 | $320,603 | $139,019 | $0 | $2,810,393 | $2,483,873 | $2,483,873 |
+
+### 6b. Staged: test month-to-month, then 12-month prepaid | MI355X | spend $322,766
+
+GPUs: 10.77 (about 11). Monthly cost: $20,833. Cash at risk: $322,766. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.17 | $56,373 | $35,539 | $87,107 | $322,766 | $116,180 | $763,578 | $440,813 | $556,992 |
+| 40% | 14.34 | $112,745 | $91,912 | $174,214 | $322,766 | $73,236 | $1,527,157 | $1,204,391 | $1,277,627 |
+| 70% | 25.10 | $197,304 | $176,471 | $304,875 | $322,766 | $8,820 | $2,672,524 | $2,349,759 | $2,358,579 |
+
+### 1. Month-to-month, inference | B300 | spend $50,000
+
+GPUs: 0.60 (about 1). Monthly cost: $4,167. Cash at risk: $4,167. Lock-in: None. Exit: Cancel at the end of any month.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $3,311 | $-856 | $3,374 | $4,247 | $430 | $39,730 | $-10,270 | $-9,840 |
+| 40% | 15.10 | $6,622 | $2,455 | $6,749 | $4,247 | $0 | $79,461 | $29,461 | $29,461 |
+| 70% | 26.42 | $11,588 | $7,421 | $11,810 | $4,247 | $0 | $139,056 | $89,056 | $89,056 |
+
+### 2a. 3-month prepaid, inference | B300 | spend $50,000
+
+GPUs: 0.63 (about 1). Monthly cost: $4,167. Cash at risk: $12,500. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $3,495 | $-672 | $3,562 | $12,500 | $4,407 | $41,938 | $-8,062 | $-3,656 |
+| 40% | 15.10 | $6,990 | $2,823 | $7,124 | $12,500 | $2,651 | $83,875 | $33,875 | $36,526 |
+| 70% | 26.42 | $12,232 | $8,065 | $12,466 | $12,500 | $17 | $146,782 | $96,782 | $96,798 |
+
+### 2b. 12-month prepaid, inference | B300 | spend $50,000
+
+GPUs: 0.72 (about 1). Monthly cost: $4,167. Cash at risk: $50,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $3,961 | $-205 | $4,037 | $50,000 | $22,660 | $47,536 | $-2,464 | $20,196 |
+| 40% | 15.10 | $7,923 | $3,756 | $8,075 | $50,000 | $20,669 | $95,073 | $45,073 | $65,742 |
+| 70% | 26.42 | $13,865 | $9,698 | $14,131 | $50,000 | $17,684 | $166,377 | $116,377 | $134,061 |
+
+### 6a. Staged: test month-to-month, then 3-month prepaid | B300 | spend $56,431
+
+GPUs: 0.63 (about 1). Monthly cost: $4,167. Cash at risk: $18,931. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $3,495 | $-672 | $5,400 | $18,931 | $6,671 | $47,338 | $-9,093 | $-2,423 |
+| 40% | 15.10 | $6,990 | $2,823 | $10,800 | $18,931 | $4,008 | $94,676 | $38,244 | $42,253 |
+| 70% | 26.42 | $12,232 | $8,065 | $18,901 | $18,931 | $15 | $165,682 | $109,251 | $109,266 |
+
+### 6b. Staged: test month-to-month, then 12-month prepaid | B300 | spend $57,290
+
+GPUs: 0.72 (about 1). Monthly cost: $4,167. Cash at risk: $57,290. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $3,961 | $-205 | $6,121 | $57,290 | $25,226 | $53,657 | $-3,632 | $21,594 |
+| 40% | 15.10 | $7,923 | $3,756 | $12,242 | $57,290 | $22,208 | $107,315 | $50,025 | $72,234 |
+| 70% | 26.42 | $13,865 | $9,698 | $21,424 | $57,290 | $17,682 | $187,801 | $130,511 | $148,193 |
+
+### 1. Month-to-month, inference | B300 | spend $100,000
+
+GPUs: 1.20 (about 1). Monthly cost: $8,333. Cash at risk: $8,333. Lock-in: None. Exit: Cancel at the end of any month.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $6,622 | $-1,712 | $6,749 | $8,493 | $860 | $79,461 | $-20,539 | $-19,679 |
+| 40% | 15.10 | $13,243 | $4,910 | $13,497 | $8,493 | $0 | $158,921 | $58,921 | $58,921 |
+| 70% | 26.42 | $23,176 | $14,843 | $23,621 | $8,493 | $0 | $278,113 | $178,113 | $178,113 |
+
+### 2a. 3-month prepaid, inference | B300 | spend $100,000
+
+GPUs: 1.27 (about 1). Monthly cost: $8,333. Cash at risk: $25,000. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $6,990 | $-1,344 | $7,124 | $25,000 | $8,813 | $83,875 | $-16,125 | $-7,312 |
+| 40% | 15.10 | $13,979 | $5,646 | $14,247 | $25,000 | $5,301 | $167,750 | $67,750 | $73,052 |
+| 70% | 26.42 | $24,464 | $16,130 | $24,933 | $25,000 | $33 | $293,563 | $193,563 | $193,596 |
+
+### 2b. 12-month prepaid, inference | B300 | spend $100,000
+
+GPUs: 1.44 (about 1). Monthly cost: $8,333. Cash at risk: $100,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $7,923 | $-411 | $8,075 | $100,000 | $45,319 | $95,073 | $-4,927 | $40,392 |
+| 40% | 15.10 | $15,845 | $7,512 | $16,149 | $100,000 | $41,338 | $190,145 | $90,145 | $131,484 |
+| 70% | 26.42 | $27,730 | $19,396 | $28,261 | $100,000 | $35,367 | $332,754 | $232,754 | $268,122 |
+
+### 6a. Staged: test month-to-month, then 3-month prepaid | B300 | spend $112,862
+
+GPUs: 1.27 (about 1). Monthly cost: $8,333. Cash at risk: $37,862. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $6,990 | $-1,344 | $10,800 | $37,862 | $13,342 | $94,676 | $-18,187 | $-4,845 |
+| 40% | 15.10 | $13,979 | $5,646 | $21,601 | $37,862 | $8,017 | $189,351 | $76,489 | $84,506 |
+| 70% | 26.42 | $24,464 | $16,130 | $37,801 | $37,862 | $30 | $331,365 | $218,502 | $218,532 |
+
+### 6b. Staged: test month-to-month, then 12-month prepaid | B300 | spend $114,580
+
+GPUs: 1.44 (about 1). Monthly cost: $8,333. Cash at risk: $114,580. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $7,923 | $-411 | $12,242 | $114,580 | $50,452 | $107,315 | $-7,265 | $43,188 |
+| 40% | 15.10 | $15,845 | $7,512 | $24,484 | $114,580 | $44,417 | $214,630 | $100,050 | $144,467 |
+| 70% | 26.42 | $27,730 | $19,396 | $42,848 | $114,580 | $35,364 | $375,602 | $261,023 | $296,386 |
+
+### 1. Month-to-month, inference | B300 | spend $250,000
+
+GPUs: 3.00 (about 3). Monthly cost: $20,833. Cash at risk: $20,833. Lock-in: None. Exit: Cancel at the end of any month.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $16,554 | $-4,279 | $16,872 | $21,233 | $2,150 | $198,652 | $-51,348 | $-49,198 |
+| 40% | 15.10 | $33,109 | $12,275 | $33,744 | $21,233 | $0 | $397,304 | $147,304 | $147,304 |
+| 70% | 26.42 | $57,940 | $37,107 | $59,051 | $21,233 | $0 | $695,282 | $445,282 | $445,282 |
+
+### 2a. 3-month prepaid, inference | B300 | spend $250,000
+
+GPUs: 3.17 (about 3). Monthly cost: $20,833. Cash at risk: $62,500. Lock-in: 3 months at a time. Exit: Walk away at the end of a 3-month term.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $17,474 | $-3,359 | $17,809 | $62,500 | $22,033 | $209,688 | $-40,312 | $-18,279 |
+| 40% | 15.10 | $34,948 | $14,115 | $35,618 | $62,500 | $13,253 | $419,376 | $169,376 | $182,629 |
+| 70% | 26.42 | $61,159 | $40,326 | $62,332 | $62,500 | $83 | $733,908 | $483,908 | $483,991 |
+
+### 2b. 12-month prepaid, inference | B300 | spend $250,000
+
+GPUs: 3.59 (about 4). Monthly cost: $20,833. Cash at risk: $250,000. Lock-in: 12 months, non-refundable. Exit: Resell unused reserved time (SF Compute style market) or sublease if the provider allows; otherwise no exit.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $19,807 | $-1,027 | $20,187 | $250,000 | $113,298 | $237,682 | $-12,318 | $100,980 |
+| 40% | 15.10 | $39,614 | $18,780 | $40,373 | $250,000 | $103,346 | $475,363 | $225,363 | $328,709 |
+| 70% | 26.42 | $69,324 | $48,490 | $70,653 | $250,000 | $88,418 | $831,886 | $581,886 | $670,304 |
+
+### 6a. Staged: test month-to-month, then 3-month prepaid | B300 | spend $282,156
+
+GPUs: 3.17 (about 3). Monthly cost: $20,833. Cash at risk: $94,656. Lock-in: None during the test; then 3 months. Exit: Stop after the test if it fails (lose only the test weeks). After prepaying, walk away at term end.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $17,474 | $-3,359 | $27,001 | $94,656 | $33,354 | $236,689 | $-45,467 | $-12,113 |
+| 40% | 15.10 | $34,948 | $14,115 | $54,002 | $94,656 | $20,042 | $473,378 | $191,222 | $211,265 |
+| 70% | 26.42 | $61,159 | $40,326 | $94,503 | $94,656 | $75 | $828,412 | $546,256 | $546,331 |
+
+### 6b. Staged: test month-to-month, then 12-month prepaid | B300 | spend $286,449
+
+GPUs: 3.59 (about 4). Monthly cost: $20,833. Cash at risk: $286,449. Lock-in: None during the test; then 12 months. Exit: Stop after the test if it fails. After a 12-month prepay, resell unused time if the provider allows.
+
+| Util | Rev/GPU-hr | Rev/month | Profit/month | Rev 2026 | Deductible 2026 | Tax saved 2026 | Rev 12 mo | Pre-tax 12 mo | After-tax 12 mo |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 20% | 7.55 | $19,807 | $-1,027 | $30,606 | $286,449 | $126,131 | $268,287 | $-18,162 | $107,969 |
+| 40% | 15.10 | $39,614 | $18,780 | $61,211 | $286,449 | $111,042 | $536,575 | $250,126 | $361,168 |
+| 70% | 26.42 | $69,324 | $48,490 | $107,120 | $286,449 | $88,409 | $939,006 | $652,557 | $740,966 |
