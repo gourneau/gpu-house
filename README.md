@@ -14,6 +14,7 @@ Live report: https://gourneau.github.io/gpu-house/ (the `docs/` folder). Long-fo
 | `data/params_notes.md` | Why each input was chosen, and which cells are estimates. |
 | `research_notes/` | Raw research notes from the web research pass, one file per topic, with citations. Includes the raw OpenRouter endpoint JSON. |
 | `reports/` | The synthesized research report in markdown. |
+| `kit/` | The November test kit: vLLM launch scripts for Hy4-preview, GLM 5.3 and Step 5, a billed OpenAI-compatible gateway with API keys, usage metering, Stripe meter events and an OpenRouter provider feed, a `vllm bench serve` sweep plus revenue calculator, compose with TLS, and draft privacy policy and terms. See `kit/README.md`. |
 
 ## Method
 

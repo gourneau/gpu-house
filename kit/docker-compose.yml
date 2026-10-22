@@ -1,0 +1,33 @@
+# Gateway + TLS reverse proxy. The vLLM model servers are started separately with the
+# scripts in serving/ (they need --gpus all and vendor-specific images) and are reached
+# by the gateway on host ports 8001/8002/8003 (see gateway/models.json).
+#
+#   cp .env.example .env   # fill ADMIN_TOKEN, DOMAIN, STRIPE_* (optional)
+#   docker compose up -d --build
+#   curl -s -X POST localhost:8080/admin/keys -H "x-admin-token: $ADMIN_TOKEN" -d '{"name":"first-customer"}' -H 'content-type: application/json'
+services:
+  gateway:
+    build: ./gateway
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      GATEWAY_DB: /data/gateway.db
+      MODELS_FILE: /app/models.json
+    volumes:
+      - gateway-data:/data
+      - ./gateway/models.json:/app/models.json:ro
+    network_mode: host          # reach vLLM on 127.0.0.1:800x; listens on :8080
+  caddy:
+    image: caddy:2.9.1
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      DOMAIN: ${DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+volumes:
+  gateway-data:
+  caddy-data:
+  caddy-config:

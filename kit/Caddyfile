@@ -1,0 +1,24 @@
+# Automatic TLS (Let's Encrypt) in front of the gateway. Point DNS for $DOMAIN at the node.
+{$DOMAIN} {
+    encode gzip
+    # never log request bodies; access logs keep IP, path, status, timing only
+    log {
+        output file /data/access.log {
+            roll_size 50mb
+            roll_keep 5
+        }
+        format json
+    }
+    @admin path /admin/*
+    handle @admin {
+        # admin endpoints are not exposed publicly; use an SSH tunnel to :8080
+        respond "not found" 404
+    }
+    reverse_proxy 127.0.0.1:8080 {
+        flush_interval -1          # stream SSE immediately
+        transport http {
+            read_timeout 900s
+            write_timeout 900s
+        }
+    }
+}
