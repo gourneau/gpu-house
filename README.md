@@ -2,7 +2,7 @@
 
 Research and a financial model for a small business that rents GPUs (or buys a few servers) and sells AI inference, with the 2026 US federal and California tax mechanics applied.
 
-Live report: see the GitHub Pages site for this repository (the `docs/` folder).
+Live report: https://gourneau.github.io/gpu-house/ (the `docs/` folder). Long-form written report: [reports/GPU rental inference business plan.md](reports/GPU%20rental%20inference%20business%20plan.md).
 
 ## Layout
 
