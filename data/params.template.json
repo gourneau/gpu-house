@@ -1,0 +1,263 @@
+{
+ "_readme": "Template. Copy to params.json and fill every value from the research notes. Each cell is {value, source, checked, note}. value null = not yet filled. Rates are USD per GPU-hour. Prices are USD per million tokens. tps_out_per_gpu is output tokens per second per GPU at the benchmark shape; ratio_in is input tokens per output token at that shape. plans: each plan is one GPU type, a node size (1 or 8) and a list of model slugs that must exist in models[] with throughput for that GPU. Revenue per GPU-hour for a plan is the simple mean across its models.",
+ "start_date": "2026-12-01",
+ "tax": {
+  "fed_rate": {
+   "value": 0.37,
+   "source": "user's own tax model",
+   "checked": "2026-10-22"
+  },
+  "ca_rate": {
+   "value": 0.123,
+   "source": "user's own tax model",
+   "checked": "2026-10-22"
+  },
+  "excess_business_loss_cap": {
+   "value": 256000,
+   "source": "user's own tax model (official 2026 IRC 461(l) figure noted in tax notes)",
+   "checked": "2026-10-22"
+  },
+  "ca_179_limit": {
+   "value": 25000,
+   "source": "FTB",
+   "checked": "2026-10-22"
+  },
+  "ca_macrs_year1_q4_rate": {
+   "value": 0.05,
+   "source": "MACRS 5-year, mid-quarter convention, Q4 placed in service",
+   "checked": "2026-10-22"
+  }
+ },
+ "vast": {
+  "host_fee": {
+   "value": null,
+   "source": "",
+   "checked": "2026-10-22",
+   "note": "fraction of renter price kept by Vast"
+  },
+  "idle_fill_rate": {
+   "value": 0.5,
+   "source": "estimate",
+   "checked": "2026-10-22",
+   "note": "share of idle hours that a Vast listing actually rents"
+  }
+ },
+ "gpus": [
+  {
+   "key": "H100",
+   "label": "H100 SXM 80GB",
+   "rates": {
+    "ondemand": {
+     "value": null,
+     "source": "",
+     "checked": "2026-10-22",
+     "provider": ""
+    },
+    "spot": {
+     "value": null,
+     "source": "",
+     "checked": "2026-10-22",
+     "provider": ""
+    },
+    "m1": {
+     "value": null,
+     "source": "",
+     "checked": "2026-10-22",
+     "provider": "",
+     "note": "cheapest reliable month-to-month rate that permits third-party API traffic"
+    },
+    "m3": {
+     "value": null,
+     "source": "",
+     "checked": "2026-10-22",
+     "provider": ""
+    },
+    "m12": {
+     "value": null,
+     "source": "",
+     "checked": "2026-10-22",
+     "provider": ""
+    }
+   },
+   "vast_median_rent": {
+    "value": null,
+    "source": "",
+    "checked": "2026-10-22",
+    "note": "median on-demand price renters pay on Vast for this GPU"
+   }
+  },
+  {
+   "key": "H200",
+   "label": "H200 141GB",
+   "rates": {
+    "ondemand": {
+     "value": null
+    },
+    "spot": {
+     "value": null
+    },
+    "m1": {
+     "value": null
+    },
+    "m3": {
+     "value": null
+    },
+    "m12": {
+     "value": null
+    }
+   },
+   "vast_median_rent": {
+    "value": null
+   }
+  },
+  {
+   "key": "B200",
+   "label": "B200 180GB",
+   "rates": {
+    "ondemand": {
+     "value": null
+    },
+    "spot": {
+     "value": null
+    },
+    "m1": {
+     "value": null
+    },
+    "m3": {
+     "value": null
+    },
+    "m12": {
+     "value": null
+    }
+   },
+   "vast_median_rent": {
+    "value": null
+   }
+  }
+ ],
+ "owned": {
+  "H100": {
+   "capex_per_gpu": {
+    "value": null,
+    "source": "",
+    "checked": "2026-10-22",
+    "note": "used 8x H100 SXM server all-in price divided by 8"
+   },
+   "colo_per_gpu_month": {
+    "value": null,
+    "source": "",
+    "checked": "2026-10-22",
+    "note": "colo + power + bandwidth per month for an 8-GPU server divided by 8"
+   }
+  },
+  "H200": {
+   "capex_per_gpu": {
+    "value": null
+   },
+   "colo_per_gpu_month": {
+    "value": null
+   }
+  }
+ },
+ "models": [
+  {
+   "slug": "openai/gpt-oss-120b",
+   "openrouter": {
+    "providers": {
+     "value": null,
+     "source": "",
+     "checked": "2026-10-22"
+    },
+    "min_in": {
+     "value": null
+    },
+    "median_in": {
+     "value": null
+    },
+    "min_out": {
+     "value": null
+    },
+    "median_out": {
+     "value": null
+    },
+    "weekly_tokens": {
+     "value": null
+    }
+   },
+   "throughput": {
+    "H100": {
+     "tps_out_per_gpu": {
+      "value": null,
+      "source": "",
+      "checked": "2026-10-22"
+     },
+     "ratio_in": {
+      "value": 1.0,
+      "source": ""
+     },
+     "gpus_per_replica": 1
+    },
+    "H200": {
+     "tps_out_per_gpu": {
+      "value": null
+     },
+     "ratio_in": {
+      "value": 1.0
+     },
+     "gpus_per_replica": 1
+    },
+    "B200": {
+     "tps_out_per_gpu": {
+      "value": null
+     },
+     "ratio_in": {
+      "value": 1.0
+     },
+     "gpus_per_replica": 1
+    }
+   }
+  }
+ ],
+ "plans": [
+  {
+   "key": "A",
+   "label": "Plan A: single H100 SXM GPUs, mid-size models",
+   "gpu": "H100",
+   "node_size": 1,
+   "price_point": "min",
+   "models": [
+    "openai/gpt-oss-120b",
+    "meta-llama/llama-3.3-70b-instruct",
+    "qwen/qwen3-32b"
+   ]
+  },
+  {
+   "key": "B",
+   "label": "Plan B: one 8x H200 node, big MoE models",
+   "gpu": "H200",
+   "node_size": 8,
+   "price_point": "min",
+   "models": [
+    "deepseek/deepseek-chat",
+    "moonshotai/kimi-k2",
+    "z-ai/glm-4.6",
+    "qwen/qwen3-235b-a22b"
+   ]
+  },
+  {
+   "key": "C",
+   "label": "Plan C: one 8x B200 node, big MoE models",
+   "gpu": "B200",
+   "node_size": 8,
+   "price_point": "min",
+   "models": [
+    "deepseek/deepseek-chat",
+    "moonshotai/kimi-k2",
+    "z-ai/glm-4.6",
+    "qwen/qwen3-235b-a22b"
+   ]
+  }
+ ],
+ "test_start_date": "2026-11-15",
+ "decide_date": "2026-12-28"
+}

@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GPU House</title>
+<meta name="description" content="Research and model for renting GPUs and selling AI inference as a small business, with 2026 US and California tax mechanics.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <h1>GPU House: rent GPUs, sell inference</h1>
+  <p class="sub">Can a one-person business rent GPUs (or buy a few), sell AI inference, make money, and create 2026 deductions? Every number below was read live on October 22, 2026 and carries a source. Estimates are marked.</p>
+  <div class="meta">Research date 2026-10-22. Sole proprietorship, cash basis, California. Marginal rates used: 37% federal, 12.3% CA. Not tax or legal advice; a CPA must confirm the tax section. Full notes, model code and inputs are in the <a href="https://github.com/gourneau/gpu-house">repository</a>.</div>
+</header>
+
+<nav class="toc">
+  <a href="#bottom">Bottom line</a><a href="#plan">Plan</a><a href="#supply">A. Supply</a><a href="#demand">B. Inference marketplaces</a><a href="#resale">C. GPU resale</a><a href="#unit">D. Unit economics</a><a href="#scenarios">E. Scenarios</a><a href="#tax">F. Tax</a><a href="#timeline">G. Timeline</a><a href="#risks">H. Risks</a><a href="#alt">Alternatives</a><a href="#rank">Rankings</a><a href="#sources">Sources</a>
+</nav>
+
+<section id="bottom">
+  <h2>Bottom line</h2>
+  <div id="hero-stats" class="grid"></div>
+  <p class="lead">Worth doing, but only in one shape. Rent one 8-GPU B200 node, serve the handful of big open-weight models that still sell at list price on OpenRouter, and get listed there. In that shape the node clears its rent at about 40% utilization on conservative throughput, and at 20% on typical throughput. The idea as first framed, single H100s serving gpt-oss-120b, Llama 3.3 70B and Qwen3 32B, loses about $7,000 a month for every $100,000 of annual budget, because those models' entire OpenRouter pools are $1,000 to $85,000 a week split among 10 to 21 providers at floor prices. The tax deduction is real and large (a $100,000 non-refundable prepay in December saves about $45,000 to $49,000 of 2026 tax, a $250,000 prepay about $104,000 to $117,000) but it only halves a loss; it does not turn a losing shape into a winning one. The two things that decide the outcome are outside the spreadsheet: whether OpenRouter accepts the listing (it reportedly accepts about one of forty applications a day and prioritizes providers that fill gaps) and whether the thin-host preview models keep their price and volume. So the plan is staged: test on month-to-month GPUs in November, apply to OpenRouter in week one, and only prepay in the last week of December if real traffic shows up. The prepay still counts for 2026 even if the term starts January 1.</p>
+</section>
+
+<section id="plan">
+  <h2>Recommended plan</h2>
+  <div class="card callout">
+    <h3 style="margin-top:0">The configuration</h3>
+    <table>
+      <tr><th>Item</th><th>Choice</th><th>Why</th></tr>
+      <tr><td>GPU</td><td>8x NVIDIA B200 (180 GB each, 1,440 GB per node)</td><td>Only Blackwell-class nodes make the big MoE models pay: B200 output throughput is about 4x H200 on DeepSeek-class models. MI355X is the second choice if a benchmark confirms its FP4 path.</td></tr>
+      <tr><td>Rental source, test phase</td><td>Koyeb (B200 $5.50/GPU-hr, H200 $3.00, per-second billing, instant with a card)</td><td>Single GPUs and 8-GPU H200 nodes are available instantly. Terms do not forbid a paid API.</td></tr>
+      <tr><td>Rental source, committed phase</td><td>Vultr HGX B200 8-GPU plan, $3.50/GPU-hr ($28/node-hr, about $20,400/month); bare-metal prepaid contract "from $3.50"</td><td>Cheapest B200 with terms that contemplate end users and service providers. 8-GPU plans need a manually reviewed account, so open the account in October and build billing history.</td></tr>
+      <tr><td>Models</td><td>Tencent Hy4-preview (Apache 2.0, 814 GB FP8, 4 hosts at $0.834/$2.501 list, 9.7T tokens/week); Step 5 Preview (StepFun license, 650 GB FP8, 4 hosts at $1.00/$2.70, volume falling 88% week over week); GLM 5.3 (MIT-style, 756 GB FP8, floor $0.079/$1.40, 36 hosts)</td><td>These are the only high-volume open models where hosts still price at list. Hy4 alone could keep 300+ B200s busy at a 7% share, so demand is not the limit for one node. Listing is.</td></tr>
+      <tr><td>Marketplace</td><td>OpenRouter (apply week one), plus your own Stripe-billed API as the guaranteed first paying customer</td><td>OpenRouter pays USD by monthly invoice and takes no cut from providers. Your own API makes the business "open to the public" before December 31 regardless of approval.</td></tr>
+      <tr><td>Term</td><td>Month-to-month until December 28, then a 3-month ($25k) or 12-month ($100k to $245k) non-refundable prepay only if the test shows traffic</td><td>A December prepay for a term ending by December 31, 2027 is deductible in 2026 under the 12-month rule. Nothing is locked in until the test says yes.</td></tr>
+      <tr><td>Budget</td><td>$100k buys about 4.9 node-months of B200; $245k buys one node for 12 months</td><td>At $100k and 40% utilization the 12-month after-tax result is about +$55k (prepaid) or +$10k (month-to-month). At $250k prepaid it is about +$137k at 40% and +$5k at 20%.</td></tr>
+    </table>
+  </div>
+  <h3>2026 tax result of the staged path (model output, conservative throughput)</h3>
+  <table>
+    <tr><th>Path</th><th>Cash out in 2026</th><th>Deductible in 2026</th><th>Tax saved 2026 (40% util)</th><th>12-month after-tax result at 20% / 40% / 70%</th></tr>
+    <tr><td>Test only (Nov 15 to Dec 31 on Koyeb, then stop)</td><td class="num">about $20k per $100k of planned budget</td><td class="num">the same $20k</td><td class="num">about $7k to $10k</td><td class="num">loss limited to the test weeks</td></tr>
+    <tr><td>Test, then 3-month prepay on Dec 28 ($100k/yr budget)</td><td class="num">$46k</td><td class="num">$46k</td><td class="num">$15k</td><td class="num">-$37k / +$25k / +$117k</td></tr>
+    <tr><td>Test, then 12-month prepay on Dec 28 ($100k/yr budget)</td><td class="num">$120k</td><td class="num">$120k</td><td class="num">$52k</td><td class="num">-$2k / +$56k / +$144k</td></tr>
+    <tr><td>Test, then 12-month prepay ($250k/yr budget, one full node)</td><td class="num">$301k</td><td class="num">$301k</td><td class="num">$127k (cap: $256k federal, shared with the vans)</td><td class="num">-$16k / +$137k / +$360k</td></tr>
+  </table>
+  <p class="small">Tax saved = 37% federal plus 12.3% California of the net 2026 loss (deductions minus December revenue), capped at $256,000 federal and an estimated $313,000 California. If the vans use part of the federal cap, the excess carries forward as an NOL rather than disappearing. Typical-throughput numbers are roughly double on the revenue side; use the selector in section E.</p>
+  <div class="card warn">
+    <h3 style="margin-top:0">What has to be true</h3>
+    <ul>
+      <li><b>OpenRouter lists you.</b> Applications are reviewed on a rolling basis with "a large backlog" and priority to proprietary models and gap-fillers. One secondhand account puts intake at about 40 a day with about 1 accepted. Hy4-preview with 4 hosts is a credible gap. Nothing in the research found a solo provider who got listed, or one who was refused.</li>
+      <li><b>The preview models hold.</b> Hy4-preview's card says "early version... known issues"; Step 5 Preview lost 88% of its volume in a week. If Tencent cuts its list price, the four pegged hosts will follow and the margin shrinks.</li>
+      <li><b>Throughput is real.</b> Every Hy4, Step 5 and GLM 5.3 throughput cell is mapped from DeepSeek-class benchmarks (8x B200: 1,500 output tokens/s per GPU conservative, 3,000 typical). Run <code>vllm bench serve</code> on the actual node in week three before pricing anything.</li>
+      <li><b>The prepay has a business purpose.</b> Vultr's prepaid contract is the same $3.50 as on-demand, so the reason to prepay is guaranteed capacity (B200 nodes are gated and 2026 prices rose 10% to 40%), not a discount. Koyeb quotes reservations "up to 50% off" by contact; get that quote in writing. A prepay that exists only for the deduction fails economic substance.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="supply">
+  <h2>A. Supply: where to rent, and the price</h2>
+  <p>Thirty providers were read. No one publishes a 12-month price for H100, H200 or B200; every reserved term is a sales call or a request for quote, except DigitalOcean (12-month H100 $3.26, H200 $3.40, both above the cheapest on-demand rate elsewhere), Verda (2%, 3%, 8% off for 1, 3, 12 months), Jarvislabs (2%, 3%, 9%), Together (prepaid up to 6 months) and Vast (self-serve prepay discount of up to 50% on an existing instance). Prices rose in October 2026: Nebius lifted H100 from $3.85 to $4.50 and B200 from $7.15 to $8.50 on October 1, citing HBM supply; Jarvislabs went from $2.69 to $3.49 on October 5. The cheapest sources with terms that allow a paid API are Vultr (8-GPU plans: H100 $2.30, B200 $3.50, MI300X $1.85, MI355X $2.59), Koyeb (single GPUs: H100 $2.50, H200 $3.00, B200 $5.50, RTX PRO 6000 $2.20) and DigitalOcean (the most explicit terms: "via resale, your own products and services, or public-facing websites").</p>
+  <p>Terms of service matter more than price. Voltage Park, Crusoe, Together, FluidStack, Jarvislabs, GMI, Massed Compute, TensorDock and Shadeform bar resale or "service bureau" use and are silent on your own API, so get written consent before serving third parties there. Lambda's restriction is on reselling its platform, not on serving customers. Vast's September 2026 terms assume "end users of the Services" and Vast markets a Serverless product for inference, so a paid API is permitted. RunPod's main terms acknowledge "your end users" but reference supplemental terms nobody can find, so it is ambiguous.</p>
+  <h3>Rates used in the model (cheapest source whose terms allow a paid API)</h3>
+  <div id="tbl-rates"></div>
+  <h3>All providers, on-demand price per GPU-hour</h3>
+  <div id="tbl-supply"></div>
+  <h3>8-GPU node prices</h3>
+  <div id="tbl-nodes"></div>
+  <h3>Terms of service: may you serve a paid API from the rented GPU?</h3>
+  <div id="tbl-tos"></div>
+</section>
+
+<section id="demand">
+  <h2>B. Demand: "Airbnb for inference" marketplaces</h2>
+  <p>OpenRouter is the only marketplace that is simultaneously open to outside providers, large (about 22 trillion tokens a day; the top open model carries 25.7 trillion a week), and pays USD. You set your own per-token price; OpenRouter bills users at your list price, takes no cut from providers, and pays by monthly invoice. Requirements: an OpenAI-compatible chat completions endpoint with streaming and usage counts, a models feed in OpenRouter's schema, monthly invoicing, and a published privacy policy that says whether prompts are logged or used for training. Routing is price-weighted but uptime, time to first token and throughput are measured per endpoint; endpoints under 95% uptime get less traffic and under 80% become fallback only. The cheapest endpoint does not win by itself: on gpt-oss-120b the two floor-priced endpoints carried 0.8% and 7.2% of one day's tokens while a provider at four times the floor carried 18.5%.</p>
+  <p>Everything else is thin. Hugging Face Inference Providers has a published nine-step path but requires a paid Team or Enterprise plan and its registration thread has had no staff reply since September 2025. NanoGPT takes providers by email and says a single-GPU or single-operator service is unlikely to fit. Requesty, Unify, Martian, AIML API, Featherless and Parasail have no provider program; Kluster.ai shut down; cheapinference.com is a parked domain (cheaperinference.com exists but routes other people's cloud API keys, not GPUs). Chutes, Targon and Gonka are Bittensor networks paid in tokens and need TEE-capable bare metal, which excludes RunPod and Vast. The gateways (Vercel, Cloudflare, Portkey, Helicone, LiteLLM) route to fixed provider lists and pay nobody.</p>
+  <div id="tbl-marketplaces"></div>
+  <h3>OpenRouter: open-weight models, providers, prices and volume</h3>
+  <p>The models most people name (gpt-oss-120b, Llama 3.3 70B, Qwen3 32B, DeepSeek R1) are now small pools with many hosts. The volume sits on a new generation: DeepSeek V4.1 Flash (27.5T tokens a week, 29 hosts, floor $0.07/$0.18), GLM 5.3 Flash (12.4T, 25 hosts), Tencent Hy4-preview (9.7T, 4 hosts, all at $0.834/$2.501), MiMo V2.6 Flash (9.1T, 8 hosts), GLM 5.3 (5.7T, 36 hosts, median output $4.30), Hy3 (3.5T, 5 hosts), Step 5 Preview (3.0T, 4 hosts, all at $1.00/$2.70), Kimi K3 (2.0T, 20 hosts, median output $14). The opening is the ratio of tokens to hosts at a price that pays for a B200.</p>
+  <div id="chart-openings" class="viz-root"></div>
+  <div id="tbl-ormodels"></div>
+</section>
+
+<section id="resale">
+  <h2>C. Backup: "Airbnb for GPU time" (reselling GPU hours)</h2>
+  <p>Re-listing a rented GPU on Vast.ai or a similar market is blocked on both ends. Every rental contract read bans resale (Lambda, Nebius, Crusoe, Voltage Park, Hyperbolic, TensorDock, Vultr "without our written permission"), and Vast's Standard Hosting Agreement makes the host warrant that "it is the sole owner of the Hardware" located "at the Provider". Technically a root VM could run Vast's Docker-based host daemon (the installer does not check for bare metal), but RunPod pods cannot and TensorDock hosting needs bare metal. The money is not there either: Vast's implied host share is about 80% (its blog says live prices run about 25% above host earnings), so an H100 host takes about $2.02 an hour against a $1.68 to $2.30 rental, a spread of $0 to $0.34 at 100% utilization and negative at the calculator's default 65%. RunPod closed its Community Cloud host program to new hosts on February 24, 2026.</p>
+  <p>The one legitimate resale route is SF Compute: anyone who buys reserved node-hours there can resell unused hours on the same order book (minimum one 8-GPU node for one minute, paid in platform credits, seller-side fee unpublished, average realized discount 25%). That is a hedge for a reservation you no longer need, not a revenue line. The model's scenarios 3a, 3b and 5 keep the Vast numbers for comparison, flagged as blocked for rented hardware; scenario 4b shows Vast with owned hardware, which is allowed.</p>
+  <div id="tbl-resale"></div>
+  <h3>Rent-and-relist spread</h3>
+  <div id="tbl-spread"></div>
+</section>
+
+<section id="unit">
+  <h2>D. Unit economics: revenue per GPU-hour versus rent</h2>
+  <p>Revenue per GPU-hour = output tokens per second per GPU (independent benchmarks, conservative and typical) x 3,600 x the price you post (5% under today's OpenRouter floor) x utilization, with input tokens billed at 3 prompt tokens per completion token and a 20% prefill haircut on throughput. Pick a GPU below. On the B200, Hy4-preview earns about $20 an hour at full utilization against $3.50 of rent, so it breaks even at 17% utilization; GLM 5.3 breaks even at 52%; DeepSeek V4.1 Flash never does at the floor price because 29 hosts have pushed it to $0.07/$0.18. On an H100, nothing in the mid-size tier earns more than $0.65 an hour at 70% utilization against $2.30 of rent.</p>
+  <p class="small">GPU: <select id="sel-gpu"></select></p>
+  <div id="chart-rev" class="viz-root"></div>
+  <div id="chart-breakeven" class="viz-root"></div>
+  <div id="tbl-opp"></div>
+  <h3>Throughput planning numbers</h3>
+  <p class="small">A unit trap to know: InferenceX (SemiAnalysis) reports "tokens/s per GPU" counting prompt plus output tokens on its 8k-input, 1k-output workload, so output-only throughput is about one ninth of its headline figure. The planning numbers below are output-only at a 1k/1k shape. The Hy4, Step 5, GLM 5.3, DeepSeek V4.1 and MiMo rows are mapped from the nearest benchmarked architecture and marked as estimates.</p>
+  <div id="tbl-throughput"></div>
+</section>
+
+<section id="scenarios">
+  <h2>E. Scenarios</h2>
+  <p>Seven configurations (plans A to G) x three budgets ($50k, $100k, $250k of 12-month spend, or capital for owned hardware) x three utilizations (20%, 40%, 70%) x the scenarios: month-to-month, 3-month prepaid, 12-month prepaid, staged test-then-prepay, Vast resale (comparison only), owned hardware in colocation, and a hybrid. The first chart compares the plans at $100k and 40% utilization. Then use the selectors to explore one plan. Budget means the annual run-rate; an 8-GPU node costs about $20,400 a month (B200), $17,500 (H200) or $15,100 (MI355X), so $100k runs one B200 node for about five months and $250k for a year.</p>
+  <div id="chart-plans" class="viz-root"></div>
+  <div class="card">
+    <p class="small">Plan: <select id="sel-plan"></select> &nbsp; Budget (12-month spend, or capital for owned): <select id="sel-spend"></select> &nbsp; Utilization: <select id="sel-util"></select> &nbsp; Throughput case: <select id="sel-case"><option value="conservative">conservative</option><option value="typical">typical</option></select></p>
+    <p id="plan-desc" class="small"></p>
+  </div>
+  <div id="tbl-scenarios"></div>
+  <div id="chart-after" class="viz-root"></div>
+  <div id="chart-tax" class="viz-root"></div>
+  <h3>How to read the terms</h3>
+  <table>
+    <tr><th>Term</th><th>Pros</th><th>Cons</th><th>2026 deduction on a $100k/yr plan</th></tr>
+    <tr><td>Month-to-month (on-demand)</td><td>Cancel any month; cash at risk is one month (about $8,300 per $100k/yr); same $3.50 B200 rate at Vultr as the prepaid contract</td><td>8-GPU plans at Vultr need account review; capacity not guaranteed; only December's bill is deductible in 2026</td><td class="num">about $8,500 (Dec 1 start) to $20,000 (Nov 15 test on Koyeb)</td></tr>
+    <tr><td>3-month prepaid</td><td>Deductible in full when paid in December; walk away after a quarter; 3% to 5% discount where published (Verda, Vast reserved up to 50% on an existing instance)</td><td>Non-refundable; still a quarter of exposure if traffic disappears</td><td class="num">$25,000 (plus the test weeks)</td></tr>
+    <tr><td>12-month prepaid</td><td>Full-year deduction in 2026 (about $45k to $49k of tax per $100k); guaranteed capacity through 2027; a bargaining chip for a real discount (Koyeb "up to 50% off" by contact)</td><td>Non-refundable; exit only by resale on SF Compute-style markets if bought there, or by sublease where allowed (mostly not); the prepaid price at Vultr equals on-demand</td><td class="num">$100,000 (plus the test weeks)</td></tr>
+  </table>
+</section>
+
+<section id="tax">
+  <h2>F. Tax mechanics</h2>
+  <p>You are a cash-basis sole proprietor, so GPU bills are deductible when paid (Reg. 1.461-1(a)(1); Pub 538). A prepayment is the exception: it is deductible when paid only if the benefit ends by the earlier of 12 months after it starts or the end of the next tax year (Reg. 1.263(a)-4(f), the 12-month rule). The Ninth Circuit, which covers California, applied the one-year rule to a cash-basis taxpayer in Zaninovich v. Commissioner (616 F.2d 429, 1980). So a reservation paid in full and non-refundable in December 2026 qualifies whether it runs December 2026 to November 2027 or January to December 2027; one that runs into 2028 does not. The regulation's examples warn against fixed-quantity blocks of hours and auto-renewing contracts, so sign a term for specific GPUs and dates, not a bucket of credits.</p>
+  <p>The business must already be open to the public when you pay. Under IRC 195 and Kellett (T.C. Memo. 2022-62), an online business begins when it is open to customers even with zero revenue; if the API is not open until January, every 2026 dollar, including the prepay, becomes a start-up cost amortized over 180 months. Only the net loss offsets W-2 pay, and IRC 461(l) caps it at $256,000 for a single filer in 2026 (Rev. Proc. 2025-32), with the excess carried forward as an NOL; California has its own cap ($313,000 in 2025, 2026 not yet published). Material participation is the "substantially all" test or 500 hours (Reg. 1.469-5T); keep a log. The hobby-loss factors (Reg. 1.183-2(b)) and economic substance (IRC 7701(o), 20% to 40% penalties under 6662) are satisfied by a real service sold at market prices with a written plan and books, which is what Huff (allowed) had and Young (denied, $16M of other income, plan written after the audit began) did not. Owned hardware gets 100% federal bonus depreciation if placed in service by December 31 (IRC 168(k) as amended by P.L. 119-21), but California allows only $25,000 of Section 179 (phased out above $200,000 of purchases) plus 5% first-year MACRS for a December in-service date. The arithmetic checks: $100,000 of expense saves $49,300; a $100,000 server saves $40,536.</p>
+  <div class="card callout">
+    <h3 style="margin-top:0">December prepay calculator</h3>
+    <p class="small">Prepay amount (non-refundable, term of 12 months or less, ending by Dec 31, 2027): $<input id="calc-amt" type="number" value="100000" step="1000" style="width:110px"> &nbsp; December 2026 revenue: $<input id="calc-rev" type="number" value="2000" step="500" style="width:90px"> &nbsp; Other 2026 business losses already using the cap (vans etc.): $<input id="calc-other" type="number" value="0" step="1000" style="width:100px"></p>
+    <div id="calc-out"></div>
+  </div>
+  <p class="small">Two 2027 items to plan for: California SB 122 (signed June 29, 2026) taxes "digital products" including SaaS from January 1, 2027, and a hosted-model token API looks like taxable SaaS for California customers, so register for a seller's permit before then. Redwood City requires a business license tax certificate (about $90) and a fictitious business name statement within 40 days if you trade as Radiant Machines.</p>
+  <div id="tbl-tax"></div>
+  <h3>Model licenses</h3>
+  <p>All of the recommended models can be served as a paid API without a separate license: Hy4-preview and Hy3 are Apache 2.0; GLM 5.3 Flash, MiMo and DeepSeek V4.x are MIT; GLM 5.3's only gate is a security review above $10B of revenue. Step 5 Preview and Kimi K3 need a separate agreement above $20M of model-as-a-service revenue in 12 months and a "Powered by" or name display above 100M monthly users. Llama requires "Built with Llama". Mistral Medium and Large are research-only or closed. Nothing has a no-competing-model clause.</p>
+  <div id="tbl-licenses"></div>
+  <h3>Privacy and data rules</h3>
+  <div id="tbl-privacy"></div>
+</section>
+
+<section id="timeline">
+  <h2>G. Timeline to be live by mid-December</h2>
+  <p>"Josh" marks steps only you can do (identity, cards, signatures, applications). Everything else can be scripted or delegated.</p>
+  <ul class="timeline">
+    <li><span class="when">Oct 27 to Oct 31</span><span><b>Set up the entity and accounts (Josh).</b> Redwood City business license and FBN for Radiant Machines; EIN if not already; business bank account and Stripe account; open Vultr, Koyeb, Lambda and DigitalOcean accounts with the business card and run a few dollars of small instances at Vultr to start the billing history its 8-GPU gate wants; ask Vultr and Koyeb sales for a written 3-month and 12-month B200 node quote; write and publish the privacy policy and terms (prompts not logged, no training on data, retention stated); submit the OpenRouter provider application (form at openrouter.ai/providers/apply/form) and the Hugging Face provider request. Budget decision: $100k or $250k, and how much of the $256k cap the vans will use.</span></li>
+    <li><span class="when">Nov 3 to Nov 7</span><span><b>Build the serving stack (automatable).</b> vLLM 0.31+ (Hy4-preview and Step 5 need the vendor Docker images; GLM 5.3 is in stable), an OpenAI-compatible gateway with API keys, per-key usage metering and Stripe billing, a /models feed in OpenRouter's schema, health checks, Prometheus metrics, and an auto-restart supervisor. Bring it up on one Koyeb H200 ($3.00/hr) with a model that fits (GLM 5.3 Flash needs 4 GPUs; gpt-oss-120b fits one) to prove the pipeline end to end.</span></li>
+    <li><span class="when">Nov 10 to Nov 14</span><span><b>Benchmark on the real node (automatable, Josh approves the spend).</b> Rent 8x H200 at Koyeb ($24/node-hr, instant) for two to three days, or 8x B200 if Koyeb or Vultr grants it; load Hy4-preview FP8 and GLM 5.3; run vllm bench serve at 32 to 256 concurrency with 3k/1k and 8k/1k shapes; record output tokens/s per GPU and time to first token. Recompute revenue per GPU-hour with the measured number. Decide B200 versus MI355X (Vultr $2.59, if in stock) on the measured ratio, not the mapped estimate.</span></li>
+    <li><span class="when">Nov 15 to Nov 21</span><span><b>Launch (Josh signs off).</b> Start the month-to-month node. Open the public API with a pricing page and Stripe checkout; onboard at least one unrelated paying customer (a startup, a friend's company, an agency) at posted prices and keep the invoice: this is the IRC 195 "open for business" date. Post the OpenRouter-format models feed and pricing 5% under the floor. If OpenRouter approves, go live there the same day.</span></li>
+    <li><span class="when">Nov 24 to Dec 12</span><span><b>Operate and measure (automatable, Josh reviews weekly).</b> Hold uptime above 95% (OpenRouter derates below it); watch the per-model share, time to first token and 429 rate on your OpenRouter provider page; tune price and concurrency; add Step 5 Preview and Hy3 if they fit alongside. Keep a time log for material participation. Weekly: revenue per GPU-hour versus $3.50 rent, and realized utilization.</span></li>
+    <li><span class="when">Dec 15</span><span><b>Target: earning.</b> By now you have three to four weeks of real revenue per GPU-hour and a yes or no from OpenRouter.</span></li>
+    <li><span class="when">Dec 15 to Dec 28</span><span><b>Decide and sign (Josh).</b> If measured revenue per GPU-hour at measured utilization beats $3.50, sign the prepaid contract (Vultr bare metal 12-month, or Koyeb's discounted reservation) for a term ending no later than December 31, 2027, non-refundable, specific GPUs and dates, and pay it by December 28 so it clears in 2026. If not, stop the node; the loss is the test weeks (about $20k on a $100k plan) and the setup time. Either way, write the one-page business plan with the measured numbers and the path to profit, dated before the prepay.</span></li>
+    <li><span class="when">Dec 29 to Dec 31</span><span><b>Close the year (Josh).</b> Confirm the payment posted, collect the signed term, export Stripe and OpenRouter revenue records, save the time log, and send the package to the CPA. Register for the California seller's permit for the 2027 SaaS tax.</span></li>
+  </ul>
+</section>
+
+<section id="risks">
+  <h2>H. Risks</h2>
+  <table>
+    <tr><th>Risk</th><th>What the research found</th><th>Mitigation</th></tr>
+    <tr><td>Not accepted on OpenRouter</td><td>Backlog, priority to proprietary models and gap-fillers; roughly 1 in 40 accepted per a secondhand account; no published turnaround</td><td>Apply in week one with a gap model (Hy4-preview, 4 hosts); run your own Stripe API in parallel so the business is open regardless; keep the commitment month-to-month until approved</td></tr>
+    <tr><td>Preview models change price or vanish</td><td>Hy4-preview is "an early version... with known issues"; Step 5 Preview volume fell 88% in a week; DeepSeek V4-Pro traffic was redirected by the lab</td><td>Serve two or three models per node; re-price weekly; never prepay on one model's economics</td></tr>
+    <tr><td>Inference prices keep falling</td><td>Models with many hosts sit at floors that cannot pay for a B200 (DeepSeek V4.1 Flash $0.07/$0.18); large clouds price about 3x the floor and still get traffic on throughput and uptime</td><td>Compete on throughput and uptime, not only price; the model assumes a 5% undercut and a 7% share cap</td></tr>
+    <tr><td>GPU rental prices rise</td><td>H100 contract rates rose 40% from October 2025 to March 2026; Nebius and Jarvislabs raised prices in October 2026 on HBM supply</td><td>This is the business reason for a prepaid term: it locks capacity and price</td></tr>
+    <tr><td>Terms-of-service violation</td><td>Several clouds forbid resale or service-bureau use; Vultr's 8-GPU plans are gated; RunPod's supplemental terms are unavailable</td><td>Use Vultr, Koyeb, DigitalOcean, Lambda or Vast, whose terms contemplate end users; never re-list rented GPUs on Vast or Lium</td></tr>
+    <tr><td>Throughput assumptions</td><td>Every high-volume model's throughput is mapped from a related architecture; AMD cells are ratio estimates</td><td>Benchmark on the real node in week three before pricing or prepaying</td></tr>
+    <tr><td>Single-node outage</td><td>One node means 0% uptime during any failure; OpenRouter counts 5xx errors against you after 100 requests</td><td>Health checks and auto-restart; a warm single-GPU fallback for small models; accept a lower share rather than overload</td></tr>
+    <tr><td>Model licenses</td><td>All recommended models permit a paid API; Step 5 and Kimi K3 have $20M revenue thresholds; Llama needs attribution; Mistral Large is research-only</td><td>Keep a license file per model; display the required notices</td></tr>
+    <tr><td>Data privacy and logging</td><td>OpenRouter requires a published policy on logging and training; CalOPPA requires a posted policy; CCPA thresholds ($26.6M revenue or 100k consumers) will not be reached</td><td>Do not log prompt contents; state retention; offer zero-data-retention</td></tr>
+    <tr><td>Payment and chargebacks</td><td>OpenRouter pays by monthly invoice (no net terms published); direct customers via Stripe carry normal card risk</td><td>Prepaid credits for direct customers; small balances; Stripe Radar</td></tr>
+    <tr><td>Tax: the prepay is disallowed</td><td>Risks are a refundable or credit-style payment, a term past December 31, 2027, a business not yet open, or no business purpose for prepaying</td><td>Specific dated non-refundable term, first customer before paying, a written plan, and a CPA review of the contract before December 28</td></tr>
+    <tr><td>Tax: the cap</td><td>$256k federal excess business loss cap for 2026 shared with the vans; California's own cap</td><td>Size the prepay to the remaining cap; the excess still carries forward</td></tr>
+    <tr><td>Owned hardware falls in value</td><td>Used H100 nodes hold 63% to 75% after 2.5 to 3 years by asks; one forecast puts a 2026-bought node at 3% to 6% of cost by 36 months; lenders lend 55% to 65%</td><td>Rent unless the owned configuration can serve the high-value models, which a PCIe-only RTX PRO 6000 box cannot be shown to do yet</td></tr>
+  </table>
+</section>
+
+<section id="alt">
+  <h2>Alternatives: AMD, TPUs, Macs, buying hardware, crypto, other platforms</h2>
+  <h3>Non-NVIDIA and value-tier accelerators</h3>
+  <p>AMD is the one alternative that changes the answer. Vultr sells 8x MI355X at $2.59 per GPU-hour and 8x MI300X at $1.85 (and 8x B200 at $3.50, which is why B200 is the baseline). On InferenceX the MI355X delivers 87% of a B200's gpt-oss-120b throughput and matches it on cost per token, but on DeepSeek-class MoE models its FP8 path is only 35% of B200 (90% on the tuned FP4 path at high per-user speeds), and no public MI355X number exists for Hy4, GLM 5.3 or Kimi K3. The model therefore scores an MI355X node below B200 on conservative numbers and roughly equal on typical ones; a two-day benchmark settles it. MI300X is cheap but its MLA path is slow (26% of H200 on DeepSeek R1), so it loses money on the big models. Google TPU v7 costs $12 a chip-hour and v6e needs a quota request; AWS Trainium has only batch-1 data for these models; Gaudi 3 has no on-demand listing; Qualcomm, Tenstorrent, Groq, Cerebras, SambaNova and the newer ASIC startups are not rentable as raw hardware by a small customer. The RTX PRO 6000 (96 GB, Koyeb $2.20, RunPod $2.49) is the best value for 70B to 120B models, but those models do not pay.</p>
+  <div id="tbl-alt"></div>
+  <h3>Macs and unified-memory appliances</h3>
+  <p>Not for this. A Mac Studio serves big MoE models at batch 1 to 4 (DeepSeek V3.2 4-bit: 19 tokens/s single, 26 at batch 2; Kimi K2.6: 21 to 41; gpt-oss-120b: 68 single, 187 at batch 8) and its prompt processing is 200 to 700 tokens/s, so time to first token is 5 to 48 seconds on 1k to 8k prompts, which OpenRouter publishes and routes away from. On cost per output token it loses by about 10x on gpt-oss-120b and 25x on 70B dense models versus an H100, and only lands in the same band on DeepSeek-class models at low per-user speed. Four M3 Ultras over Thunderbolt 5 reach 32 tokens/s on DeepSeek V3.1, still batch 1. The M5 Ultra 512 GB price was unannounced on October 22; no host offers a 512 GB Mac; MacStadium's policy allows third-party access only inside a SaaS offering. A DGX Spark has far better prefill (1,700 to 6,000 tokens/s) but tops out around 175 aggregate tokens/s on gpt-oss-120b. The tax angle (100% federal bonus, $25k California Section 179) is real but small relative to the throughput gap.</p>
+  <div id="tbl-macs"></div>
+  <h3>Hardware you can buy today (stock checked 2026-10-22)</h3>
+  <p>No used 8x H100 or H200 server is in stock at a printed price (ServerPartDeals' $180,000 XE9680 and Cloud Ninjas' $375,000 listings both show zero stock). The tinybox is now made to order ("Ships in 1 to 8 weeks", bank transfer only, checkout "not connected") at $19,000 (6x R9700), $60,000 (2x RTX 6000 Blackwell) and $200,000 (8x), and costs more than an equivalent in-stock Bizon box. Bizon ships 4U chassis within days ($17,731 to $20,653 base) and RTX PRO 6000 cards are $16,956 to $17,850 on special order or $24,450 refurbished with a 3 to 4 day ETA, so a 6-card box is about $128,000 all-in. Colocation that accepts shipped gear with printed prices: Psychz (Dallas/Ashburn) 4.99 kW cabinet $1,058 a month on a 1-year term, MillionMiner (Nebraska/Missouri/Mississippi) $0.075 per kWh all-in and month-to-month, Hurricane Electric Fremont $600 a month for a cabinet. The model's owned RTX PRO 6000 scenario earns only $0.28 per GPU-hour on mid-size models at 40% utilization: after a $40,000 federal-plus-California tax saving on a $100,000 purchase, the 12-month after-tax cash is about -$58,000, versus +$55,000 for the prepaid B200 node. An 8-card box (768 GB) could in principle hold Hy3 and GLM 5.3, but there is no benchmark of PCIe-only tensor parallel on those models, so owning is a 2027 question once a measured number exists.</p>
+  <div id="tbl-buy"></div>
+  <h3>Colocation with printed prices</h3>
+  <div id="tbl-colo"></div>
+  <h3>Rental price trend</h3>
+  <p>H100 rent fell from over $8 an hour in 2023 to a $2.81 composite in December 2025 and a $1.70 one-year contract low in October 2025, then reversed: $2.35 contracts by March 2026 and October 2026 indices of $2.88 to $3.75 for on-demand, up 10% to 26% year over year. H200 moved from $4.42 to $5.88 on one index between August and October 2026. The only 2027 forecasts come from market blogs ($1 to $1.50 as Blackwell saturates) and one analyst note on HBM prices doubling. Price rises are the business reason to lock a term; price falls are the reason to keep the term short.</p>
+  <div id="chart-trend" class="viz-root"></div>
+  <div id="tbl-trend"></div>
+  <div id="tbl-forecast"></div>
+  <h3>Crypto and token-paid GPU networks (flagged, low priority)</h3>
+  <p>Nothing token-paid is profitable on rented GPUs, and most networks forbid rented or virtual hardware anyway (Chutes and Targon need TEE-capable bare metal and explicitly exclude RunPod and Vast; Salad needs an owned Windows PC; Aethir needs bare metal with a large stake). Classic proof-of-work mining is dead except one fresh coin (Pearl) that pays an RTX 4090 about $9.84 a day on WhatToMine at $0.10 per kWh, listed on a single exchange with no market cap; every legacy coin pays $0.06 to $1.06 a day. The live "AI mining" rates: Lium (Bittensor subnet 51) publishes measured provider earnings of $1,292 per H100-month and $10,333 per 8x H100 node-month, 95% to the provider, paid daily in USDT or subnet alpha; Targon (subnet 4) caps H200 at $2.90 to $3.50 per card-hour on TEE nodes; Akash prices an H100 at $2.73 an hour with unknown utilization. Projection for November 1 to December 31 on rented hardware: a 4090 loses about $660 at typical rental rates and an H100 loses $200 to $3,200; on owned hardware at California power a 4090 nets about $465 on Lium and an H100 about $2,300, and an owned 8x H200 TEE node on Targon could net $31,000 to $38,000 in subnet alpha if it wins auctions. Token rewards are ordinary income at receipt (Notice 2014-21, Rev. Rul. 2023-14), so they do not help the W-2 offset. Most rental contracts (Lambda, Nebius, Voltage Park, TensorDock, Vast for card-funded accounts) ban mining outright.</p>
+  <div id="tbl-crypto"></div>
+  <h3>Other platforms and monetization routes</h3>
+  <p>Beyond OpenRouter and your own API, the routes that could produce a paying customer by December 31 are: managed-inference consulting where the client holds the cloud account and you charge a fee (Upwork demand exists, and it sidesteps every resale clause); dedicated endpoints for startups priced under the incumbents (Modal $3.95, fal $2.49 to $4.50, Together $5.49, Baseten $6.50, Fireworks $8.00 per H100-hour; B200 $6.25 to $13.00), which means a small provider wins at $2.00 to $3.50; and SF Compute as a hedge for unused reserved hours. Startup credit programs are mostly closed to a sole proprietorship (AWS Activate Founders $1,000 to $5,000, Nebius $5,000 and Modal $30 a month are the exceptions). Referral programs pay in credits. NVIDIA DGX Cloud Lepton supply is partner-only; Compute Exchange is a parked domain; Hydra Host's partner program has no published share.</p>
+  <div id="tbl-routes"></div>
+  <h3>Niche models: roleplay, uncensored, specialized, other modalities</h3>
+  <div id="niche-text"><p class="small">The dedicated niche-model search is still being compiled; this table fills in when it lands.</p></div>
+  <div id="tbl-niche"></div>
+  <div id="tbl-modalities"></div>
+  <div id="tbl-niche-risks"></div>
+</section>
+
+<section id="rank">
+  <h2>Rankings</h2>
+  <div class="grid">
+    <div class="card">
+      <h3 style="margin-top:0">"Airbnb for inference" marketplaces, best first</h3>
+      <ol>
+        <li><b>OpenRouter.</b> USD, monthly invoice, no provider fee, about 22T tokens a day. Gate: approval.</li>
+        <li><b>Your own API (Stripe).</b> Not a marketplace, but the guaranteed first customer and the IRC 195 start date.</li>
+        <li><b>Hugging Face Inference Providers.</b> Published path, USD, but needs a paid Team or Enterprise plan and staff have not answered the thread since September 2025.</li>
+        <li><b>NanoGPT.</b> Email intake; pays like a customer; says a single-operator service is unlikely to fit.</li>
+        <li><b>Chutes (Bittensor SN64).</b> Permissionless but TEE bare metal only, paid in alpha. Crypto.</li>
+        <li><b>Targon (SN4).</b> 8-GPU TEE nodes, USD-denominated auctions settled from emissions. Crypto.</li>
+        <li><b>cheaperinference.com.</b> Routes your cloud API keys, not your GPUs; you carry the cloud-terms risk.</li>
+        <li>Not available: Requesty, Unify, Martian, AIML API, Featherless, Parasail, Kluster.ai (shut down), cheapinference.com (parked), Inference.net (dormant), Vercel and Cloudflare AI gateways, Portkey, Helicone, LiteLLM.</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">"Airbnb for GPU time" marketplaces, best first</h3>
+      <ol>
+        <li><b>SF Compute.</b> Resell reserved node-hours you bought there, on the same order book, in USD credits. The only resale route a rental contract allows.</li>
+        <li><b>Vast.ai host.</b> Owned hardware only; about 80% host share; PayPal, Stripe or Wise weekly; H100 median $2.53, 4090 $0.67, 5090 $0.87 to renters.</li>
+        <li><b>TensorDock host.</b> Owned bare metal in a datacenter; 25% commission; Stripe payouts.</li>
+        <li><b>Lium (Bittensor SN51).</b> Self-serve listing, 95% to the provider, daily USDT or alpha, 48-hour penalty on dropped rentals. Crypto.</li>
+        <li><b>Akash.</b> AKT or USDC, 1% to 2% take plus a reported 20% on USDC, needs Kubernetes and a domain. Crypto.</li>
+        <li><b>io.net.</b> Staking required, few suppliers paid per day. Crypto.</li>
+        <li><b>Salad.</b> Owned Windows PCs only; measured $0.29 an hour on a 4090; cash out via PayPal.</li>
+        <li>Closed or unsuitable: RunPod Community Cloud (closed to new hosts February 2026), Shadeform supply (Tier 3/4 datacenters only), Hyperbolic (email), Clore, Nosana, Render.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="sources">
+  <h2>Sources</h2>
+  <p class="small">Every table row links to its source. The full research notes (about 1.2 MB across 17 files), the model inputs with sources (data/params.json and data/params_notes.md), the model code (model/model.py) and the raw OpenRouter endpoint JSON are in the repository.</p>
+  <div id="sources"></div>
+</section>
+
+<footer>Built 2026-10-22. Model: <code>model/model.py</code>. Inputs: <code>data/params.json</code>. Research notes: <code>research_notes/</code>. Nothing here is tax, legal or investment advice.</footer>
+</div>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

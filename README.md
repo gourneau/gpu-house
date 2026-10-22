@@ -1,0 +1,24 @@
+# GPU House
+
+Research and a financial model for a small business that rents GPUs (or buys a few servers) and sells AI inference, with the 2026 US federal and California tax mechanics applied.
+
+Live report: see the GitHub Pages site for this repository (the `docs/` folder).
+
+## Layout
+
+| Path | What it is |
+|---|---|
+| `docs/` | The published web page (static HTML, no build step). `docs/index.html` is the report; `docs/data.js` holds the model output it renders. |
+| `model/model.py` | Scenario model. Reads `data/params.json`, writes `data/results.json` and `data/results.md`. Run with `python -I model/model.py` (set `CASE=typical` for the typical-throughput case). |
+| `data/params.json` | Every input number with its source URL and the date it was checked. |
+| `data/params_notes.md` | Why each input was chosen, and which cells are estimates. |
+| `research_notes/` | Raw research notes from the web research pass, one file per topic, with citations. Includes the raw OpenRouter endpoint JSON. |
+| `reports/` | The synthesized research report in markdown. |
+
+## Method
+
+1. Web research on supply (GPU rental prices and terms of service), demand (inference marketplaces, OpenRouter pricing and volume), resale markets, throughput benchmarks, owned-hardware costs, alternative accelerators, Macs, niche models, other platforms, crypto earnings and tax rules. Every number carries a source URL and the date checked (2026-10-22).
+2. A deterministic model turns those inputs into revenue per GPU-hour, an opportunity ranking per model and GPU, and scenario tables (month-to-month, 3-month, 12-month prepaid, staged test-then-prepay, Vast resale, owned hardware, hybrid) at $50k, $100k and $250k budgets and 20%, 40% and 70% utilization.
+3. The web page renders the model output with charts and tables.
+
+Nothing here is tax or legal advice. The tax section lists the rules and citations for a CPA to confirm.
