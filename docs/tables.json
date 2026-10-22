@@ -8301,9 +8301,1473 @@
    "checked": "2026-10-22"
   }
  ],
- "niche": [],
- "niche_risks": [],
- "modalities": [],
+ "niche": [
+  {
+   "model": "thedrummer/cydonia-24b-v4.1",
+   "weekly_tokens": 994000000.0,
+   "providers": 1,
+   "min_out": 0.5,
+   "median_out": 0.5,
+   "who_serves": "Parasail (bf16, 131k)",
+   "license": "not checked (Mistral Small 24B derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 1: second source; about $45/day for the whole model; 1x 48 or 80 GB GPU",
+   "src": "https://openrouter.ai/thedrummer/cydonia-24b-v4.1",
+   "est": true,
+   "opening_rank": 1,
+   "latest_day_tokens": 142000000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "sao10k/l3.1-euryale-70b",
+   "weekly_tokens": 266000000.0,
+   "providers": 1,
+   "min_out": 0.85,
+   "median_out": 0.85,
+   "who_serves": "DeepInfra (fp8, 131k)",
+   "license": "not checked (Llama 3.1 derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 3: second source DeepInfra; about $32/day; 1x 80 GB fp8",
+   "src": "https://openrouter.ai/sao10k/l3.1-euryale-70b",
+   "est": true,
+   "opening_rank": 3,
+   "latest_day_tokens": 37600000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "nousresearch/hermes-3-llama-3.1-70b",
+   "weekly_tokens": 532000000.0,
+   "providers": 1,
+   "min_out": 0.7,
+   "median_out": 0.7,
+   "who_serves": "DeepInfra (fp8, 131k)",
+   "license": "not checked (Llama 3.1 derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 3: second source DeepInfra; about $53/day; 1x 80 GB fp8",
+   "src": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-70b",
+   "est": true,
+   "opening_rank": 3,
+   "latest_day_tokens": 76200000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "anthracite-org/magnum-v4-72b",
+   "weekly_tokens": 116000000.0,
+   "providers": 1,
+   "min_out": 5.0,
+   "median_out": 5.0,
+   "who_serves": "Mancer 2 (fp8, 32k)",
+   "license": "not checked (Qwen2.5-72B derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 4: undercut Mancer; about $43/day",
+   "src": "https://openrouter.ai/anthracite-org/magnum-v4-72b",
+   "est": true,
+   "opening_rank": 4,
+   "latest_day_tokens": 16600000.0,
+   "more": [
+    "a $0.80/$1.00 listing would take routing share"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "weekly_tokens": 10500000000.0,
+   "providers": 2,
+   "min_out": 1.0,
+   "median_out": 1.07,
+   "who_serves": "SiliconFlow (fp8), GMICloud (fp8)",
+   "license": "MIT",
+   "content_risk": "medium (Janitor AI main model)",
+   "opening_note": "opening 5: third source; about $450/day; needs 8x 80 GB, capital heavy",
+   "src": "https://openrouter.ai/deepseek/deepseek-chat-v3-0324",
+   "est": true,
+   "opening_rank": 5,
+   "latest_day_tokens": 1500000000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "nousresearch/hermes-3-llama-3.1-405b",
+   "weekly_tokens": 263000000.0,
+   "providers": 1,
+   "min_out": 1.0,
+   "median_out": 1.0,
+   "who_serves": "DeepInfra (fp8, 131k)",
+   "license": "not checked (Llama 3.1 derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 6: second source; about $38/day; 8x 80 GB fp8",
+   "src": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-405b",
+   "est": true,
+   "opening_rank": 6,
+   "latest_day_tokens": 37600000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "nousresearch/hermes-4-405b",
+   "weekly_tokens": null,
+   "providers": 1,
+   "min_out": 3.0,
+   "median_out": 3.0,
+   "who_serves": "Nebius (fp8, 131k)",
+   "license": "not checked (Llama 3.1 derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 6: second source; SillyTavern 185M app tokens; daily not captured",
+   "src": "https://openrouter.ai/nousresearch/hermes-4-405b",
+   "opening_rank": 6,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "gryphe/mythomax-l2-13b",
+   "weekly_tokens": 337000000.0,
+   "providers": 3,
+   "min_out": 0.11,
+   "median_out": 0.4,
+   "who_serves": "Parasail $0.08/0.11, Mancer 2 $0.35/0.60, DeepInfra $0.40/0.40",
+   "license": "not checked (Llama 2 derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "price-sensitive routing: Parasail 47.7% share at $0.08 vs Mancer 23.6%",
+   "src": "https://openrouter.ai/gryphe/mythomax-l2-13b",
+   "est": true,
+   "latest_day_tokens": 48200000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "sao10k/l3-lunaris-8b",
+   "weekly_tokens": 2600000000.0,
+   "providers": 2,
+   "min_out": 0.05,
+   "median_out": 0.05,
+   "who_serves": "Parasail (bf16), DeepInfra (fp8)",
+   "license": "not checked (Llama 3 derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "highest-volume fine-tune (372M/day); HammerAI 7.21B app tokens; $0.05 floor",
+   "src": "https://openrouter.ai/sao10k/l3-lunaris-8b",
+   "est": true,
+   "latest_day_tokens": 372000000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "thedrummer/unslopnemo-12b",
+   "weekly_tokens": 161000000.0,
+   "providers": 1,
+   "min_out": 0.4,
+   "median_out": 0.4,
+   "who_serves": "Parasail (bf16, 1.0M ctx)",
+   "license": "not checked (Mistral Nemo derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "single provider; HammerAI 1.13B app tokens",
+   "src": "https://openrouter.ai/thedrummer/unslopnemo-12b",
+   "est": true,
+   "latest_day_tokens": 23000000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "thedrummer/skyfall-36b-v2",
+   "weekly_tokens": 143000000.0,
+   "providers": 1,
+   "min_out": 0.8,
+   "median_out": 0.8,
+   "who_serves": "Parasail (fp8, 32k)",
+   "license": "not checked",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "single provider; SillyTavern 127M app tokens",
+   "src": "https://openrouter.ai/thedrummer/skyfall-36b-v2",
+   "est": true,
+   "latest_day_tokens": 20400000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "undi95/remm-slerp-l2-13b",
+   "weekly_tokens": 87000000.0,
+   "providers": 1,
+   "min_out": 0.65,
+   "median_out": 0.65,
+   "who_serves": "Mancer 2 (fp8, 6k)",
+   "license": "not checked (Llama 2 derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "single provider; NoFilterGPT 37M app tokens",
+   "src": "https://openrouter.ai/undi95/remm-slerp-l2-13b",
+   "est": true,
+   "latest_day_tokens": 12400000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "mancer/weaver",
+   "weekly_tokens": null,
+   "providers": 1,
+   "min_out": 0.75,
+   "median_out": 0.75,
+   "who_serves": "Mancer 2 (fp8, 8k)",
+   "license": "not stated",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "single provider; activity not captured",
+   "src": "https://openrouter.ai/api/v1/models/mancer/weaver/endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+   "weekly_tokens": 607000000.0,
+   "providers": 1,
+   "min_out": 0.9,
+   "median_out": 0.9,
+   "who_serves": "Venice (fp16, 128k)",
+   "license": "not checked (Mistral Small 24B derivative)",
+   "content_risk": "high (uncensored; HotLive, ChamadaVIP apps)",
+   "opening_note": "highest-volume uncensored endpoint (about 87M/day); Venice holds the brand",
+   "src": "https://openrouter.ai/cognitivecomputations/dolphin-mistral-24b-venice-edition",
+   "est": true,
+   "latest_day_tokens": 86800000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "minimax/minimax-m2-her",
+   "weekly_tokens": 403000000.0,
+   "providers": 1,
+   "min_out": 1.2,
+   "median_out": 1.2,
+   "who_serves": "Minimax",
+   "license": "not checked",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "lab-only roleplay model; Janitor AI, SillyTavern apps",
+   "src": "https://openrouter.ai/minimax/minimax-m2-her",
+   "est": true,
+   "latest_day_tokens": 57500000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "qwen/qwen-2.5-72b-instruct",
+   "weekly_tokens": 1270000000.0,
+   "providers": 1,
+   "min_out": 0.4,
+   "median_out": 0.4,
+   "who_serves": "DeepInfra (fp8, 32k)",
+   "license": "Qwen LICENSE AGREEMENT (100M MAU clause)",
+   "content_risk": "low",
+   "opening_note": "single provider; Stockteller, Fraction AI apps (not roleplay)",
+   "src": "https://openrouter.ai/qwen/qwen-2.5-72b-instruct",
+   "est": true,
+   "latest_day_tokens": 181000000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "mistralai/mistral-nemo",
+   "weekly_tokens": 104000000000.0,
+   "providers": 5,
+   "min_out": 0.0216,
+   "median_out": 0.03,
+   "who_serves": "Io Net, DekaLLM, DeepInfra (87% share), Parasail, Mistral",
+   "license": "Apache 2.0",
+   "content_risk": "low",
+   "opening_note": "14.9B/day but DeepInfra holds 87% of tokens; floor $0.0166/$0.0216",
+   "src": "https://openrouter.ai/mistralai/mistral-nemo",
+   "est": true,
+   "latest_day_tokens": 14900000000.0,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "mistralai/mixtral-8x22b-instruct",
+   "weekly_tokens": null,
+   "providers": 1,
+   "min_out": 6.0,
+   "median_out": 6.0,
+   "who_serves": "Mistral (3 endpoints)",
+   "license": "Apache 2.0",
+   "content_risk": "low",
+   "opening_note": "lab-only at $2/$6; activity not captured",
+   "src": "https://openrouter.ai/api/v1/models/mistralai/mixtral-8x22b-instruct/endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "sao10k/l3.3-euryale-70b",
+   "weekly_tokens": null,
+   "providers": 0,
+   "min_out": null,
+   "median_out": null,
+   "who_serves": "none (0 endpoints)",
+   "license": "not checked (Llama 3.3 derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 2: zero-provider slug",
+   "src": "https://openrouter.ai/api/v1/models/sao10k/l3.3-euryale-70b/endpoints",
+   "opening_rank": 2,
+   "more": [
+    "Infermatic sells Euryale v2.3 off-platform at $9/mo"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "nousresearch/hermes-4-70b",
+   "weekly_tokens": null,
+   "providers": 0,
+   "min_out": null,
+   "median_out": null,
+   "who_serves": "none (0 endpoints)",
+   "license": "not checked (Llama 3.1 derivative)",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 2: zero-provider slug",
+   "src": "https://openrouter.ai/api/v1/models/nousresearch/hermes-4-70b/endpoints",
+   "opening_rank": 2,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "thedrummer/rocinante-12b",
+   "weekly_tokens": null,
+   "providers": 0,
+   "min_out": null,
+   "median_out": null,
+   "who_serves": "none (0 endpoints)",
+   "license": "not checked",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 2: zero-provider slug; Infermatic serves it free; 12B fits one 24 GB GPU",
+   "src": "https://openrouter.ai/api/v1/models/thedrummer/rocinante-12b/endpoints",
+   "opening_rank": 2,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "sophosympatheia/midnight-rose-70b",
+   "weekly_tokens": null,
+   "providers": 0,
+   "min_out": null,
+   "median_out": null,
+   "who_serves": "none (0 endpoints)",
+   "license": "not checked",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 2: zero-provider slug",
+   "src": "https://openrouter.ai/api/v1/models/sophosympatheia/midnight-rose-70b/endpoints",
+   "opening_rank": 2,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "neversleep/llama-3-lumimaid-70b and llama-3.1-lumimaid-8b",
+   "weekly_tokens": null,
+   "providers": 0,
+   "min_out": null,
+   "median_out": null,
+   "who_serves": "none (0 endpoints)",
+   "license": "not checked",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 2: zero-provider slugs",
+   "src": "https://openrouter.ai/api/v1/models/neversleep/llama-3-lumimaid-70b/endpoints",
+   "opening_rank": 2,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "microsoft/wizardlm-2-8x22b",
+   "weekly_tokens": null,
+   "providers": 0,
+   "min_out": null,
+   "median_out": null,
+   "who_serves": "none (0 endpoints)",
+   "license": "not checked",
+   "content_risk": "medium",
+   "opening_note": "opening 2: zero-provider slug",
+   "src": "https://openrouter.ai/api/v1/models/microsoft/wizardlm-2-8x22b/endpoints",
+   "opening_rank": 2,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "meta-llama/llama-3.1-405b (base and instruct)",
+   "weekly_tokens": null,
+   "providers": 0,
+   "min_out": null,
+   "median_out": null,
+   "who_serves": "none (0 endpoints)",
+   "license": "Llama 3.1 Community License",
+   "content_risk": "low",
+   "opening_note": "opening 2: zero-provider slugs; 8x 80 GB fp8",
+   "src": "https://openrouter.ai/api/v1/models/meta-llama/llama-3.1-405b-instruct/endpoints",
+   "opening_rank": 2,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "alpindale/goliath-120b",
+   "weekly_tokens": null,
+   "providers": 0,
+   "min_out": null,
+   "median_out": null,
+   "who_serves": "none (0 endpoints)",
+   "license": "not checked",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 2: zero-provider slug",
+   "src": "https://openrouter.ai/api/v1/models/alpindale/goliath-120b/endpoints",
+   "opening_rank": 2,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "raifle/sorcererlm-8x22b",
+   "weekly_tokens": null,
+   "providers": 0,
+   "min_out": null,
+   "median_out": null,
+   "who_serves": "none (0 endpoints)",
+   "license": "not checked",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "opening 2: zero-provider slug",
+   "src": "https://openrouter.ai/api/v1/models/raifle/sorcererlm-8x22b/endpoints",
+   "opening_rank": 2,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "thedrummer/anubis-70b-v1.1",
+   "weekly_tokens": null,
+   "providers": 0,
+   "min_out": null,
+   "median_out": null,
+   "who_serves": "not on OpenRouter (404)",
+   "license": "not checked",
+   "content_risk": "high (roleplay; adult-adjacent apps)",
+   "opening_note": "Infermatic serves it off-platform",
+   "src": "https://infermatic.ai/pricing",
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "tngtech/deepseek-r1t-chimera and r1t2-chimera",
+   "weekly_tokens": null,
+   "providers": 0,
+   "min_out": null,
+   "median_out": null,
+   "who_serves": "none (0 endpoints)",
+   "license": "not checked",
+   "content_risk": "low",
+   "opening_note": "zero-provider slugs",
+   "src": "https://openrouter.ai/api/v1/models/tngtech/deepseek-r1t-chimera/endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "openai/whisper-large-v3 (transcription)",
+   "weekly_tokens": null,
+   "providers": 3,
+   "min_out": 0.45,
+   "median_out": 1.15,
+   "who_serves": "DeepInfra $0.45, Together $1.50, Groq $1.85 per 1,000 min",
+   "license": "Apache 2.0 (model)",
+   "content_risk": "low",
+   "opening_note": "opening 7: 3 providers; L4 or L40S",
+   "src": "https://openrouter.ai/api/v1/models/openai/whisper-large-v3/endpoints",
+   "opening_rank": 7,
+   "more": [
+    "Parakeet TDT 0.6B v3 is Together only ($1.50)"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "hexgrad/kokoro-82m (TTS)",
+   "weekly_tokens": null,
+   "providers": 2,
+   "min_out": 0.62,
+   "median_out": 2.31,
+   "who_serves": "DeepInfra $0.62, Together $4.00 per 1M characters",
+   "license": "Apache 2.0 (model)",
+   "content_risk": "low",
+   "opening_note": "opening 8: 2 providers; fal $20, Venice $3.50",
+   "src": "https://openrouter.ai/api/v1/models/hexgrad/kokoro-82m/endpoints",
+   "est": true,
+   "opening_rank": 8,
+   "more": [
+    "Orpheus and Chatterbox absent from OpenRouter"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "baai/bge-m3 (embeddings)",
+   "weekly_tokens": 1030000.0,
+   "providers": 2,
+   "min_out": 0.01,
+   "median_out": 0.01,
+   "who_serves": "Parasail, DeepInfra",
+   "license": "MIT (model)",
+   "content_risk": "low",
+   "opening_note": "opening 9: $0.01 floor; 1.03M tokens this week in trending; any 24 GB GPU",
+   "src": "https://openrouter.ai/api/v1/models/baai/bge-m3/endpoints",
+   "opening_rank": 9,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "qwen/qwen3-embedding-8b (embeddings)",
+   "weekly_tokens": null,
+   "providers": 3,
+   "min_out": 0.01,
+   "median_out": 0.01,
+   "who_serves": "Nebius $0.01, DeepInfra $0.01, SiliconFlow $0.04",
+   "license": "Apache 2.0 (model)",
+   "content_risk": "low",
+   "opening_note": "opening 9: 3 providers at $0.01",
+   "src": "https://openrouter.ai/api/v1/models/qwen/qwen3-embedding-8b/endpoints",
+   "opening_rank": 9,
+   "more": [
+    "qwen3-reranker-8b has a single provider and no price"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "qwen/qwen3-vl-8b-instruct (vision)",
+   "weekly_tokens": null,
+   "providers": 1,
+   "min_out": 0.75,
+   "median_out": 0.75,
+   "who_serves": "Parasail only",
+   "license": "Apache 2.0 (model)",
+   "content_risk": "low",
+   "opening_note": "opening 10: single provider; qwen2.5-vl-72b also Parasail only ($0.80/$1.00)",
+   "src": "https://openrouter.ai/api/v1/models/qwen/qwen3-vl-8b-instruct/endpoints",
+   "opening_rank": 10,
+   "checked": "2026-10-22"
+  },
+  {
+   "model": "qwen/qwen3-vl-235b-a22b-instruct (vision)",
+   "weekly_tokens": null,
+   "providers": 3,
+   "min_out": 0.88,
+   "median_out": 1.9,
+   "who_serves": "DeepInfra (3.3% uptime), Venice, Parasail",
+   "license": "Apache 2.0 (model)",
+   "content_risk": "low",
+   "opening_note": "opening 10: DeepInfra endpoint unreliable; a reliable third source wins",
+   "src": "https://openrouter.ai/api/v1/models/qwen/qwen3-vl-235b-a22b-instruct/endpoints",
+   "opening_rank": 10,
+   "checked": "2026-10-22"
+  }
+ ],
+ "niche_risks": [
+  {
+   "risk": "Stripe account loss",
+   "detail": "bans adult live-chat, mature literature and AI content meeting those criteria",
+   "src": "https://stripe.com/legal/restricted-businesses",
+   "who_it_hits": "any uncensored text or image API billed through Stripe",
+   "severity": "high",
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "PayPal AUP",
+   "detail": "clause not checked (page did not render)",
+   "src": "https://www.paypal.com/us/legalhub/paypal/acceptableuse-full",
+   "who_it_hits": "same",
+   "severity": "unknown",
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "California SB 243 private right of action",
+   "detail": "greater of actual damages or $1,000 per violation plus fees; from Jan 1 2026",
+   "src": "https://natlawreview.com/article/ai-regulatory-update-californias-sb-243-mandates-companion-ai-safety-and",
+   "who_it_hits": "companion chatbot operators; API-provider status not addressed",
+   "severity": "high for consumer apps, unclear for API",
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "18 U.S.C. 2258A CSAM reporting",
+   "detail": "report on actual knowledge; fines up to $600,000 / $850,000; 1-year preservation",
+   "src": "https://www.law.cornell.edu/uscode/text/18/2258A",
+   "who_it_hits": "remote computing service providers, plausibly inference APIs",
+   "severity": "high",
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "TAKE IT DOWN Act",
+   "detail": "48-hour removal duty, process by May 19 2026, FTC enforcement",
+   "src": "https://www.govinfo.gov/content/pkg/PLAW-119publ12/html/PLAW-119publ12.htm",
+   "who_it_hits": "covered platforms with user-generated content",
+   "severity": "medium",
+   "more": [
+    "excludes provider-preselected content services"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "Product liability without First Amendment shield",
+   "detail": "Garcia: chatbot output not speech; strict liability survived; settled Jan 2026",
+   "src": "https://www.awkolaw.com/when-the-chatbot-becomes-the-defendant/",
+   "who_it_hits": "chatbot operators; suppliers possibly as component makers",
+   "severity": "medium",
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "State chatbot laws",
+   "detail": "13 states with companion chatbot laws as of Aug 2026; Idaho from Jul 1 2027",
+   "src": "https://avpassociation.com/state-laws-for-ai-chatbots",
+   "who_it_hits": "consumer-facing operators",
+   "severity": "medium",
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "Adult-content age verification",
+   "detail": "29 states with laws in force (Sept 2026 tracker); FSC v. Paxton upheld Texas",
+   "src": "https://www.gadgetreview.com/?p=416283",
+   "who_it_hits": "image and video generation with sexual content; chat apps if adult sites",
+   "severity": "medium",
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "Reputational: adult-adjacent traffic",
+   "detail": "top apps on uncensored endpoints: HotLive, ChamadaVIP, Hornyt, fanvue-bot",
+   "src": "https://openrouter.ai/cognitivecomputations/dolphin-mistral-24b-venice-edition",
+   "who_it_hits": "any provider listing uncensored or roleplay models",
+   "severity": "medium",
+   "more": [
+    "also WildGirl, WaifuBot, NoFilterGPT"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "OpenRouter onboarding",
+   "detail": "large backlog; proprietary models prioritized; under 80% uptime = fallback",
+   "src": "https://openrouter.ai/providers/apply",
+   "who_it_hits": "new providers",
+   "severity": "medium",
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "Small revenue per niche model",
+   "detail": "11 roleplay models sum to about 560M tokens/day (est): low thousands $/week",
+   "src": "https://openrouter.ai/thedrummer/cydonia-24b-v4.1",
+   "who_it_hits": "business case",
+   "severity": "high for a roleplay-only plan",
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "License limits on embeddings",
+   "detail": "jina-embeddings-v4 is non-commercial; CC BY-NC models need a commercial license",
+   "src": "https://jina.ai/embeddings/",
+   "who_it_hits": "embedding hosts",
+   "severity": "low to medium",
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "Chutes and Bittensor dependence",
+   "detail": "paid in TAO by 7-day compute; TDX bare metal and static IP; not Runpod or Vast",
+   "src": "https://github.com/rayonlabs/chutes-miner",
+   "who_it_hits": "GPU operators",
+   "severity": "medium",
+   "checked": "2026-10-22"
+  },
+  {
+   "risk": "Civitai-style processor cutoff for AI adult images",
+   "detail": "not verified (sources unavailable)",
+   "src": "https://en.wikipedia.org/wiki/Civitai",
+   "who_it_hits": "image generation with NSFW",
+   "severity": "unknown",
+   "checked": "2026-10-22"
+  }
+ ],
+ "modalities": [
+  {
+   "modality": "text, embeddings, transcription, TTS",
+   "marketplace": "OpenRouter",
+   "outside_provider_ok": "yes, by application; image and video endpoints are first-party labs only",
+   "unit_price": "provider sets per-token USD prices; monthly invoicing",
+   "src": "https://openrouter.ai/providers/apply",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "all tasks incl. image and LoRA",
+   "marketplace": "Hugging Face Inference Providers",
+   "outside_provider_ok": "yes; Team or Enterprise plan; billing API in nano-USD",
+   "unit_price": "provider rate, no markup; TTFT under 5 s LLM, 30 s other",
+   "src": "https://huggingface.co/docs/inference-providers/en/register-as-a-provider",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image, video, speech, music, text",
+   "marketplace": "Chutes (Bittensor SN64)",
+   "outside_provider_ok": "yes, as miners on TDX bare metal",
+   "unit_price": "TAO emissions by compute time",
+   "src": "https://github.com/rayonlabs/chutes-miner",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image, video, audio",
+   "marketplace": "fal.ai",
+   "outside_provider_ok": "no program found",
+   "unit_price": "H100 $4.50/h list, as low as $2.49/h",
+   "src": "https://fal.ai/pricing",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image, video, audio, text",
+   "marketplace": "Replicate",
+   "outside_provider_ok": "no program found; community models, no payout stated",
+   "unit_price": "public models billed by active time",
+   "src": "https://replicate.com/pricing",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image, video",
+   "marketplace": "Runware",
+   "outside_provider_ok": "no provider program; creator program is for influencers",
+   "unit_price": "serverless L40S $1.60/h, H100 $3.95/h",
+   "src": "https://runware.ai/pricing",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image, text",
+   "marketplace": "AI Horde",
+   "outside_provider_ok": "yes, as unpaid volunteer workers",
+   "unit_price": "none (kudos cannot be bought or sold)",
+   "src": "https://github.com/Haidra-Org/AI-Horde/blob/main/README.md",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image",
+   "marketplace": "Civitai",
+   "outside_provider_ok": "not checked (pages blocked)",
+   "unit_price": "Buzz can be bought or earned",
+   "src": "https://en.wikipedia.org/wiki/Civitai",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image",
+   "marketplace": "fal",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.003 per megapixel",
+   "src": "https://fal.ai/pricing",
+   "model": "FLUX.1 schnell",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image",
+   "marketplace": "fal",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.025 / $0.035 per megapixel (dev / dev with LoRAs)",
+   "src": "https://fal.ai/pricing",
+   "model": "FLUX.1 dev",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image",
+   "marketplace": "Replicate",
+   "outside_provider_ok": "no",
+   "unit_price": "$3.00 per 1,000 images / $0.025 / $0.04 per image",
+   "src": "https://replicate.com/pricing",
+   "model": "FLUX Schnell / Dev / 1.1 Pro",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image",
+   "marketplace": "DeepInfra",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$0.0005 x (w/1024) x (h/1024) x iterations per image",
+   "src": "https://deepinfra.com/pricing",
+   "model": "FLUX-1-schnell",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image",
+   "marketplace": "DeepInfra",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$0.009 x area x (iters/25); FLUX-2-dev $0.01; 1.1-pro $0.04 per image",
+   "src": "https://deepinfra.com/pricing",
+   "model": "FLUX-1-dev / FLUX-2-dev / 1.1-pro",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image",
+   "marketplace": "Runware",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.003 / $0.0089 / $0.041 per image",
+   "src": "https://runware.ai/pricing",
+   "model": "FLUX 3 Image Klein 512 / Klein Base / FLUX 3 Image 0.75K",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image",
+   "marketplace": "Together",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$0.0154 / $0.03 / $0.03 per image; Kontext $0.04 / $0.08 per MP",
+   "src": "https://www.together.ai/pricing",
+   "model": "FLUX.2 dev / pro / flex; FLUX.1 Kontext",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image",
+   "marketplace": "Venice",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$0.01 per image",
+   "src": "https://docs.venice.ai/overview/pricing",
+   "model": "Lustify SDXL, Anime (WAI Illustrious), Chroma, SD35",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image",
+   "marketplace": "Venice",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "Flux 2 Pro $0.03, Max $0.09; Qwen Image $0.03 to $0.05; Hunyuan Image 3.0 $0.09",
+   "src": "https://docs.venice.ai/overview/pricing",
+   "model": "Flux 2 / Qwen Image / Hunyuan Image 3.0",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "image",
+   "marketplace": "OpenRouter",
+   "outside_provider_ok": "first-party labs only observed",
+   "unit_price": "per image token, e.g. flux-3-image-klein $0.0000019; gpt-image-2 $0.00003",
+   "src": "https://openrouter.ai/api/v1/models?output_modalities=image",
+   "model": "61 image models",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "video",
+   "marketplace": "fal",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.08 per second 720p, $0.06 at 580p, $0.04 at 480p",
+   "src": "https://fal.ai/models/fal-ai/wan/v2.2-a14b/text-to-video",
+   "model": "Wan 2.2 A14B",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "video",
+   "marketplace": "fal",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.40 per video (5 s, 720p); pro mode 2x",
+   "src": "https://fal.ai/models/fal-ai/hunyuan-video",
+   "model": "HunyuanVideo",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "video",
+   "marketplace": "fal",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.06 per second 1080p, $0.12 1440p, $0.24 2160p",
+   "src": "https://fal.ai/models/fal-ai/ltx-2/text-to-video",
+   "model": "LTX-2",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "video",
+   "marketplace": "Replicate",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.09 / $0.25 per second (480p / 720p)",
+   "src": "https://replicate.com/pricing",
+   "model": "Wan 2.1 I2V",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "video",
+   "marketplace": "Runware",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.05 / $0.068 / $0.157 per second",
+   "src": "https://runware.ai/pricing",
+   "model": "Wan3.0 480p / Wan3.0 Prime / Kling 4.0 720p",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "video",
+   "marketplace": "Together",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$0.19 / $0.32 per video",
+   "src": "https://www.together.ai/pricing",
+   "model": "Kling 1.6 Standard / Kling 2.1 Pro",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "video",
+   "marketplace": "Artificial Analysis listing",
+   "outside_provider_ok": "n/a",
+   "unit_price": "$3.60 to $10.20 per minute (LTX-2.3 / 2.5); MiniMax H3 $4.80",
+   "src": "https://artificialanalysis.ai/video/leaderboard/text-to-video/open-weights",
+   "model": "LTX-2.3 / 2.5, MiniMax H3",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "video",
+   "marketplace": "OpenRouter",
+   "outside_provider_ok": "first-party labs only",
+   "unit_price": "30 models; no per-second price shown ('Variable')",
+   "src": "https://openrouter.ai/api/v1/models?output_modalities=video",
+   "model": "wan-3.0, kling v3, veo 3.1, seedance, hailuo 3",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "speech-to-text",
+   "marketplace": "Groq",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.67 per 1,000 minutes",
+   "src": "https://artificialanalysis.ai/speech-to-text",
+   "model": "Whisper Large v3 Turbo",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "speech-to-text",
+   "marketplace": "fal",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.50 / $1.15 per 1,000 minutes",
+   "src": "https://artificialanalysis.ai/speech-to-text",
+   "model": "Wizper Large v3 / Whisper Large v3",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "speech-to-text",
+   "marketplace": "Together",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$1.50 per 1,000 minutes ($0.0035/min streaming)",
+   "src": "https://www.together.ai/pricing",
+   "model": "Whisper Large v3; Parakeet TDT 0.6B v3",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "speech-to-text",
+   "marketplace": "Replicate",
+   "outside_provider_ok": "no",
+   "unit_price": "$4.23 / $1.49 per 1,000 minutes",
+   "src": "https://artificialanalysis.ai/speech-to-text",
+   "model": "Whisper Large v3 / Incredibly Fast Whisper",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "speech-to-text",
+   "marketplace": "DeepInfra",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$1.00 per 1,000 minutes; Nemotron 3.5 ASR streaming $0.0002/min",
+   "src": "https://deepinfra.com/pricing",
+   "model": "Voxtral Mini",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "speech-to-text",
+   "marketplace": "Venice",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$0.0001 per audio second (about $6.00 per 1,000 minutes, est)",
+   "src": "https://docs.venice.ai/overview/pricing",
+   "model": "Whisper Large V3, Parakeet",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "speech-to-text",
+   "marketplace": "OpenRouter",
+   "outside_provider_ok": "yes (3 third-party providers)",
+   "unit_price": "DeepInfra $0.0000075, Together $0.000025, Groq $0.0000308 per unit",
+   "src": "https://openrouter.ai/api/v1/models/openai/whisper-large-v3/endpoints",
+   "model": "openai/whisper-large-v3",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "text-to-speech",
+   "marketplace": "DeepInfra",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$0.99 per 1M characters (OpenRouter endpoint $0.62)",
+   "src": "https://deepinfra.com/hexgrad/Kokoro-82M",
+   "model": "Kokoro 82M",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "text-to-speech",
+   "marketplace": "OpenRouter",
+   "outside_provider_ok": "yes (2 third-party providers)",
+   "unit_price": "DeepInfra $0.62, Together $4.00 per 1M characters (unit inferred)",
+   "src": "https://openrouter.ai/api/v1/models/hexgrad/kokoro-82m/endpoints",
+   "model": "hexgrad/kokoro-82m",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "text-to-speech",
+   "marketplace": "Replicate",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.65 per 1M characters",
+   "src": "https://artificialanalysis.ai/text-to-speech",
+   "model": "Kokoro",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "text-to-speech",
+   "marketplace": "fal",
+   "outside_provider_ok": "no",
+   "unit_price": "$20 / $25 per 1M characters",
+   "src": "https://fal.ai/pricing",
+   "model": "Kokoro / Chatterbox",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "text-to-speech",
+   "marketplace": "Venice",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$3.50 / $50.00 / $62.50 / $87.50 / $12.50 per 1M characters",
+   "src": "https://docs.venice.ai/overview/pricing",
+   "model": "Kokoro / Chatterbox HD / Orpheus / Qwen 3 TTS / Inworld TTS-1.5 Max",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "text-to-speech",
+   "marketplace": "Together",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$65.00 per 1M characters",
+   "src": "https://www.together.ai/pricing",
+   "model": "Cartesia Sonic-3",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "embeddings",
+   "marketplace": "DeepInfra",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$0.005 / $0.01 per 1M tokens",
+   "src": "https://deepinfra.com/pricing",
+   "model": "bge-base / bge-large / bge-m3 / bge-en-icl",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "embeddings",
+   "marketplace": "OpenRouter",
+   "outside_provider_ok": "yes (2 to 3 third-party providers)",
+   "unit_price": "$0.01 per 1M tokens (bge-m3; qwen3-embedding-8b Nebius, DeepInfra)",
+   "src": "https://openrouter.ai/api/v1/models/baai/bge-m3/endpoints",
+   "model": "baai/bge-m3; qwen/qwen3-embedding-8b",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "embeddings",
+   "marketplace": "OpenRouter",
+   "outside_provider_ok": "yes",
+   "unit_price": "$0.005 / $0.01 per 1M (open models); voyage $0.02 to $0.12; gemini $0.20",
+   "src": "https://openrouter.ai/api/v1/models?output_modalities=embeddings",
+   "model": "39 embedding models",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "embeddings",
+   "marketplace": "Fireworks",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$0.008 / $0.016 / $0.10 per 1M tokens",
+   "src": "https://fireworks.ai/pricing",
+   "model": "up to 150M / 350M params / Qwen3 8B",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "embeddings",
+   "marketplace": "Venice",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$0.0125 (0.6B) / $0.15 in, $0.60 out (8B, BGE-M3)",
+   "src": "https://docs.venice.ai/overview/pricing",
+   "model": "Qwen3 Embedding 0.6B and 8B / BGE-M3",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "embeddings",
+   "marketplace": "Jina",
+   "outside_provider_ok": "no",
+   "unit_price": "token packs via Stripe; v4 is research-only license",
+   "src": "https://jina.ai/embeddings/",
+   "model": "jina-embeddings v5 / v4",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "rerank",
+   "marketplace": "OpenRouter",
+   "outside_provider_ok": "yes (single provider, no price set)",
+   "unit_price": "qwen3-reranker-8b shows $0; voyage, cohere, nvidia also listed",
+   "src": "https://openrouter.ai/api/v1/models?output_modalities=rerank",
+   "model": "10 rerank models",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "OCR and vision",
+   "marketplace": "DeepInfra",
+   "outside_provider_ok": "no (first-party)",
+   "unit_price": "$0.15 / $0.60 and $0.15 / $0.50 per 1M tokens",
+   "src": "https://deepinfra.com/pricing",
+   "model": "Qwen3-VL-30B-A3B / Nemotron 3.5 Super VL",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "OCR and vision",
+   "marketplace": "OpenRouter",
+   "outside_provider_ok": "yes (Parasail only)",
+   "unit_price": "$0.25 / $0.75 (3-VL-8B); $0.80 / $1.00 (2.5-VL-72B)",
+   "src": "https://openrouter.ai/api/v1/models/qwen/qwen3-vl-8b-instruct/endpoints",
+   "model": "qwen3-vl-8b; qwen2.5-vl-72b",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "OCR and vision",
+   "marketplace": "OpenRouter",
+   "outside_provider_ok": "yes (3 providers, DeepInfra at 3.3% uptime)",
+   "unit_price": "min $0.20 / $0.88",
+   "src": "https://openrouter.ai/api/v1/models/qwen/qwen3-vl-235b-a22b-instruct/endpoints",
+   "model": "qwen3-vl-235b-a22b-instruct",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "OCR",
+   "marketplace": "self-host",
+   "outside_provider_ok": "n/a",
+   "unit_price": "under $200 per million pages (Apache 2.0; 4090, L40S, A100, H100)",
+   "src": "https://github.com/allenai/olmocr",
+   "model": "olmOCR-2-7B",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "OCR",
+   "marketplace": "Novita / Clarifai / Vertex (aggregator listings)",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.03 in and out; $0.20 / $0.70; $0.0003 per page",
+   "src": "https://custom.typingmind.com/tools/estimate-llm-usage-costs/novita-ai/deepseek-ocr",
+   "model": "DeepSeek-OCR",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "music",
+   "marketplace": "fal",
+   "outside_provider_ok": "no",
+   "unit_price": "$0.0002 per second of audio (about $0.012 per minute, est)",
+   "src": "https://fal.ai/models/fal-ai/ace-step",
+   "model": "ACE-Step",
+   "checked": "2026-10-22"
+  },
+  {
+   "modality": "music and audio",
+   "marketplace": "OpenRouter",
+   "outside_provider_ok": "first-party only",
+   "unit_price": "lyria-3 preview $0; gpt-audio $0.000032 in / $0.000064 out per unit",
+   "src": "https://openrouter.ai/api/v1/models?output_modalities=audio",
+   "model": "google/lyria-3, openai/gpt-audio",
+   "checked": "2026-10-22"
+  }
+ ],
+ "niche_providers": [
+  {
+   "provider": "Infermatic.ai",
+   "what": "flat-rate roleplay catalog on vLLM",
+   "pricing": "Free (Rocinante only); Essential $9/mo; Standard $16/mo; Plus $20/mo",
+   "on_openrouter": "listed as provider, 0 endpoints",
+   "buys_outside_capacity": "not found",
+   "src": "https://infermatic.ai/pricing",
+   "note": "no logging; unrestricted prompts; 1 to 2 parallel requests",
+   "more": [
+    "Euryale v2.3, Anubis, Magnum v4 SE, Cydonia, Kunou, Hanami"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "provider": "Mancer.tech",
+   "what": "credit-per-token uncensored host",
+   "pricing": "credits per token (MythoMax 0.140/0.240; Magnum 1.000/2.000); $ rate not found",
+   "on_openrouter": "yes, as Mancer 2 (9 models)",
+   "buys_outside_capacity": "not found",
+   "src": "https://mancer.tech/pricing",
+   "note": "no filters; refund if under 300,000 credits used",
+   "more": [
+    "MythoMax, ReMM, Weaver, Magnum 72B, GLM 4.7, gpt-oss-120b"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "provider": "Featherless.ai",
+   "what": "serve any of 40,000+ HF models; dedicated H100, MI325X, B200, B300",
+   "pricing": "Chat $25/mo (4 concurrent); Developer $50 credits/mo (100 concurrent); Business",
+   "on_openrouter": "yes, 1 model (step-5-preview)",
+   "buys_outside_capacity": "not found",
+   "src": "https://featherless.ai/pricing",
+   "checked": "2026-10-22"
+  },
+  {
+   "provider": "Arli AI",
+   "what": "flat-rate unlimited tokens up to 552B models; zero-log",
+   "pricing": "Free; Core $15; Plus $20; Pro $30 (2 parallel); Max $160/mo (6 parallel, 512K)",
+   "on_openrouter": "not in crawl",
+   "buys_outside_capacity": "not found",
+   "src": "https://www.arliai.com/pricing",
+   "note": "model list page did not render",
+   "checked": "2026-10-22"
+  },
+  {
+   "provider": "NovelAI (Anlatan)",
+   "what": "story and image subscriptions; story model powered by GLM 4.6",
+   "pricing": "subscriptions from $10/month; on-demand Anlas",
+   "on_openrouter": "no",
+   "buys_outside_capacity": "not found",
+   "src": "https://novelai.net/",
+   "more": [
+    "early CoreWeave H100 customer"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "provider": "Venice.ai",
+   "what": "uncensored API and app in TEE; 37 OpenRouter models",
+   "pricing": "Free; Pro $18/mo; Pro Plus $68/mo; Max $200/mo",
+   "on_openrouter": "yes, 37 models",
+   "buys_outside_capacity": "not found",
+   "src": "https://docs.venice.ai/overview/pricing",
+   "note": "DIEM token = $1/day of compute; credits 100 = $1",
+   "more": [
+    "API: Venice Uncensored $0.20/$0.90; Role Play Uncensored $0.50/$2.00"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "provider": "Chub.ai",
+   "what": "roleplay front-end; connects to OpenAI, Claude and other APIs",
+   "pricing": "subscription page login-gated",
+   "on_openrouter": "app only (top app on model pages)",
+   "buys_outside_capacity": "not found",
+   "src": "https://docs.chub.ai/",
+   "checked": "2026-10-22"
+  },
+  {
+   "provider": "AI Horde (ex KoboldAI Horde)",
+   "what": "free volunteer text and image generation grid run by Haidra",
+   "pricing": "free; kudos cannot be bought or sold",
+   "on_openrouter": "no",
+   "buys_outside_capacity": "no money path for workers",
+   "src": "https://aihorde.net/",
+   "checked": "2026-10-22"
+  },
+  {
+   "provider": "Chutes (Bittensor SN64)",
+   "what": "decentralized serverless inference: text, image, video, speech, music",
+   "pricing": "Plus $10/mo; Pro $20/mo; PAYG; Kimi K3 $1.85/$9.50; Qwen3.8 27B $0.04/$1.25",
+   "on_openrouter": "yes, 6 models",
+   "buys_outside_capacity": "yes: miners register via btcli on netuid 64; TDX bare metal; 7-day compute",
+   "src": "https://chutes.ai/",
+   "checked": "2026-10-22"
+  },
+  {
+   "provider": "Targon (Manifold Labs)",
+   "what": "on-demand NVIDIA GPUs in Intel TDX confidential VMs; fixed-term reservations",
+   "pricing": "per-token prices not found",
+   "on_openrouter": "not in crawl",
+   "buys_outside_capacity": "miner onboarding not found on site",
+   "src": "https://targon.com/",
+   "checked": "2026-10-22"
+  },
+  {
+   "provider": "Parasail",
+   "what": "serverless and elastic endpoints; dedicated GPUs on request",
+   "pricing": "Llama 3.3 70B $0.22/$0.50; Cydonia $0.30/$0.50; Skyfall $0.55/$0.80",
+   "on_openrouter": "yes, 40 models",
+   "buys_outside_capacity": "GPU partner program not found",
+   "src": "https://www.parasail.io/pricing",
+   "more": [
+    "serves the TheDrummer catalog, Lunaris, MythoMax",
+    "elastic endpoints +25%"
+   ],
+   "checked": "2026-10-22"
+  }
+ ],
+ "apps": [
+  {
+   "rank": 1,
+   "app": "Claude Code",
+   "tokens_per_day": 2110000000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "CLI Agents",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 2,
+   "app": "Hermes Agent (Nous Research)",
+   "tokens_per_day": 2070000000000.0,
+   "main_models": "not separated; may carry Hermes-model demand",
+   "category": "Personal Agents, CLI Agents",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 3,
+   "app": "Kilo Code",
+   "tokens_per_day": 1490000000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "CLI Agents, IDE Extensions",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 4,
+   "app": "pi",
+   "tokens_per_day": 651000000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "CLI Agents",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 5,
+   "app": "DeepSeek Harness",
+   "tokens_per_day": 575000000000.0,
+   "main_models": "DeepSeek (implied by name)",
+   "category": "new",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 6,
+   "app": "omp",
+   "tokens_per_day": 533000000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "CLI Agents",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 7,
+   "app": "Codex",
+   "tokens_per_day": 347000000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "CLI Agents",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 8,
+   "app": "Freebuff",
+   "tokens_per_day": 313000000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "ads-funded coding",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 9,
+   "app": "OpenClaw",
+   "tokens_per_day": 260000000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "Personal Agents, CLI Agents",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 10,
+   "app": "Strix",
+   "tokens_per_day": 252000000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "CLI Agents",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 11,
+   "app": "Cline",
+   "tokens_per_day": 212000000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "IDE Extensions",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 12,
+   "app": "Proto Agent",
+   "tokens_per_day": 202000000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "Personal Agents",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 13,
+   "app": "ZCode",
+   "tokens_per_day": 186000000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "Programming App",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 14,
+   "app": "Hello Minds, powered by Ethoswarm",
+   "tokens_per_day": 85800000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "Roleplay, Personal Agents, Creative Writing",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 15,
+   "app": "OpenHands",
+   "tokens_per_day": 71300000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "CLI Agents",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 16,
+   "app": "ISEKAI ZERO",
+   "tokens_per_day": 70900000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "Game (AI adventures)",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 17,
+   "app": "HighLevel",
+   "tokens_per_day": 67800000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "not tagged",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 18,
+   "app": "Aura",
+   "tokens_per_day": 65900000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "IDE Extensions",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 19,
+   "app": "Cursor",
+   "tokens_per_day": 58900000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "Programming App",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": 20,
+   "app": "Nous Research API",
+   "tokens_per_day": 58500000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "General Chat",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": null,
+   "app": "Janitor AI",
+   "tokens_per_day": 32800000000.0,
+   "main_models": "DeepSeek V3 0324 (24.4B app tokens), Cydonia, Magnum v4, M2-her",
+   "category": "Top Entertainment",
+   "src": "https://openrouter.ai/apps",
+   "more": [
+    "also Venice Uncensored"
+   ],
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": null,
+   "app": "Craft",
+   "tokens_per_day": 19100000000.0,
+   "main_models": "not stated on the apps page",
+   "category": "Top Entertainment",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": null,
+   "app": "SillyTavern",
+   "tokens_per_day": 13400000000.0,
+   "main_models": "Hermes 4 405B, Euryale 3.1, Cydonia, Magnum v4, Skyfall, Venice Uncensored",
+   "category": "Top Entertainment",
+   "src": "https://openrouter.ai/apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": null,
+   "app": "Chub AI",
+   "tokens_per_day": null,
+   "main_models": "Unslopnemo, Skyfall, Venice Uncensored, DeepSeek V3 0324 (3.34B)",
+   "category": "appears on model pages, not top 20",
+   "src": "https://openrouter.ai/deepseek/deepseek-chat-v3-0324",
+   "checked": "2026-10-22"
+  },
+  {
+   "rank": null,
+   "app": "HammerAI",
+   "tokens_per_day": null,
+   "main_models": "Lunaris 8B (7.21B), Mistral Nemo (123B), Unslopnemo (1.13B), MythoMax (316M)",
+   "category": "appears on model pages",
+   "src": "https://openrouter.ai/sao10k/l3-lunaris-8b",
+   "checked": "2026-10-22"
+  }
+ ],
  "sources": [
   {
    "url": "https://ai.google.dev/gemma/terms",
@@ -8313,6 +9777,11 @@
   {
    "url": "https://aicomputetracker.com/gpu-cloud/h100/",
    "title": "aicomputetracker.com: h100",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://aihorde.net/",
+   "title": "aihorde.net",
    "checked": "2026-10-22"
   },
   {
@@ -8333,6 +9802,26 @@
   {
    "url": "https://app.primeintellect.ai/dashboard/on-demand-gpus",
    "title": "Prime Intellect: on demand gpus",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://artificialanalysis.ai/speech-to-text",
+   "title": "artificialanalysis.ai: speech to text",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://artificialanalysis.ai/text-to-speech",
+   "title": "artificialanalysis.ai: text to speech",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video/open-weights",
+   "title": "artificialanalysis.ai: open weights",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://avpassociation.com/state-laws-for-ai-chatbots",
+   "title": "avpassociation.com: state laws for ai chatbots",
    "checked": "2026-10-22"
   },
   {
@@ -8411,6 +9900,11 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://chutes.ai/",
+   "title": "chutes.ai",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://chutes.ai/docs/miner-resources/overview",
    "title": "chutes.ai: overview",
    "checked": "2026-10-22"
@@ -8456,6 +9950,11 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://custom.typingmind.com/tools/estimate-llm-usage-costs/novita-ai/deepseek-ocr",
+   "title": "custom.typingmind.com: deepseek ocr",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://data.ornn.com/",
    "title": "Ornn OCPI",
    "checked": "2026-10-22"
@@ -8471,6 +9970,16 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://deepinfra.com/hexgrad/Kokoro-82M",
+   "title": "deepinfra.com: Kokoro 82M",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://deepinfra.com/pricing",
+   "title": "deepinfra.com: pricing",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://developers.cloudflare.com/ai-gateway/usage/providers/",
    "title": "developers.cloudflare.com: providers",
    "checked": "2026-10-22"
@@ -8478,6 +9987,11 @@
   {
    "url": "https://docs.aethir.com/aethir-cloud/aethir-cloud-host/operational-requirements-for-cloud-hosts",
    "title": "docs.aethir.com: operational requirements for cloud hosts",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://docs.chub.ai/",
+   "title": "docs.chub.ai",
    "checked": "2026-10-22"
   },
   {
@@ -8631,6 +10145,11 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://docs.venice.ai/overview/pricing",
+   "title": "docs.venice.ai: pricing",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://docs.vllm.ai/projects/recipes/en/latest/Qwen/Qwen3-Coder-480B-A35B.html",
    "title": "vLLM docs: Qwen3 Coder 480B A35B",
    "checked": "2026-10-22"
@@ -8638,6 +10157,11 @@
   {
    "url": "https://docs.vllm.ai/projects/recipes/en/latest/moonshotai/Kimi-K2.html",
    "title": "vLLM docs: Kimi K2",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Civitai",
+   "title": "en.wikipedia.org: Civitai",
    "checked": "2026-10-22"
   },
   {
@@ -8681,6 +10205,26 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://fal.ai/models/fal-ai/ace-step",
+   "title": "fal: ace step",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://fal.ai/models/fal-ai/hunyuan-video",
+   "title": "fal: hunyuan video",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://fal.ai/models/fal-ai/ltx-2/text-to-video",
+   "title": "fal: text to video",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://fal.ai/models/fal-ai/wan/v2.2-a14b/text-to-video",
+   "title": "fal: text to video",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://fal.ai/pricing",
    "title": "fal: pricing",
    "checked": "2026-10-22"
@@ -8688,6 +10232,11 @@
   {
    "url": "https://featherless.ai/",
    "title": "featherless.ai",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://featherless.ai/pricing",
+   "title": "featherless.ai: pricing",
    "checked": "2026-10-22"
   },
   {
@@ -8758,6 +10307,16 @@
   {
    "url": "https://getdeploying.com/gpus/nvidia-h100",
    "title": "GetDeploying: nvidia h100",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://github.com/Haidra-Org/AI-Horde/blob/main/README.md",
+   "title": "GitHub: README",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://github.com/allenai/olmocr",
+   "title": "GitHub: olmocr",
    "checked": "2026-10-22"
   },
   {
@@ -8961,6 +10520,11 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://infermatic.ai/pricing",
+   "title": "infermatic.ai: pricing",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://instances.vantage.sh/aws/ec2/mac-m3ultra.metal",
    "title": "Vantage: mac m3ultra.metal",
    "checked": "2026-10-22"
@@ -8983,6 +10547,11 @@
   {
    "url": "https://jeffgeerling.com/blog/2025/15-tb-vram-on-mac-studio-rdma-over-thunderbolt-5",
    "title": "jeffgeerling.com: 15 tb vram on mac studio rdma over thund",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://jina.ai/embeddings/",
+   "title": "jina.ai: embeddings",
    "checked": "2026-10-22"
   },
   {
@@ -9071,6 +10640,11 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://mancer.tech/pricing",
+   "title": "mancer.tech: pricing",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://marketplace-admin.uvation.com/supermicro-sys-a22ga-nbrt-g1-10u-b200-gold-series-gpu-servers.html",
    "title": "marketplace-admin.uvation.com: supermicro sys a22ga nbrt g1 10u b200 go",
    "checked": "2026-10-22"
@@ -9101,6 +10675,11 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://natlawreview.com/article/ai-regulatory-update-californias-sb-243-mandates-companion-ai-safety-and",
+   "title": "natlawreview.com: ai regulatory update californias sb 243 ",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://nebius.com/prices",
    "title": "Nebius: prices",
    "checked": "2026-10-22"
@@ -9108,6 +10687,11 @@
   {
    "url": "https://nousresearch.com/nous-psyche/",
    "title": "nousresearch.com: nous psyche",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://novelai.net/",
+   "title": "novelai.net",
    "checked": "2026-10-22"
   },
   {
@@ -9133,6 +10717,21 @@
   {
    "url": "https://openjurist.org/616/f2d/429",
    "title": "OpenJurist: 429",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/anthracite-org/magnum-v4-72b",
+   "title": "OpenRouter: magnum v4 72b",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/alpindale/goliath-120b/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/baai/bge-m3/endpoints",
+   "title": "OpenRouter: endpoints",
    "checked": "2026-10-22"
   },
   {
@@ -9196,6 +10795,21 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://openrouter.ai/api/v1/models/hexgrad/kokoro-82m/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/mancer/weaver/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/meta-llama/llama-3.1-405b-instruct/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://openrouter.ai/api/v1/models/meta-llama/llama-3.3-70b-instruct/endpoints",
    "title": "OpenRouter: endpoints",
    "checked": "2026-10-22"
@@ -9217,6 +10831,11 @@
   },
   {
    "url": "https://openrouter.ai/api/v1/models/meta/muse-spark-open/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/microsoft/wizardlm-2-8x22b/endpoints",
    "title": "OpenRouter: endpoints",
    "checked": "2026-10-22"
   },
@@ -9261,6 +10880,11 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://openrouter.ai/api/v1/models/mistralai/mixtral-8x22b-instruct/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://openrouter.ai/api/v1/models/moonshotai/kimi-k2-0905/endpoints",
    "title": "OpenRouter: endpoints",
    "checked": "2026-10-22"
@@ -9291,6 +10915,16 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://openrouter.ai/api/v1/models/neversleep/llama-3-lumimaid-70b/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/nousresearch/hermes-4-70b/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://openrouter.ai/api/v1/models/nvidia/nemotron-3-super-120b-a12b/endpoints",
    "title": "OpenRouter: endpoints",
    "checked": "2026-10-22"
@@ -9307,6 +10941,11 @@
   },
   {
    "url": "https://openrouter.ai/api/v1/models/openai/gpt-oss-20b/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/openai/whisper-large-v3/endpoints",
    "title": "OpenRouter: endpoints",
    "checked": "2026-10-22"
   },
@@ -9346,6 +10985,21 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://openrouter.ai/api/v1/models/qwen/qwen3-embedding-8b/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/qwen/qwen3-vl-235b-a22b-instruct/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/qwen/qwen3-vl-8b-instruct/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3.6-35b-a3b/endpoints",
    "title": "OpenRouter: endpoints",
    "checked": "2026-10-22"
@@ -9366,6 +11020,21 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://openrouter.ai/api/v1/models/raifle/sorcererlm-8x22b/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/sao10k/l3.3-euryale-70b/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/sophosympatheia/midnight-rose-70b/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://openrouter.ai/api/v1/models/stepfun/step-5-preview/endpoints",
    "title": "OpenRouter: endpoints",
    "checked": "2026-10-22"
@@ -9377,6 +11046,16 @@
   },
   {
    "url": "https://openrouter.ai/api/v1/models/tencent/hy4-preview/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/thedrummer/rocinante-12b/endpoints",
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models/tngtech/deepseek-r1t-chimera/endpoints",
    "title": "OpenRouter: endpoints",
    "checked": "2026-10-22"
   },
@@ -9426,6 +11105,46 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://openrouter.ai/api/v1/models?output_modalities=audio",
+   "title": "OpenRouter: models",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models?output_modalities=embeddings",
+   "title": "OpenRouter: models",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models?output_modalities=image",
+   "title": "OpenRouter: models",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models?output_modalities=rerank",
+   "title": "OpenRouter: models",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/api/v1/models?output_modalities=video",
+   "title": "OpenRouter: models",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/apps",
+   "title": "OpenRouter: apps",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/cognitivecomputations/dolphin-mistral-24b-venice-edition",
+   "title": "OpenRouter: dolphin mistral 24b venice edition",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/deepseek/deepseek-chat-v3-0324",
+   "title": "OpenRouter: deepseek chat v3 0324",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://openrouter.ai/docs/guides/features/zdr",
    "title": "OpenRouter: zdr",
    "checked": "2026-10-22"
@@ -9441,8 +11160,73 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://openrouter.ai/gryphe/mythomax-l2-13b",
+   "title": "OpenRouter: mythomax l2 13b",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/minimax/minimax-m2-her",
+   "title": "OpenRouter: minimax m2 her",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/mistralai/mistral-nemo",
+   "title": "OpenRouter: mistral nemo",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-405b",
+   "title": "OpenRouter: hermes 3 llama 3.1 405b",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-70b",
+   "title": "OpenRouter: hermes 3 llama 3.1 70b",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/nousresearch/hermes-4-405b",
+   "title": "OpenRouter: hermes 4 405b",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://openrouter.ai/providers/apply",
    "title": "OpenRouter: apply",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/qwen/qwen-2.5-72b-instruct",
+   "title": "OpenRouter: qwen 2.5 72b instruct",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/sao10k/l3-lunaris-8b",
+   "title": "OpenRouter: l3 lunaris 8b",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/sao10k/l3.1-euryale-70b",
+   "title": "OpenRouter: l3.1 euryale 70b",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/thedrummer/cydonia-24b-v4.1",
+   "title": "OpenRouter: cydonia 24b v4.1",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/thedrummer/skyfall-36b-v2",
+   "title": "OpenRouter: skyfall 36b v2",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/thedrummer/unslopnemo-12b",
+   "title": "OpenRouter: unslopnemo 12b",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://openrouter.ai/undi95/remm-slerp-l2-13b",
+   "title": "OpenRouter: remm slerp l2 13b",
    "checked": "2026-10-22"
   },
   {
@@ -9503,6 +11287,16 @@
   {
    "url": "https://rebellions.ai/",
    "title": "rebellions.ai",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://replicate.com/pricing",
+   "title": "replicate.com: pricing",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://runware.ai/pricing",
+   "title": "runware.ai: pricing",
    "checked": "2026-10-22"
   },
   {
@@ -9616,6 +11410,11 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://stripe.com/legal/restricted-businesses",
+   "title": "stripe.com: restricted businesses",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://switch.com/?p=29026",
    "title": "switch.com",
    "checked": "2026-10-22"
@@ -9628,6 +11427,11 @@
   {
    "url": "https://taostats.io/subnets/27",
    "title": "taostats: 27",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://targon.com/",
+   "title": "targon.com",
    "checked": "2026-10-22"
   },
   {
@@ -9731,8 +11535,18 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://www.arliai.com/pricing",
+   "title": "arliai.com: pricing",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://www.avadirect.com/AMD-WRX90-4x-RTX-5090-Liquid-Cooled-Rackmount-Workstation/Configure/19763558",
    "title": "avadirect.com: 19763558",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://www.awkolaw.com/when-the-chatbot-becomes-the-defendant/",
+   "title": "awkolaw.com: when the chatbot becomes the defendant",
    "checked": "2026-10-22"
   },
   {
@@ -9901,6 +11715,11 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://www.gadgetreview.com/?p=416283",
+   "title": "gadgetreview.com",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://www.gmicloud.ai/en/legal/console-terms-of-service",
    "title": "GMI Cloud: console terms of service",
    "checked": "2026-10-22"
@@ -9913,6 +11732,11 @@
   {
    "url": "https://www.gmktec.com/products/amd-ryzen™-ai-max-395-evo-x2-ai-mini-pc",
    "title": "gmktec.com: amd ryzen™ ai max 395 evo x2 ai mini pc",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ12/html/PLAW-119publ12.htm",
+   "title": "govinfo.gov: PLAW 119publ12",
    "checked": "2026-10-22"
   },
   {
@@ -10051,6 +11875,11 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://www.law.cornell.edu/uscode/text/18/2258A",
+   "title": "Cornell LII: 2258A",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://www.law.cornell.edu/uscode/text/26/168",
    "title": "Cornell LII: 168",
    "checked": "2026-10-22"
@@ -10123,6 +11952,16 @@
   {
    "url": "https://www.parasail.io/",
    "title": "parasail.io",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://www.parasail.io/pricing",
+   "title": "parasail.io: pricing",
+   "checked": "2026-10-22"
+  },
+  {
+   "url": "https://www.paypal.com/us/legalhub/paypal/acceptableuse-full",
+   "title": "paypal.com: acceptableuse full",
    "checked": "2026-10-22"
   },
   {
@@ -10226,6 +12065,11 @@
    "checked": "2026-10-22"
   },
   {
+   "url": "https://www.together.ai/pricing",
+   "title": "Together AI: pricing",
+   "checked": "2026-10-22"
+  },
+  {
    "url": "https://www.together.ai/terms-of-service",
    "title": "Together AI: terms of service",
    "checked": "2026-10-22"
@@ -10269,6 +12113,6 @@
  "meta": {
   "checked": "2026-10-22",
   "note": "Built from research notes only; 'est' marks estimates; null means unknown.",
-  "niche_note": "niche_models_roleplay_modalities_openings.md was not present on 2026-10-22; niche, niche_risks and modalities are empty."
+  "niche_note": "niche, niche_risks, modalities, niche_providers and apps come from niche_models_roleplay_modalities_openings.md (checked 2026-10-22); weekly_tokens in niche = latest-day tokens x 7 where only a daily bucket was published (est)."
  }
 }

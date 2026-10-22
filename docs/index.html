@@ -261,9 +261,20 @@
   <p>Beyond OpenRouter and your own API, the routes that could produce a paying customer by December 31 are: managed-inference consulting where the client holds the cloud account and you charge a fee (Upwork demand exists, and it sidesteps every resale clause); dedicated endpoints for startups priced under the incumbents (Modal $3.95, fal $2.49 to $4.50, Together $5.49, Baseten $6.50, Fireworks $8.00 per H100-hour; B200 $6.25 to $13.00), which means a small provider wins at $2.00 to $3.50; and SF Compute as a hedge for unused reserved hours. Startup credit programs are mostly closed to a sole proprietorship (AWS Activate Founders $1,000 to $5,000, Nebius $5,000 and Modal $30 a month are the exceptions). Referral programs pay in credits. NVIDIA DGX Cloud Lepton supply is partner-only; Compute Exchange is a parked domain; Hydra Host's partner program has no published share.</p>
   <div id="tbl-routes"></div>
   <h3>Niche models: roleplay, uncensored, specialized, other modalities</h3>
-  <div id="niche-text"><p class="small">The dedicated niche-model search is still being compiled; this table fills in when it lands.</p></div>
+  <div id="niche-text">
+  <p>The structural opening is real: of 449 text models on OpenRouter, 290 have exactly one provider and 384 (86%) have three or fewer. Roleplay favorites with zero providers today include Euryale 3.3 70B, Hermes 4 70B, Rocinante 12B, Midnight Rose, Lumimaid, WizardLM-2 8x22B and Goliath 120B, and single-provider models with measurable traffic include Cydonia 24B (Parasail, about 142M tokens a day), Hermes 3 70B and 405B (DeepInfra, 76M and 38M a day), Euryale 3.1 70B (38M), Magnum v4 72B (Mancer at $2.50/$5.00, 17M) and Venice Uncensored (87M). DeepSeek V3-0324, Janitor AI's main model, has only two providers at $0.25/$1.00 and about 1.5B tokens a day. Routing is price-sensitive: on MythoMax, Parasail at $0.08 carries 48% of the day's tokens against Mancer at $0.35 with 24%.</p>
+  <p>But it is small money. Entertainment apps on OpenRouter consume about 222B tokens a day (Hello Minds 86B, ISEKAI ZERO 71B, Janitor AI 33B, SillyTavern 13B), yet almost all of it runs on mainstream models (DeepSeek, GLM, Gemini Flash). The eleven dedicated roleplay and uncensored fine-tunes together move about 560M tokens a day, worth low thousands of dollars a week across every provider. The money in this niche is in flat-rate subscriptions (Infermatic $9 to $20, Arli $15 to $160, Featherless $25 to $50, Venice $18 to $200, NovelAI from $10), none of which buy capacity from outside operators; Chutes is the only one that does, and it needs TDX bare metal. The legal side is the real cost: Stripe bans adult live-chat, mature literature and AI-generated content meeting those criteria; California SB 243 (effective January 1, 2026) gives a private right of action of at least $1,000 per violation against companion-chatbot operators; 18 USC 2258A reporting duties apply on actual knowledge; 13 states now have chatbot laws. A token API for these models is a payments and compliance problem before it is a GPU problem.</p>
+  <p>Other modalities are mostly closed to outside providers. OpenRouter now routes embeddings (39 models, bge-m3 and qwen3-embedding at $0.01 per million with 2 to 3 providers), rerankers, transcription (Whisper large v3 at $0.45 to $1.85 per 1,000 minutes from DeepInfra, Together and Groq) and text-to-speech (Kokoro at $0.62 to $4 per million characters), but image and video models are first-party labs only. fal, Replicate and Runware publish no provider program; Hugging Face Inference Providers is the one documented open door and needs a paid plan. Dedicated H100-hour prices that a small provider would undercut: DeepInfra $2.90, Modal and Runware about $3.95, Hugging Face $4.50, Together and Replicate $5.49, Baseten $6.50, Fireworks $8.00.</p>
+  </div>
+  <h4>Niche models with few providers</h4>
   <div id="tbl-niche"></div>
+  <h4>Who serves this niche today</h4>
+  <div id="tbl-niche-providers"></div>
+  <h4>Top apps by OpenRouter tokens per day</h4>
+  <div id="tbl-apps"></div>
+  <h4>Other modalities</h4>
   <div id="tbl-modalities"></div>
+  <h4>Risk flags</h4>
   <div id="tbl-niche-risks"></div>
 </section>
 
