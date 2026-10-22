@@ -12,6 +12,8 @@ Everything needed to run the month-to-month test from the plan: serve two big op
 | `bench/bench.sh`, `bench/summarize.py` | `vllm bench serve` sweep and the revenue-per-GPU-hour calculator. |
 | `docker-compose.yml`, `Caddyfile`, `.env.example` | Gateway plus automatic TLS. |
 | `legal/privacy-policy.md`, `legal/terms-of-service.md` | Drafts for attorney review. |
+| `legal/business-plan.md` | Dated one-page business plan for the tax file: profit path, unit economics, staged commitment with decision rules, milestones, records. |
+| `openrouter-application.md` | The 13 fields of the OpenRouter provider application form (read 2026-10-22) with draft answers. |
 
 ## Runbook
 
