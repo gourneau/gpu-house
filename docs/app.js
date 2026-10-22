@@ -18,7 +18,17 @@
   function money(v, d = 0) { return v == null ? "n/a" : (v < 0 ? "-$" : "$") + Math.abs(v).toLocaleString(undefined, { maximumFractionDigits: d, minimumFractionDigits: d }); }
   function num(v, d = 0) { return v == null ? "n/a" : (+v).toLocaleString(undefined, { maximumFractionDigits: d }); }
   function pct(v) { return v == null ? "n/a" : Math.round(v * 100) + "%"; }
-  function big(v) { if (v == null) return "n/a"; if (v >= 1e12) return (v / 1e12).toFixed(1) + "T"; if (v >= 1e9) return (v / 1e9).toFixed(0) + "B"; if (v >= 1e6) return (v / 1e6).toFixed(0) + "M"; return num(v); }
+  function parseBig(v) {
+    if (v == null || v === "") return null;
+    if (typeof v === "number") return v;
+    const m = String(v).trim().match(/^([\d.,]+)\s*([TtBbMmKk])?/);
+    if (!m) return null;
+    const n = parseFloat(m[1].replace(/,/g, ""));
+    const mult = { t: 1e12, b: 1e9, m: 1e6, k: 1e3 }[(m[2] || "").toLowerCase()] || 1;
+    return n * mult;
+  }
+  function big(v) {
+    v = parseBig(v); if (v == null) return "n/a"; if (v >= 1e12) return (v / 1e12).toFixed(1) + "T"; if (v >= 1e9) return (v / 1e9).toFixed(0) + "B"; if (v >= 1e6) return (v / 1e6).toFixed(0) + "M"; return num(v); }
   function cell(v, kind) {
     if (v === null || v === undefined || v === "") return "n/a";
     if (kind === "money") return money(v);
@@ -91,6 +101,14 @@
     tiles.forEach(t => { const s = h("div", "stat", el); h("div", "k", s, t.k); h("div", "v " + t.cls, s, t.v); h("div", "d", s, t.d); });
   }
 
+  function topModels() {
+    table("tbl-topmodels", T.top_models || [], [
+      { k: "model", l: "Model", kind: "text" }, { k: "weights_public", l: "Weights public", kind: "text" }, { k: "license", l: "License", kind: "text" }, { k: "paid_api_ok", l: "Paid API OK", kind: "text" },
+      { k: "params_total", l: "Params", kind: "text" }, { k: "params_active", l: "Active", kind: "text" }, { k: "gb_native", l: "GB", kind: "text" }, { k: "smallest_node", l: "Smallest node", kind: "text" },
+      { k: "serving_support", l: "vLLM / SGLang", kind: "text" }, { k: "hosts_selfhost_or_proxy", l: "Hosts", kind: "text" }, { k: "caveat", l: "Caveat", kind: "text" }, { k: "src", l: "Source", kind: "link" },
+    ]);
+  }
+
   /* ---------- A. supply */
   function supply() {
     const rows = gpuRates();
@@ -135,7 +153,7 @@
       { k: "traffic_evidence", l: "Traffic evidence", kind: "text" }, { k: "small_provider_traffic", l: "Small providers", kind: "text" },
       { k: "src", l: "Source", kind: "link" },
     ]);
-    const om = (T.openrouter_models || []).map(r => ({ ...r, per_provider: r.weekly_tokens && r.providers ? r.weekly_tokens / r.providers : null }));
+    const om = (T.openrouter_models || []).map(r => { const wt = parseBig(r.weekly_tokens); return { ...r, weekly_tokens: wt, per_provider: wt && r.providers ? wt / r.providers : null }; });
     table("tbl-ormodels", om, [
       { k: "slug", l: "Model", kind: "text" }, { k: "providers", l: "Providers", kind: "num", f: r => num(r.providers) },
       { k: "min_in", l: "Min in $/M", kind: "num" }, { k: "median_in", l: "Median in", kind: "num" }, { k: "min_out", l: "Min out $/M", kind: "num" }, { k: "median_out", l: "Median out", kind: "num" },
@@ -314,7 +332,7 @@
     table("tbl-routes", T.other_routes || [], [
       { k: "realism_rank", l: "#", kind: "num", f: r => num(r.realism_rank) }, { k: "route", l: "Route", kind: "text" }, { k: "what", l: "What", kind: "text" }, { k: "join", l: "Join", kind: "text" }, { k: "requirements", l: "Requirements", kind: "text" }, { k: "payment", l: "Payment", kind: "text" }, { k: "fees", l: "Fees", kind: "text" }, { k: "evidence", l: "Evidence", kind: "text" }, { k: "time_to_first_dollar", l: "First dollar", kind: "text" }, { k: "rented_ok", l: "Rented OK", kind: "text" }, { k: "src", l: "Source", kind: "link" },
     ], { sort: "realism_rank", dir: 1 });
-    table("tbl-niche", T.niche || [], [
+    table("tbl-niche", (T.niche || []).map(r => ({ ...r, weekly_tokens: parseBig(r.weekly_tokens) })), [
       { k: "model", l: "Model", kind: "text" }, { k: "weekly_tokens", l: "Tokens/wk", kind: "big" }, { k: "providers", l: "Providers", kind: "num", f: r => num(r.providers) }, { k: "min_out", l: "Min out $/M", kind: "num" }, { k: "median_out", l: "Median out", kind: "num" }, { k: "who_serves", l: "Who serves", kind: "text" }, { k: "license", l: "License", kind: "text" }, { k: "content_risk", l: "Content risk", kind: "text" }, { k: "opening_note", l: "Opening", kind: "text" }, { k: "src", l: "Source", kind: "link" },
     ], { sort: "weekly_tokens", dir: -1 });
     table("tbl-modalities", T.modalities || [], [{ k: "modality", l: "Modality", kind: "text" }, { k: "marketplace", l: "Marketplace", kind: "text" }, { k: "outside_provider_ok", l: "Outside providers", kind: "text" }, { k: "unit_price", l: "Unit price", kind: "text" }, { k: "src", l: "Source", kind: "link" }]);
@@ -323,8 +341,9 @@
     const pt = (T.price_trend || []).filter(r => r.price != null && r.date);
     const c = $("chart-trend");
     if (c && pt.length) {
-      const h100 = pt.filter(r => /H100/i.test(r.gpu)).sort((a, b) => a.date.localeCompare(b.date));
-      const h200 = pt.filter(r => /H200/i.test(r.gpu)).sort((a, b) => a.date.localeCompare(b.date));
+      const clean = pt.filter(r => /^\d{4}-\d{2}(-\d{2})?$/.test(String(r.date).trim()));
+      const h100 = clean.filter(r => /H100/i.test(r.gpu)).sort((a, b) => a.date.localeCompare(b.date));
+      const h200 = clean.filter(r => /H200/i.test(r.gpu)).sort((a, b) => a.date.localeCompare(b.date));
       const dates = [...new Set([...h100, ...h200].map(r => r.date))].sort();
       const at = (arr, d) => { const r = arr.find(x => x.date === d); return r ? r.price : null; };
       h("h4", "ct", c, "Rental price per GPU-hour over time (published indices and trackers)");
@@ -342,6 +361,6 @@
   }
 
   document.addEventListener("DOMContentLoaded", () => {
-    hero(); supply(); demand(); resale(); unitEconomics(); scenarios(); tax(); alternatives(); sources();
+    hero(); topModels(); supply(); demand(); resale(); unitEconomics(); scenarios(); tax(); alternatives(); sources();
   });
 })();

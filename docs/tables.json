@@ -25,7 +25,10 @@
    "tos_quote": "Using the Company Services or any data or information made available through the Website or Services (i) as part of any effort to compete with Company or to provide services as a service bureau",
    "tos_url": "https://vast.ai/terms",
    "src": "https://vast.ai/pricing",
-   "note": "marketplace medians; 'from' prices: H100 SXM 1.73, 4090 0.14, 5090 0.39, B200 6.25",
+   "note": "marketplace medians",
+   "more": [
+    "from prices: H100 SXM 1.73, 4090 0.14, 5090 0.39, B200 6.25"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -190,7 +193,7 @@
    "refund": "non-refundable; no refunds under $500",
    "start": "card, minutes",
    "api_allowed": "no",
-   "tos_quote": "The Services may not be used in connection with any commercial endeavors except your internal business or personal purposes. For the avoidance of doubt, any Marketplace Offerings purchased may not be resold.",
+   "tos_quote": "The Services may not be used in connection with any commercial endeavors except your internal business or personal purposes. ... any Marketplace Offerings purchased may not be resold.",
    "tos_url": "https://shadeform.com/terms-of-service",
    "src": "https://shadeform.com/prices",
    "note": "aggregator 'from' prices; H200 2.25 and B200 3.74 are 8x nodes divided by 8",
@@ -473,7 +476,10 @@
    "tos_quote": "This right of use is granted on a non-exclusive, non-transferable, and non-assignable basis, for the entire world and for the duration of the MSA",
    "tos_url": "https://www.koyeb.com/docs/legal/msa",
    "src": "https://www.koyeb.com/pricing",
-   "note": "per-second serverless GPUs; A100 SXM 2.15; 8x H100 20.00, 8x H200 24.00; joining Mistral",
+   "note": "per-second serverless GPUs; joining Mistral",
+   "more": [
+    "A100 SXM 2.15; 8x H100 20.00; 8x H200 24.00"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -498,7 +504,7 @@
    "refund": "no refunds",
    "start": "card, minutes (AMD GPUs: contact support)",
    "api_allowed": "yes",
-   "tos_quote": "Some of our Services allow third parties to access, use, or contribute to your Services Content, including via resale, your own products and services, or public-facing websites, applications, interfaces",
+   "tos_quote": "Some of our Services allow third parties to access, use, or contribute to your Services Content, including via resale, your own products and services, or public-facing websites",
    "tos_url": "https://www.digitalocean.com/legal/terms-of-service-agreement",
    "src": "https://www.digitalocean.com/pricing/gpu-droplets",
    "note": "MI325X 3.80; B200 not offered; pricing effective Aug 1 2026",
@@ -613,7 +619,10 @@
    "tos_quote": "Lium does not own most of the hardware and is not a party to the workload you run.",
    "tos_url": "https://lium.io/terms",
    "src": "https://lium.io/pricing",
-   "note": "Bittensor marketplace; live asks Oct 22; PCIe, A100, 4090, PRO 6000 are reference prices",
+   "note": "Bittensor marketplace; live asks Oct 22",
+   "more": [
+    "PCIe, A100, 4090 and PRO 6000 are reference prices"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -697,7 +706,10 @@
    "tos_quote": "For Terms of Service, please read the Megaport Global Services Agreement.",
    "tos_url": "https://www.latitude.sh/legal/terms",
    "src": "https://www.latitude.sh/pricing",
-   "note": "bare metal; 1x H100 80GB form factor not stated; 8x B300 64.00; 8x RTX PRO 6000 24.00",
+   "note": "bare metal; 1x H100 form factor not stated",
+   "more": [
+    "8x B300 64.00; 8x RTX PRO 6000 24.00"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -837,7 +849,10 @@
    "tos_quote": "The Customer is entitled to grant third parties a contractual term of use to any services the Customer orders from Hetzner.",
    "tos_url": "https://www.hetzner.com/legal/terms-and-conditions/",
    "src": "https://www.hetzner.com/dedicated-rootserver/matrix-gpu/",
-   "note": "EUR; GEX63 1x RTX PRO 6000 Max-Q EUR 999/mo plus EUR 999 setup; no H100/H200/B200",
+   "note": "EUR; GEX63 1x RTX PRO 6000 Max-Q EUR 999/mo plus EUR 999 setup",
+   "more": [
+    "no H100, H200 or B200"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -865,7 +880,10 @@
    "tos_quote": null,
    "tos_url": null,
    "src": "https://lightning.ai/pricing",
-   "note": "post-merger Voltage Park platform; H100 via Lambda, 8x H100 5.82; B200 8x via Nebius",
+   "note": "post-merger Voltage Park platform",
+   "more": [
+    "H100 via Lambda, 8x H100 5.82; B200 8x via Nebius"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -921,7 +939,10 @@
    "tos_quote": null,
    "tos_url": null,
    "src": "https://explorer.io.net/",
-   "note": "hire prices: H100 Ray 1.19, Container 2.09, Baremetal 1.79; 4090 0.25 to 0.37; B300 4.48 to 6.73",
+   "note": "hire prices: H100 Ray 1.19, Container 2.09, Baremetal 1.79",
+   "more": [
+    "4090 0.25 to 0.37; B300 4.48 to 6.73"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -977,7 +998,10 @@
    "tos_quote": null,
    "tos_url": null,
    "src": "https://fal.ai/pricing",
-   "note": "serverless list; 'as low as' H100 2.49, H200 2.99, B200 5.49, PRO 6000 1.99; B300 12.99",
+   "note": "serverless list prices",
+   "more": [
+    "as low as: H100 2.49, H200 2.99, B200 5.49, PRO 6000 1.99; B300 12.99"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -1062,7 +1086,10 @@
    "tos_quote": null,
    "tos_url": null,
    "src": "https://shadeform.com/directory/instances/hyperstack/H100",
-   "note": "via Shadeform directory; 8x H100 20.00 to 25.60; RTX PRO 6000 1.85 (getdeploying)",
+   "note": "via Shadeform directory; 8x H100 20.00 to 25.60",
+   "more": [
+    "RTX PRO 6000 1.85 (getdeploying)"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -2004,7 +2031,7 @@
    "accepts_outside_providers": "yes",
    "how_to_join": "application form at openrouter.ai/how-to-list; email providers@openrouter.ai",
    "approval_time": "not found; large backlog; about 1 of 40 daily applications accepted (secondhand)",
-   "requirements": "OpenAI-compatible /chat/completions with streaming and usage; /models feed; 95%+ uptime; privacy policy",
+   "requirements": "OpenAI-compatible API with streaming and usage; /models feed",
    "payment": "USD, monthly invoicing or auto top-up; net terms not found",
    "fees": "no inference markup; users pay 5.5% (Standard) or 8% (Business) on credits",
    "traffic_evidence": "about 21.9T tokens/day; top model 25.7T/week; 95 providers listed",
@@ -2012,14 +2039,17 @@
    "crypto": false,
    "rank_note": "long shot for a solo host; priority to proprietary models and gap-fillers",
    "src": "https://openrouter.ai/providers/apply",
+   "more": [
+    "95%+ uptime; published privacy policy"
+   ],
    "checked": "2026-10-22"
   },
   {
    "name": "Hugging Face Inference Providers",
    "accepts_outside_providers": "yes",
-   "how_to_join": "contact HF (thread #49 or social), huggingface.js PR, billing endpoint, Team or Enterprise plan",
+   "how_to_join": "contact HF; huggingface.js PR; billing endpoint; Team or Enterprise plan",
    "approval_time": "not found; no staff reply in public thread since Sep 23 2025",
-   "requirements": "OpenAI-compatible; /v1/models with pricing; Inference-Id header; TTFT under 5 s; tested every 6 h",
+   "requirements": "OpenAI-compatible; /v1/models with pricing; Inference-Id header",
    "payment": "USD (billing API in nano-USD); settlement to provider not documented",
    "fees": "no user markup; revenue share 'may' come later",
    "traffic_evidence": "18 partners; many 2026 applicants unanswered",
@@ -2027,6 +2057,9 @@
    "crypto": false,
    "rank_note": "technically easy, practically gated by manual enablement",
    "src": "https://huggingface.co/docs/inference-providers/en/register-as-a-provider",
+   "more": [
+    "TTFT under 5 s; tested every 6 h"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -2034,8 +2067,8 @@
    "accepts_outside_providers": "yes",
    "how_to_join": "web form: email, cloud provider, available capacity in USD; team reviews fit",
    "approval_time": "not found; sales review first",
-   "requirements": "company seller; gives Keak an API key to a cloud account; seller bears cloud-terms risk",
-   "payment": "per routed request at dashboard rate; schedule shown in dashboard; currency unstated",
+   "requirements": "company seller; hands Keak an API key; seller bears cloud-terms risk",
+   "payment": "per routed request at dashboard rate; currency unstated",
    "fees": "buyer sees 33% to 50% off list; no routing surcharge",
    "traffic_evidence": "360 models in catalog; no seller traffic data",
    "small_provider_traffic": "not found",
@@ -2047,9 +2080,9 @@
   {
    "name": "NanoGPT",
    "accepts_outside_providers": "yes",
-   "how_to_join": "email support@nano-gpt.com or Discord with company, capacity, regions, privacy policy, endpoint",
+   "how_to_join": "email support@nano-gpt.com or Discord with capacity and policy details",
    "approval_time": "not found",
-   "requirements": "OpenAI-compatible endpoint; state prompt logging and retention; sustained capacity",
+   "requirements": "OpenAI-compatible endpoint; state logging and retention; capacity",
    "payment": "NanoGPT pays as a customer by card or invoice (implied USD)",
    "fees": "not found",
    "traffic_evidence": "not found",
@@ -2169,7 +2202,7 @@
    "accepts_outside_providers": "crypto",
    "how_to_join": "btcli subnet register --netuid 64; run k3s miner; TDX confidential VMs",
    "approval_time": "permissionless; weights from 7-day compute sum",
-   "requirements": "TEE-only (Intel TDX); bare metal or VM, 'will not work on Runpod, Vast'; static IPs; RAM equal to VRAM",
+   "requirements": "TEE-only (Intel TDX); bare metal or VM; static IPs; RAM equal to VRAM",
    "payment": "SN64 alpha emissions; 41% to miners (about $51.7k/day across 18 miners)",
    "fees": "registration in TAO",
    "traffic_evidence": "5.7B tokens/day on OpenRouter; 192B/30d; team claims 160B/day",
@@ -2177,6 +2210,9 @@
    "crypto": true,
    "rank_note": "open but needs TDX hosts and large fleet; rewards volatile",
    "src": "https://github.com/rayonlabs/chutes-miner",
+   "more": [
+    "will not work on Runpod, Vast"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -2199,7 +2235,7 @@
    "accepts_outside_providers": "crypto",
    "how_to_join": "free mainnet registration; host MLNodes",
    "approval_time": "permissionless; Proof of Compute about every 24 h",
-   "requirements": "at least 320 GB GPU VRAM per MLNode; 2 nodes per model; collateral for full weight",
+   "requirements": "320 GB+ GPU VRAM per MLNode; 2 nodes per model; collateral",
    "payment": "GNK token (no USD); base weight 20% without collateral",
    "fees": "not found",
    "traffic_evidence": "about 11,000 H100-equivalents claimed",
@@ -2394,7 +2430,7 @@
    "accepts_outside_providers": "crypto",
    "how_to_join": "Path A: sign up, install Sysbox, run one command; listed in about 5 minutes",
    "approval_time": "minutes to list; rental fees paid daily with 2-day delay",
-   "requirements": "Ubuntu 24.04, Docker, Sysbox, public IP, 100 Mbit/s, ports 8080 and 2200; one GPU model per node",
+   "requirements": "Ubuntu 24.04, Docker, Sysbox, public IP, 100 Mbit/s; one GPU model per node",
    "payment": "95% of rental in USDT (min $5, 5% conversion fee) or alpha; idle pay in alpha",
    "fees": "5% platform fee",
    "traffic_evidence": "1,329 GPUs on 470 nodes (Sep 2026); measured 4090 $315/mo, H100 $1,292/mo",
@@ -2402,6 +2438,9 @@
    "crypto": true,
    "rank_note": "most realistic self-serve GPU-rental channel; USDT option",
    "src": "https://lium.io/rent-out-your-gpu",
+   "more": [
+    "ports 8080 and 2200"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -3295,18 +3334,21 @@
  "resale": [
   {
    "name": "Vast.ai host",
-   "host_requirements": "Ubuntu Server 22.04/24.04, public IPv4, 500/500 Mbps, 5+ ports per GPU, 200 GB Docker SSD, dedicated",
+   "host_requirements": "Ubuntu Server, public IPv4, 500/500 Mbps, 5+ ports per GPU, dedicated",
    "owns_hardware_required": true,
-   "vm_allowed": "installer has no hypervisor check; verification favors bare metal; VM support needs VT-d",
-   "fee_or_share": "not published; renter prices 'about 25% above what hosts earn' (host take about 80%, est)",
+   "vm_allowed": "no hypervisor check; verification favors bare metal; VMs need VT-d",
+   "fee_or_share": "not published; prices about 25% above host take (about 80%, est)",
    "payout": "USD via Wise, PayPal, Stripe; weekly invoices; $20 minimum; paid within 14 days",
    "renter_price_h100": 2.53,
    "renter_price_4090": 0.67,
    "renter_price_5090": 0.87,
    "crypto": false,
    "tos_quote": "it is the sole owner of the Hardware and Provider has the unrestricted right to lease the Hardware to Vast.ai",
-   "verdict": "open to small hosts; a rented cloud instance breaches the ownership and location warranties",
+   "verdict": "open to small hosts; rented instances breach ownership warranties",
    "src": "https://cloud.vast.ai/host/agreement",
+   "more": [
+    "200 GB Docker SSD"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -3327,7 +3369,7 @@
   },
   {
    "name": "TensorDock host",
-   "host_requirements": "data center only, 1 Gbps, static IP, Libvirt hypervisor on bare metal, 16 GB RAM and 1 TB NVMe per GPU",
+   "host_requirements": "data center only, 1 Gbps, static IP, Libvirt on bare metal",
    "owns_hardware_required": null,
    "vm_allowed": "no; host software is the hypervisor",
    "fee_or_share": "25% revenue share",
@@ -3339,6 +3381,9 @@
    "tos_quote": "TensorDock will take a twenty percent (25%) fee from Supplier's earnings.",
    "verdict": "datacenter-only bare metal; 25% cut; excludes home and cloud VMs",
    "src": "https://docs.tensordock.com/legal-information/supplier-hosting-agreement",
+   "more": [
+    "16 GB RAM and 1 TB NVMe per GPU"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -3353,13 +3398,13 @@
    "renter_price_5090": null,
    "crypto": false,
    "tos_quote": "Provided the Customer has the prior authorization from the Company to do so, Customer may resell an unused portion of an Accepted Contract on the Marketplace.",
-   "verdict": "only sanctioned secondary market; credits not revenue; 25% average realized discount",
+   "verdict": "only sanctioned secondary market; credits; 25% average discount",
    "src": "https://docs.sfcompute.com/preview/guides/reselling.md",
    "checked": "2026-10-22"
   },
   {
    "name": "Akash provider",
-   "host_requirements": "Kubernetes cluster, own domain, static IP or DDNS, 8 cores/16 GB, NVIDIA only, 100 Mbps, 5 AKT deposit",
+   "host_requirements": "Kubernetes, own domain, static IP, 8 cores/16 GB, NVIDIA only",
    "owns_hardware_required": null,
    "vm_allowed": "k8s on servers you control; cloud VMs not addressed",
    "fee_or_share": "take rate 1% AKT, 2% axlUSDC (Prop 267); third party says up to 20% USDC",
@@ -3371,11 +3416,14 @@
    "tos_quote": null,
    "verdict": "needs k8s, domain, static IP; utilization unknown (stats page did not load)",
    "src": "https://akash.network/docs/providers/getting-started/hardware-requirements/",
+   "more": [
+    "100 Mbps; 5 AKT deposit"
+   ],
    "checked": "2026-10-22"
   },
   {
    "name": "io.net worker",
-   "host_requirements": "12 GB RAM, 256 GB SSD, RTX 30xx+ or datacenter GPU, stake 200 IO per card x multiplier, 12-hour wait",
+   "host_requirements": "12 GB RAM, 256 GB SSD, RTX 30xx+; stake 200 IO per card x multiplier",
    "owns_hardware_required": null,
    "vm_allowed": "not stated",
    "fee_or_share": "not found",
@@ -3387,6 +3435,9 @@
    "tos_quote": null,
    "verdict": "only 8 suppliers paid today; 4090 reward about $2 to $8/day (est)",
    "src": "https://io.net/docs/guides/workers/device-onboarding",
+   "more": [
+    "12-hour wait"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -3407,7 +3458,7 @@
   },
   {
    "name": "Nosana host",
-   "host_requirements": "native Linux, 12 GB RAM, 256 GB NVMe, 100/50 Mbps, RTX 30/40/50 or A100/H100, 1 GPU per PC",
+   "host_requirements": "native Linux, 12 GB RAM, 256 GB NVMe, 100/50 Mbps, 1 GPU per PC",
    "owns_hardware_required": null,
    "vm_allowed": "no (native Linux only)",
    "fee_or_share": "not found",
@@ -3419,6 +3470,9 @@
    "tos_quote": null,
    "verdict": "0 of 90 4090 hosts free, jobs queued; single GPU per machine",
    "src": "https://learn.nosana.com/hosts/grid.html",
+   "more": [
+    "RTX 30/40/50 or A100/H100"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -3439,11 +3493,11 @@
   },
   {
    "name": "Lium provider (SN51)",
-   "host_requirements": "Ubuntu 24.04, Docker, Sysbox, public IP, 100 Mbit/s, ports 8080 and 2200; one GPU model per node",
+   "host_requirements": "Ubuntu 24.04, Docker, Sysbox, public IP, 100 Mbit/s; one model per node",
    "owns_hardware_required": null,
    "vm_allowed": "needs root and Sysbox; rented VM with root may work; container pods cannot",
    "fee_or_share": "5% platform fee",
-   "payout": "95% of rental daily in USDT (min $5, 5% conversion fee) or SN51 alpha; idle pay in alpha",
+   "payout": "95% daily in USDT (min $5, 5% fee) or SN51 alpha; idle pay in alpha",
    "renter_price_h100": 1.93,
    "renter_price_4090": 0.45,
    "renter_price_5090": 0.57,
@@ -3451,6 +3505,9 @@
    "tos_quote": "Lium does not own most of the hardware and is not a party to the workload you run.",
    "verdict": "self-serve, listed in minutes, USDT option; measured H100 $1,292/GPU-month",
    "src": "https://lium.io/rent-out-your-gpu",
+   "more": [
+    "ports 8080 and 2200"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -3519,7 +3576,7 @@
   },
   {
    "name": "Cudo Compute supplier",
-   "host_requirements": "5 bare-metal hosts minimum in a renewable-powered datacenter; 16+ cores, 64 GB, 2 TB SSD, 10GbE, IPMI, /27 IPv4",
+   "host_requirements": "5 bare-metal hosts in a renewable-powered datacenter; IPMI; /27 IPv4",
    "owns_hardware_required": null,
    "vm_allowed": "no (bare metal)",
    "fee_or_share": "not stated",
@@ -3531,6 +3588,9 @@
    "tos_quote": null,
    "verdict": "datacenter scale only",
    "src": "https://docs.cudocompute.com/suppliers/requirements",
+   "more": [
+    "16+ cores, 64 GB, 2 TB SSD, 10GbE"
+   ],
    "checked": "2026-10-22"
   }
  ],
@@ -5636,13 +5696,13 @@
  "forecast": [
   {
    "source": "ColoPrice (broker blog, Aug 2 2026)",
-   "forecast_text": "H100 holds 2 to 3 through 2026, then 1 to 1.50 as Blackwell saturates in 2027 to 28",
+   "forecast_text": "H100 holds 2 to 3 through 2026, then 1 to 1.50 as Blackwell saturates",
    "src": "https://coloprice.com/guides/h100-rental-prices/",
    "checked": "2026-10-22"
   },
   {
    "source": "Shattered.io (Oct 20 2026)",
-   "forecast_text": "H100 marketplace rates drift toward $1/hr by mid-2027 as B200 absorbs premium demand",
+   "forecast_text": "H100 marketplace rates drift toward $1/hr by mid-2027",
    "src": "https://shattered.io/h100-h200-b200-cloud-gpu-pricing-2026/",
    "checked": "2026-10-22"
   },
@@ -5654,7 +5714,7 @@
   },
   {
    "source": "GPUSmith (Oct 14 2026)",
-   "forecast_text": "H100 and H200 drift to a value tier; HBM contract prices up 2 to 2.5x in 2027 (Bernstein); lock in pricing",
+   "forecast_text": "H100 and H200 become a value tier; HBM prices up 2 to 2.5x in 2027",
    "src": "https://gpusmith.com/articles/en/h100-rental-price-history-trends",
    "checked": "2026-10-22"
   },
@@ -5678,7 +5738,7 @@
   },
   {
    "source": "American Compute (Jun 2026 residual report)",
-   "forecast_text": "used HGX H100 node bought in 2026 retains 3 to 6% after 36 months (moderate), 1 to 3% after 48",
+   "forecast_text": "used HGX H100 node bought in 2026 retains 3 to 6% after 36 months",
    "src": "https://www.amcompute.com/gpu-server-values/h100",
    "checked": "2026-10-22"
   },
@@ -5754,10 +5814,13 @@
    "tps_llama70b": 1482,
    "tps_deepseek_r1": 306,
    "tokens_per_dollar_vs_h100": 1.12,
-   "maturity_note": "vLLM and SGLang supported; Kimi K2 verified in SGLang; DeepSeek MLA path lags (0.53x H100)",
+   "maturity_note": "vLLM and SGLang supported; DeepSeek MLA path lags (0.53x H100)",
    "api_allowed": "yes (DigitalOcean); silent (Vultr)",
    "src": "https://inferencex.semianalysis.com/run/gptoss-120b-on-mi300x",
    "est": true,
+   "more": [
+    "Kimi K2 verified in SGLang"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -5789,11 +5852,14 @@
    "tps_llama70b": 2878,
    "tps_deepseek_r1": 1608,
    "tokens_per_dollar_vs_h100": 3.81,
-   "maturity_note": "vLLM FP4 works; ATOM engine 'yet to serve production tokens'; MoRI SGLang FP4 4,027 at 75",
+   "maturity_note": "vLLM FP4 works; ATOM engine not yet in production",
    "api_allowed": "silent (Vultr); not read (Daytona)",
    "src": "https://inferencex.semianalysis.com/run/gptoss-120b-on-mi355x",
    "est": true,
    "note": "1.65x H100 at Daytona 5.99; no 1, 3 or 12 month price anywhere",
+   "more": [
+    "MoRI SGLang FP4 4,027 at 75 tok/s/user"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -5839,9 +5905,12 @@
    "tps_llama70b": null,
    "tps_deepseek_r1": null,
    "tokens_per_dollar_vs_h100": null,
-   "maturity_note": "verified in vLLM gpt-oss recipe (TP 2, DP 4); no native FP4; Qwen3.5-397B 40,363 at 81 tok/s/user; Kimi K3 6,567",
+   "maturity_note": "verified in vLLM gpt-oss recipe; no native FP4",
    "api_allowed": "yes (GCP terms)",
    "src": "https://inferencex.semianalysis.com/hardware/tpu-v7-ironwood-vs-gb300-nvl72-agentx-results",
+   "more": [
+    "Qwen3.5-397B 40,363 at 81 tok/s/user; Kimi K3 6,567"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -5855,7 +5924,7 @@
    "tps_llama70b": 36.6,
    "tps_deepseek_r1": null,
    "tokens_per_dollar_vs_h100": null,
-   "maturity_note": "vLLM Neuron; only concurrency-1 Llama 70B tutorial (36.6 tok/s per instance); DP scaling issue",
+   "maturity_note": "vLLM Neuron; only a concurrency-1 Llama 70B tutorial; DP scaling issue",
    "api_allowed": "yes (AWS agreement, End Users)",
    "src": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
    "note": "Llama figure is per 16-chip instance at batch 1",
@@ -5938,7 +6007,7 @@
    "tps_llama70b": 1031,
    "tps_deepseek_r1": null,
    "tokens_per_dollar_vs_h100": 0.39,
-   "maturity_note": "InferenceX has no measured data; vLLM gpt-oss works on Blackwell; 70B at INT4 only on one card",
+   "maturity_note": "no InferenceX data; vLLM gpt-oss works on Blackwell; 70B at INT4",
    "api_allowed": "silent (Vast, RunPod ambiguous, Koyeb)",
    "src": "https://www.databasemart.com/blog/vllm-gpu-benchmark-pro6000",
    "est": true,
@@ -5956,7 +6025,7 @@
    "tps_llama70b": 1230,
    "tps_deepseek_r1": null,
    "tokens_per_dollar_vs_h100": 2.43,
-   "maturity_note": "vLLM gpt-oss recipe: ongoing work for 5090; 70B needs 2 cards at INT4 (pipeline parallel)",
+   "maturity_note": "gpt-oss recipe: ongoing work for 5090; 70B needs 2 cards at INT4",
    "api_allowed": "silent (Vast)",
    "src": "https://www.cloudrift.ai/blog/benchmarking-rtx-gpus-for-llm-inference",
    "est": true,
@@ -6055,9 +6124,12 @@
    "tps_llama70b": null,
    "tps_deepseek_r1": null,
    "tokens_per_dollar_vs_h100": null,
-   "maturity_note": "Kimi K3 20,143 per GPU at 56 tok/s/user; Qwen3.5-397B 101,367 per GPU (InferenceX)",
+   "maturity_note": "Kimi K3 20,143 per GPU at 56 tok/s/user (InferenceX)",
    "api_allowed": "n/a",
    "src": "https://inferencex.semianalysis.com/hardware/tpu-v7-ironwood-vs-gb300-nvl72-agentx-results",
+   "more": [
+    "Qwen3.5-397B 101,367 per GPU"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6224,7 +6296,10 @@
    "verdict": "about 10x worse than H100 on gpt-oss; close only on DeepSeek at low concurrency",
    "src": "https://omlx.ai/benchmarks/wjn65xp9",
    "est": true,
-   "note": "batch 8 for gpt-oss, batch 2 for DeepSeek (oMLX, Mar 2026); Kimi K2.6 40.9 at batch 4",
+   "note": "batch 8 for gpt-oss, batch 2 for DeepSeek (oMLX, Mar 2026)",
+   "more": [
+    "Kimi K2.6 40.9 tok/s at batch 4"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6343,10 +6418,13 @@
    "cost_per_m_output_gptoss": 0.71,
    "cost_per_m_output_deepseek": null,
    "hosted_option": "none found",
-   "verdict": "better appliance than a Mac for an API; 128 GB cap; two Sparks Qwen3 235B only 11.7 tok/s",
+   "verdict": "better appliance than a Mac for an API; 128 GB cap",
    "src": "https://forums.developer.nvidia.com/t/measured-inference-benchmarks-on-a-single-dgx-spark-same-harness-across-ollama-llama-cpp-and-vllm-notes-data-published/379766",
    "est": true,
    "note": "batch figure 116 to 153 at 8 concurrent (vLLM); 175 at 100",
+   "more": [
+    "two Sparks run Qwen3 235B at only 11.7 tok/s"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6385,10 +6463,13 @@
    "cost_per_m_output_gptoss": null,
    "cost_per_m_output_deepseek": null,
    "hosted_option": "none",
-   "verdict": "748 GB coherent; no public LLM throughput; $99k to $188k; NVIDIA approval 14 to 30 days",
+   "verdict": "748 GB coherent; no public LLM throughput; $99k to $188k",
    "src": "https://pi3g.com/?p=31780",
    "est": true,
    "note": "cost/hr is hardware only, 3.8 to 7.2",
+   "more": [
+    "NVIDIA approval 14 to 30 days"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6406,9 +6487,12 @@
    "cost_per_m_output_gptoss": null,
    "cost_per_m_output_deepseek": null,
    "hosted_option": "none",
-   "verdict": "vendor claim 476 tok/s aggregate on Llama 70B (about $0.52/M est); no independent benchmark; 1.5 kW",
+   "verdict": "vendor claim 476 tok/s on Llama 70B (about $0.52/M est); 1.5 kW",
    "src": "https://docs.tenstorrent.com/tt-quietbox2-guide",
    "est": true,
+   "more": [
+    "no independent benchmark"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6504,15 +6588,20 @@
    "usd_per_gpu_day_5090": 11.75,
    "usd_per_gpu_day_h100": null,
    "usd_per_node_day_8xh200": null,
-   "rented_allowed": "banned at Lambda, Nebius, Voltage Park, TensorDock, Vast card accounts; no clause at RunPod, Crusoe, Hyperbolic",
+   "rented_allowed": "banned at Lambda, Nebius, Voltage Park, TensorDock, Vast card accounts",
    "owned_requirements": "GPU plus miner software; fresh coin, $0 market cap entry, one exchange",
    "net_61_days_rented_4090": 102,
    "net_61_days_owned_4090": 425,
    "net_61_days_owned_h100": null,
-   "verdict": "only +1.68/day at the $0.34 rental floor; -11.52/day at $0.89; unverified liquidity",
+   "verdict": "+1.68/day only at the $0.34 rental floor; -11.52/day at $0.89",
    "est": true,
    "src": "https://whattomine.com/gpus",
-   "note": "gross per day; owned net at $0.30/kWh 6.96 (4090), 8.01 (5090); rented 61-day at $0.89 is -703",
+   "note": "gross per day; owned net at $0.30/kWh 6.96 (4090), 8.01 (5090)",
+   "more": [
+    "no clause at RunPod, Crusoe, Hyperbolic",
+    "liquidity unverified",
+    "rented 61-day at $0.89 is -703"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6590,15 +6679,19 @@
    "usd_per_gpu_day_5090": 13.8,
    "usd_per_gpu_day_h100": 43.07,
    "usd_per_node_day_8xh200": 344.43,
-   "rented_allowed": "not stated; needs Ubuntu 24.04 root plus Sysbox; a rented VM might work, a container pod cannot",
-   "owned_requirements": "NVIDIA RTX 30/40/50 up to H100/H200/B200/B300, one model per node, public IP, 100 Mbit/s",
+   "rented_allowed": "not stated; needs root plus Sysbox; VM might work, container pod cannot",
+   "owned_requirements": "NVIDIA RTX 30/40/50 to B300, one model per node, public IP, 100 Mbit/s",
    "net_61_days_rented_4090": 143,
    "net_61_days_owned_4090": 465,
    "net_61_days_owned_h100": 2320,
-   "verdict": "best measured option; 8x H100 $10,333/month measured; 4090 still earns less than plain rental",
+   "verdict": "best measured option; 8x H100 $10,333/month measured",
    "est": true,
    "src": "https://lium.io/rent-out-your-gpu",
-   "note": "measured 30-day averages incl. idle pay; 8x H200 uses H100 proxy; rented 4090 at $0.89 is -662",
+   "note": "measured 30-day averages incl. idle pay; 8x H200 uses H100 proxy",
+   "more": [
+    "a 4090 still earns less than plain rental",
+    "rented 4090 at $0.89 is -662 over 61 days"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6608,14 +6701,18 @@
    "usd_per_gpu_day_5090": null,
    "usd_per_gpu_day_h100": null,
    "usd_per_node_day_8xh200": null,
-   "rented_allowed": "yes in writing for rented bare metal or VM (Latitude, Massed Compute); 'will not work on Runpod, Vast'",
-   "owned_requirements": "Intel TDX confidential VMs, k3s cluster, static 1:1 IPs, RAM about equal to VRAM, 4-core/32 GB control server",
+   "rented_allowed": "yes in writing for rented bare metal or VM (Latitude, Massed)",
+   "owned_requirements": "Intel TDX confidential VMs, k3s, static 1:1 IPs, RAM about equal to VRAM",
    "net_61_days_rented_4090": null,
    "net_61_days_owned_4090": null,
    "net_61_days_owned_h100": null,
    "verdict": "no per-GPU payout published; TDX hosts and large fleets dominate",
    "est": true,
    "src": "https://github.com/rayonlabs/chutes-miner",
+   "more": [
+    "will not work on Runpod, Vast",
+    "4-core/32 GB control server"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6625,15 +6722,20 @@
    "usd_per_gpu_day_5090": null,
    "usd_per_gpu_day_h100": null,
    "usd_per_node_day_8xh200": 614.4,
-   "rented_allowed": "no: TEE enabled in BIOS, TargonOS wipes disks, exactly 8 GPUs; rented RunPod node would lose $344 to $459/day",
+   "rented_allowed": "no: TEE in BIOS, TargonOS wipes disks, exactly 8 GPUs",
    "owned_requirements": "8x H100/H200/B200/B300/RTX PRO 6000 with Intel TDX or AMD SEV-SNP, TPM 2.0",
    "net_61_days_rented_4090": null,
    "net_61_days_owned_4090": null,
    "net_61_days_owned_h100": null,
-   "verdict": "only network near cloud rental rates; owned 8x H200 projects +$31k to +$38k over 61 days at CA power",
+   "verdict": "only network near cloud rental rates; TEE 8-GPU nodes only",
    "est": true,
    "src": "https://github.com/manifold-inc/targon/blob/main/docs/miner/miner.md",
-   "note": "node/day is 556.80 (target 290c) to 672 (cap 350c); 5 active miners; alpha price risk",
+   "note": "node/day 556.80 (target 290c) to 672 (cap 350c); 5 active miners",
+   "more": [
+    "rented RunPod node would lose $344 to $459/day",
+    "owned 8x H200 projects +$31k to +$38k over 61 days at CA power",
+    "alpha price risk"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6643,7 +6745,7 @@
    "usd_per_gpu_day_5090": 13.68,
    "usd_per_gpu_day_h100": 65.52,
    "usd_per_node_day_8xh200": null,
-   "rented_allowed": "needs Kubernetes on a VM you control; renting Akash supply to resell on Akash is circular",
+   "rented_allowed": "needs Kubernetes on a VM you control; reselling Akash on Akash is circular",
    "owned_requirements": "Ubuntu 24.04, 8 cores/16 GB, own domain, static IP, NVIDIA GPUs, 5 AKT deposit",
    "net_61_days_rented_4090": null,
    "net_61_days_owned_4090": 322,
@@ -6662,14 +6764,17 @@
    "usd_per_gpu_day_h100": 60.32,
    "usd_per_node_day_8xh200": null,
    "rented_allowed": "not stated; needs IO Worker on a Linux/Windows host; 250 IO stake for a 4090",
-   "owned_requirements": "12 GB RAM, 256 GB SSD, RTX 30xx+, stake 200 IO per card x multiplier, 12-hour wait",
+   "owned_requirements": "12 GB RAM, 256 GB SSD, RTX 30xx+, stake 200 IO x multiplier, 12-hour wait",
    "net_61_days_rented_4090": 74,
    "net_61_days_owned_4090": 396,
    "net_61_days_owned_h100": 3372,
    "verdict": "only 8 suppliers paid today; reward share unverified",
    "est": true,
    "src": "https://explorer.io.net/explorer/epoch-rewards",
-   "note": "4090 = 2.17 reward + 7.20 hire; H100 = 17.36 + 42.96; rented 4090 +1.21/day at $0.34",
+   "note": "4090 = 2.17 reward + 7.20 hire; H100 = 17.36 + 42.96",
+   "more": [
+    "rented 4090 +1.21/day at $0.34"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6716,13 +6821,16 @@
    "usd_per_gpu_day_h100": null,
    "usd_per_node_day_8xh200": null,
    "rented_allowed": "no: bare-metal servers only",
-   "owned_requirements": "enterprise GPUs, 99% monthly uptime, stake 6,324 ATH (4090) to 360,763 ATH (H100x8, about $2,092)",
+   "owned_requirements": "enterprise GPUs, 99% monthly uptime, bare metal",
    "net_61_days_rented_4090": null,
    "net_61_days_owned_4090": null,
    "net_61_days_owned_h100": null,
    "verdict": "no per-GPU reward published",
    "est": true,
    "src": "https://docs.aethir.com/aethir-cloud/aethir-cloud-host/operational-requirements-for-cloud-hosts",
+   "more": [
+    "stake 6,324 ATH (4090) to 360,763 ATH (H100x8, about $2,092)"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6822,10 +6930,13 @@
    "net_61_days_rented_4090": null,
    "net_61_days_owned_4090": 616,
    "net_61_days_owned_h100": null,
-   "verdict": "Sept 2026 forecast $413 to $594/month per 5090; one account did 57.6% of pool work",
+   "verdict": "Sept 2026 forecast $413 to $594/month per 5090",
    "est": true,
    "src": "https://blog.sogni.ai/blogs/what-a-gpu-earns-on-sogni/",
    "note": "per-day = monthly forecast midpoint / 30.4; RTX PRO 6000 $813 to $1,102/month",
+   "more": [
+    "one account did 57.6% of pool work"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -6976,7 +7087,7 @@
    "provider": "RunPod",
    "quote": null,
    "src": "https://www.runpod.io/legal/terms-of-service",
-   "note": "no mining clause found; 'any purpose other than that for which we make the Site available'",
+   "note": "no mining clause found; only a general 'intended purpose' clause",
    "checked": "2026-10-22"
   },
   {
@@ -7036,7 +7147,7 @@
    "requirements": "TDX bare metal or VM, static IPs, control server",
    "payment": "SN64 alpha (crypto)",
    "fees": "TAO registration",
-   "evidence": "8.61% of top-10 emissions; explicit support for Latitude and Massed Compute servers",
+   "evidence": "8.61% of top-10 emissions; Latitude and Massed Compute servers supported",
    "time_to_first_dollar": "about a week (7-day window)",
    "rented_ok": "yes, explicitly (not Runpod or Vast)",
    "realism": "Medium",
@@ -7084,11 +7195,14 @@
    "requirements": "reliability; price about $2.00 to $3.50/hr",
    "payment": "USD",
    "fees": "none",
-   "evidence": "H100 list: Modal 3.95, fal 4.50 (as low as 2.49), Together 5.49, Baseten 6.50, Fireworks 8.00",
+   "evidence": "H100 list: Modal 3.95, fal 4.50, Together 5.49, Baseten 6.50, Fireworks 8.00",
    "time_to_first_dollar": "weeks",
    "rented_ok": "yes where cloud terms permit",
    "realism": "Medium",
    "src": "https://fal.ai/pricing",
+   "more": [
+    "fal as low as 2.49"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -7173,7 +7287,7 @@
   },
   {
    "realism_rank": 12,
-   "route": "Clore, Fluence, Nosana, io.net, Render, Aethir, Livepeer, Golem, Morpheus, Gonka, Kuzco",
+   "route": "Clore, Fluence, Nosana, io.net, Render, Aethir, Livepeer, Golem, Morpheus",
    "what": "token-paid compute networks",
    "who_pays": "tokens",
    "join": "varies",
@@ -7185,6 +7299,9 @@
    "rented_ok": "mostly not stated",
    "realism": "Low",
    "src": "https://www.fxempire.com/crypto/wrapped-gonka/profile",
+   "more": [
+    "also Gonka, Kuzco"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -7274,25 +7391,28 @@
    "rule": "deduct rented compute in the year actually paid",
    "citation": "Reg. 1.461-1(a)(1); Pub 538",
    "quote": "amounts representing allowable deductions shall, as a general rule, be taken into account for the taxable year in which paid",
-   "how_it_applies": "a GPU bill paid in Dec 2026 for Dec usage is a 2026 deduction; paid in Jan 2027 it is 2027",
+   "how_it_applies": "Dec 2026 bill paid in Dec is a 2026 deduction; paid in Jan 2027 it is 2027",
    "src": "https://www.law.cornell.edu/cfr/text/26/1.461-1",
    "checked": "2026-10-22"
   },
   {
    "topic": "12-month rule",
-   "rule": "prepaid benefit not beyond 12 months or end of next tax year is deductible when paid",
+   "rule": "prepaid benefit within 12 months or next tax year is deductible when paid",
    "citation": "Reg. 1.263(a)-4(f)(1)",
    "quote": "does not extend beyond the earlier of (i) 12 months after the first date on which the taxpayer realizes the right or benefit; or (ii) The end of the taxable year following the taxable year in which the payment is made",
-   "how_it_applies": "12-month reservation paid Dec 2026 starting Dec 2026 or Jan 1 2027: deduct in 2026; start Jan 15 2027: capitalize",
+   "how_it_applies": "paid Dec 2026, service by Jan 1 2027: deduct in 2026",
    "src": "https://www.ecfr.gov/current/title-26/chapter-I/subchapter-A/part-1/subject-group-ECFR9b4e8d8fb4d5b2b/section-1.263(a)-4",
+   "more": [
+    "service starting Jan 15 2027 for 12 months must be capitalized"
+   ],
    "checked": "2026-10-22"
   },
   {
    "topic": "12-month rule exclusions",
-   "rule": "indefinite rights, fixed-quantity contracts and expected renewals fall outside the rule",
+   "rule": "indefinite rights, fixed-quantity contracts and likely renewals excluded",
    "citation": "Reg. 1.263(a)-4(f)(4), (f)(5)",
    "quote": "a right attributable to an agreement to provide or receive a fixed amount of goods or services",
-   "how_it_applies": "write the reservation as a fixed 12-month period, not a block of GPU-hours; avoid auto-renewal",
+   "how_it_applies": "write a fixed 12-month term, not a block of GPU-hours; no auto-renewal",
    "src": "https://www.ecfr.gov/current/title-26/chapter-I/subchapter-A/part-1/subject-group-ECFR9b4e8d8fb4d5b2b/section-1.263(a)-4",
    "checked": "2026-10-22"
   },
@@ -7301,22 +7421,25 @@
    "rule": "9th Circuit allowed a cash-basis December prepayment of a 12-month lease in full",
    "citation": "Zaninovich v. Commissioner, 616 F.2d 429 (9th Cir. 1980)",
    "quote": "We hold that the payment in this case was fully deductible in the year of payment.",
-   "how_it_applies": "supports a December 2026 prepay; payment must be due and non-refundable, not an advance deposit (Williamson distinguished)",
+   "how_it_applies": "supports a December 2026 prepay that is due and non-refundable",
    "src": "https://openjurist.org/616/f2d/429",
+   "more": [
+    "advance deposits (Williamson) were distinguished"
+   ],
    "checked": "2026-10-22"
   },
   {
    "topic": "Bonus depreciation 2026",
-   "rule": "100 percent first-year allowance, permanent, for property acquired after Jan 19 2025",
+   "rule": "100% first-year allowance, permanent, for property acquired after Jan 19 2025",
    "citation": "IRC 168(k)(1)(A) as amended by P.L. 119-21; Notice 2026-11",
    "quote": "shall include an allowance equal to 100 percent of the adjusted basis of the qualified property",
-   "how_it_applies": "a server bought under a contract signed after Jan 19 2025 and in service by Dec 31 2026 is fully deductible federally in 2026",
+   "how_it_applies": "server contracted after Jan 19 2025 and in service by Dec 31 2026: 100% in 2026",
    "src": "https://www.law.cornell.edu/uscode/text/26/168",
    "checked": "2026-10-22"
   },
   {
    "topic": "Used property and bonus",
-   "rule": "used GPUs qualify if not previously used by the taxpayer and bought from an unrelated party",
+   "rule": "used GPUs qualify if new to the taxpayer and bought from an unrelated party",
    "citation": "IRC 168(k)(2)(E); BDO summary",
    "quote": "The property must not have been used by the taxpayer or a predecessor prior to its acquisition",
    "how_it_applies": "a refurbished 8x H100 server from a reseller qualifies for 100% bonus",
@@ -7325,10 +7448,10 @@
   },
   {
    "topic": "5-year property",
-   "rule": "computers and peripheral equipment are qualified technological equipment, 5-year MACRS",
+   "rule": "computers are qualified technological equipment: 5-year MACRS",
    "citation": "IRC 168(e)(3)(B)(iv), 168(i)(2)",
    "quote": "The term '5-year property' includes ... (iv) any qualified technological equipment",
-   "how_it_applies": "GPU servers depreciate over 5 years (class life 6 per Rev. Proc. 87-56 asset class 00.12)",
+   "how_it_applies": "GPU servers depreciate over 5 years (asset class 00.12, class life 6)",
    "src": "https://www.law.cornell.edu/uscode/text/26/168",
    "checked": "2026-10-22"
   },
@@ -7337,8 +7460,11 @@
    "rule": "ready and available for its assigned function, even if unused",
    "citation": "Pub 946; Reg. 1.46-3(d)",
    "quote": "You place property in service when it is ready and available for a specific use ... Even if you are not using the property, it is in service when it is ready and available for its specific use.",
-   "how_it_applies": "racked, powered, networked and able to serve by Dec 31 2026 counts; delivered but not racked until Jan 2027 is 2027",
+   "how_it_applies": "racked, powered and able to serve by Dec 31 2026 counts",
    "src": "https://www.irs.gov/publications/p946",
+   "more": [
+    "delivered but not racked until Jan 2027 is 2027"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -7346,7 +7472,7 @@
    "rule": "applies when over 40% of basis is placed in service in the last 3 months",
    "citation": "IRC 168(d)(3)(A)",
    "quote": "exceed 40 percent of the aggregate bases of property to which this section applies placed in service during such taxable year",
-   "how_it_applies": "irrelevant to the federal 100% bonus; cuts California year-one MACRS to 5% for a December purchase",
+   "how_it_applies": "no effect on federal 100% bonus; cuts California year-one MACRS to 5%",
    "src": "https://www.law.cornell.edu/uscode/text/26/168",
    "checked": "2026-10-22"
   },
@@ -7364,7 +7490,7 @@
    "rule": "$25,000 cap, reduced dollar for dollar above $200,000 of 179 property",
    "citation": "R&TC 17255(a), (b)",
    "quote": "the aggregate cost which may be taken into account under Section 179(a) of the Internal Revenue Code for any taxable year shall not exceed twenty-five thousand dollars ($25,000)",
-   "how_it_applies": "a $100,000 server gets $25,000 of California 179 (under the $200,000 phase-out); limited to business income",
+   "how_it_applies": "a $100,000 server gets $25,000 of California 179; limited to business income",
    "src": "https://california.public.law/codes/revenue_and_taxation_code_section_17255",
    "checked": "2026-10-22"
   },
@@ -7373,7 +7499,7 @@
    "rule": "year-one California depreciation on a December server is 5% of remaining basis",
    "citation": "Pub 946 Tables A-1 and A-5",
    "quote": "5.00%",
-   "how_it_applies": "California year one on a $100,000 server: $25,000 + 5% x $75,000 = $28,750 (half-year: $40,000)",
+   "how_it_applies": "$100,000 server: $25,000 + 5% x $75,000 = $28,750 (half-year: $40,000)",
    "src": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
    "est": true,
    "checked": "2026-10-22"
@@ -7383,17 +7509,20 @@
    "rule": "excess business loss limit $256,000 single, $512,000 joint for 2026",
    "citation": "Rev. Proc. 2025-32 sec. 4.31",
    "quote": "the amount under 461(l)(3)(A)(ii)(II) is $256,000 ($512,000 for joint returns)",
-   "how_it_applies": "only the first $256,000 (single) of net Schedule C loss offsets W-2 wages in 2026",
+   "how_it_applies": "first $256,000 (single) of net Schedule C loss offsets W-2 wages in 2026",
    "src": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
    "checked": "2026-10-22"
   },
   {
    "topic": "461(l) California",
-   "rule": "permanent state version; disallowed amount is a carryover excess business loss, not an NOL",
+   "rule": "permanent state version; disallowed loss is a carryover, not an NOL",
    "citation": "R&TC 17560.5(b)",
    "quote": "Any loss which is disallowed under paragraph (1) shall be treated as a carryover excess business loss for the following taxable year.",
-   "how_it_applies": "2025 California threshold was $313,000 / $626,000; 2026 figure not yet published (likely indexed up, est)",
+   "how_it_applies": "2025 California threshold $313,000 / $626,000; 2026 not yet published",
    "src": "https://california.public.law/codes/revenue_and_taxation_code_section_17560.5",
+   "more": [
+    "likely indexed up rather than cut to $256,000 (est)"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -7401,7 +7530,7 @@
    "rule": "disallowed excess business loss becomes an NOL carryforward",
    "citation": "IRC 461(l)(2)",
    "quote": "Any loss which is disallowed under paragraph (1) shall be treated as a net operating loss for the taxable year for purposes of determining any net operating loss carryover under section 172(b)",
-   "how_it_applies": "losses above the cap are deferred to 2027 and later (80% of taxable income limit not researched)",
+   "how_it_applies": "losses above the cap defer to 2027 and later (80% limit not researched)",
    "src": "https://www.law.cornell.edu/uscode/text/26/461",
    "checked": "2026-10-22"
   },
@@ -7410,16 +7539,16 @@
    "rule": "losses allowed only to the extent of amounts at risk; own cash counts",
    "citation": "IRC 465(a)(1), (b)(1)",
    "quote": "the amount of money and the adjusted basis of other property contributed by the taxpayer to the activity",
-   "how_it_applies": "owner's own cash with no nonrecourse debt is fully at risk; check Schedule C box 32a",
+   "how_it_applies": "own cash with no nonrecourse debt is fully at risk; check box 32a",
    "src": "https://www.law.cornell.edu/uscode/text/26/465",
    "checked": "2026-10-22"
   },
   {
    "topic": "Material participation tests",
-   "rule": "seven tests; 500 hours, substantially all, or 100 hours and not less than anyone else",
+   "rule": "seven tests: 500 hours, substantially all, or 100 hours and most",
    "citation": "Reg. 1.469-5T(a)",
    "quote": "(2) The individual's participation in the activity for the taxable year constitutes substantially all of the participation in such activity of all individuals",
-   "how_it_applies": "a solo operator meets test (2) even in a short first year; keep a weekly hours log (any reasonable means)",
+   "how_it_applies": "a solo operator meets test (2) even in a short first year; keep an hours log",
    "src": "https://www.law.cornell.edu/cfr/text/26/1.469-5T",
    "checked": "2026-10-22"
   },
@@ -7428,7 +7557,7 @@
    "rule": "profit objective judged on nine objective factors; start-up losses tolerated",
    "citation": "Reg. 1.183-2(b)",
    "quote": "A series of losses during the initial or start-up stage of an activity may not necessarily be an indication that the activity is not engaged in for profit.",
-   "how_it_applies": "date a written business plan before year end, keep separate accounts and a ledger, track unit economics",
+   "how_it_applies": "date a written plan before year end; separate accounts; ledger; unit economics",
    "src": "https://www.law.cornell.edu/cfr/text/26/1.183-2",
    "checked": "2026-10-22"
   },
@@ -7443,7 +7572,7 @@
   },
   {
    "topic": "Case allowed: Huff",
-   "rule": "wealthy owner's start-up losses allowed; unwritten plan, books, separate accounts",
+   "rule": "wealthy owner's start-up losses allowed; unwritten plan, books, accounts",
    "citation": "Huff v. Commissioner, T.C. Memo. 2021-140",
    "quote": "Huff had a business plan for Ecotone, albeit unwritten, and when confronted with problems with its breeding operations, made changes that were intended to improve the activity's profitability.",
    "how_it_applies": "a GPU business with real books and documented pivots fits the Huff pattern",
@@ -7455,7 +7584,7 @@
    "rule": "losses denied: no ledger, plan produced after audit, large other income",
    "citation": "Young v. Commissioner, T.C. Memo. 2025-95",
    "quote": "no evidence was established to prove that such a plan existed during 2013 and 2014. The IRS therefore concluded that the plan had been created after the audit had begun",
-   "how_it_applies": "high W-2 income invites scrutiny; an after-the-fact plan is evidence against the taxpayer",
+   "how_it_applies": "high W-2 income invites scrutiny; an after-the-fact plan hurts",
    "src": "https://www.journalofaccountancy.com/issues/2026/mar/court-determines-taxpayer-lacked-profit-motive/",
    "checked": "2026-10-22"
   },
@@ -7464,7 +7593,7 @@
    "rule": "transaction must change economic position and have a substantial non-tax purpose",
    "citation": "IRC 7701(o)(1)",
    "quote": "(A) the transaction changes in a meaningful way (apart from Federal income tax effects) the taxpayer's economic position, and (B) the taxpayer has a substantial purpose",
-   "how_it_applies": "renting GPUs from unrelated clouds and selling tokens at market prices passes; avoid related-party or circular deals",
+   "how_it_applies": "arm's-length GPU rental and token sales pass; avoid related-party deals",
    "src": "https://www.law.cornell.edu/uscode/text/26/7701",
    "checked": "2026-10-22"
   },
@@ -7473,7 +7602,7 @@
    "rule": "20% accuracy penalty; 40% for undisclosed noneconomic substance transactions",
    "citation": "IRC 6662(b)(6), 6662(i)",
    "quote": "subsection (a) shall be applied with respect to such portion by substituting '40 percent' for '20 percent'",
-   "how_it_applies": "full disclosure on Schedule C with books removes the 40% tier; Form 8275 not needed for ordinary expenses",
+   "how_it_applies": "Schedule C with full books is disclosure; Form 8275 not needed",
    "src": "https://www.law.cornell.edu/uscode/text/26/6662",
    "checked": "2026-10-22"
   },
@@ -7482,7 +7611,7 @@
    "rule": "$5,000 first-year deduction, phased out above $50,000, rest over 180 months",
    "citation": "IRC 195(b)(1)",
    "quote": "$5,000, reduced (but not below zero) by the amount by which such start-up expenditures exceed $50,000",
-   "how_it_applies": "costs paid before the business opens are start-up costs; if the API opens only in Jan 2027, nothing is deductible in 2026",
+   "how_it_applies": "pre-opening costs are start-up costs; API opening in Jan 2027 = $0 in 2026",
    "src": "https://www.law.cornell.edu/uscode/text/26/195",
    "checked": "2026-10-22"
   },
@@ -7491,37 +7620,46 @@
    "rule": "an online business begins when open to the public, even with zero revenue",
    "citation": "Kellett v. Commissioner, T.C. Memo. 2022-62; Cabintaxi",
    "quote": "a taxpayer's effort to sell goods or services may qualify as an active trade or business even if the taxpayer makes no sales and therefore has zero gross receipts",
-   "how_it_applies": "document a December 2026 public launch (pricing page, signups, API keys) to make December costs section 162 expenses",
+   "how_it_applies": "document a December 2026 public launch (pricing page, signups, API keys)",
    "src": "https://www.grantthornton.com/library/newsletters/tax/2022/hot-topics/jul-05/tax-court-rules-on-online-business-start-up-expenses.aspx",
+   "more": [
+    "makes December costs section 162 expenses"
+   ],
    "checked": "2026-10-22"
   },
   {
    "topic": "Self-employment tax",
-   "rule": "12.4% OASDI up to $184,500 wage base (2026), 2.9% Medicare, 0.9% Additional Medicare above $200k/$250k",
+   "rule": "12.4% OASDI to $184,500; 2.9% Medicare; 0.9% extra above $200k/$250k",
    "citation": "IRC 1401; SSA wage base",
    "quote": "a tax equal to 0.9 percent of the self-employment income for such taxable year which is in excess of (i) in the case of a joint return, $250,000, ... (iii) in any other case, $200,000",
-   "how_it_applies": "wages already exceed the OASDI base, so a profit is taxed at 3.8% marginal SE; a loss creates no SE tax",
+   "how_it_applies": "wages exceed the OASDI base, so profit is taxed at 3.8% SE; loss: no SE tax",
    "src": "https://www.ssa.gov/oact/cola/cbb.html",
    "checked": "2026-10-22"
   },
   {
    "topic": "QBI deduction (199A)",
-   "rule": "permanent after OBBBA; 2026 threshold $201,750 single, $403,500 joint; $400 minimum for active QBI",
+   "rule": "permanent after OBBBA; 2026 threshold $201,750 single, $403,500 joint",
    "citation": "IRC 199A; Rev. Proc. 2025-32 sec. 4.26",
    "quote": "Married Individuals Filing Joint Returns $403,500 $553,500 ... All Other Returns $201,750 $276,750",
-   "how_it_applies": "no deduction in a loss year (negative QBI carries forward); above threshold it is capped by W-2 wages and 2.5% of asset basis",
+   "how_it_applies": "no deduction in a loss year; above threshold capped by W-2 wages and 2.5% UBIA",
    "src": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
    "est": true,
+   "more": [
+    "$400 minimum deduction for active QBI"
+   ],
    "checked": "2026-10-22"
   },
   {
    "topic": "California sales tax on SaaS from 2027 (SB 122)",
-   "rule": "digital products including SaaS become taxable Jan 1 2027; digital infrastructure (IaaS/PaaS) excluded",
+   "rule": "SaaS taxable from Jan 1 2027; digital infrastructure (IaaS/PaaS) excluded",
    "citation": "CDTFA Special Notice L-1036; Stats. 2026, ch. 23",
    "quote": "A digital product is prewritten computer software transferred on tangible storage media, transferred electronically, or accessed remotely.",
-   "how_it_applies": "a hosted-model token API to California customers looks like taxable SaaS from 2027; raw GPU rental is excluded; register for a seller's permit",
+   "how_it_applies": "hosted-model token API to California customers looks like taxable SaaS",
    "src": "https://cdtfa.ca.gov/formspubs/l1036.pdf",
    "est": true,
+   "more": [
+    "raw GPU rental is excluded; register for a seller's permit before 2027"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -7535,11 +7673,14 @@
   },
   {
    "topic": "Redwood City business license",
-   "rule": "Business License Tax Certificate required for self-employed persons; $90 base plus per-employee rate",
+   "rule": "Business License Tax Certificate required; $90 base plus per-employee rate",
    "citation": "Redwood City Municipal Code 32.105",
    "quote": "Self-employed persons and independent contractors are also required to obtain a Business License Tax Certificate.",
-   "how_it_applies": "apply at rctax.redwoodcity.org; due July 1 yearly; owner counts as one employee; confirm home-occupation zoning",
+   "how_it_applies": "apply at rctax.redwoodcity.org; due July 1; owner counts as one employee",
    "src": "https://www.redwoodcity.org/departments/administrative-services/finance/taxes-assessments-fees/business-licensing/business-license-tax-frequently-asked-questions",
+   "more": [
+    "confirm home-occupation zoning"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -7556,19 +7697,22 @@
    "rule": "37% federal plus 12.3% California saves $49,300",
    "citation": "IRC 1(j); FTB 2025 rate schedules",
    "quote": "12.30%",
-   "how_it_applies": "confirmed: 37,000 + 12,300 = 49,300; ignores SALT cap, AMT, mental health tax, 461(l)",
+   "how_it_applies": "confirmed: 37,000 + 12,300 = 49,300; ignores SALT cap, AMT, 461(l)",
    "src": "https://www.ftb.ca.gov/forms/2025/2025-540-tax-rate-schedules.pdf",
    "est": true,
    "checked": "2026-10-22"
   },
   {
    "topic": "Arithmetic check: $100,000 owned server",
-   "rule": "federal 100% bonus $37,000 plus California (25,000 + 5% x 75,000) x 12.3% = $3,536; total $40,536",
+   "rule": "federal $37,000 plus California $3,536 = $40,536",
    "citation": "IRC 168(k); R&TC 17255; Pub 946 Table A-5",
    "quote": "5.00%",
-   "how_it_applies": "confirmed on the mid-quarter (December in-service) assumption; half-year convention gives $41,920",
+   "how_it_applies": "confirmed on the mid-quarter assumption; half-year gives $41,920",
    "src": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
    "est": true,
+   "more": [
+    "California: (25,000 + 5% x 75,000) x 12.3%"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -7576,7 +7720,7 @@
    "rule": "mined or staked tokens are ordinary income at fair market value on receipt",
    "citation": "IRS Notice 2014-21 Q-8; Rev. Rul. 2023-14",
    "quote": "the fair market value of the virtual currency as of the date of receipt is includible in gross income",
-   "how_it_applies": "alpha, IO, NOS or Salad points earned for compute add to taxable income; later price drops are capital losses",
+   "how_it_applies": "tokens earned for compute add to taxable income; price drops are capital losses",
    "src": "https://www.irs.gov/irb/2014-16_IRB",
    "checked": "2026-10-22"
   }
@@ -7586,7 +7730,7 @@
    "model": "Llama 3.3 70B",
    "license": "Llama 3.3 Community License (Dec 6 2024)",
    "commercial_api_ok": true,
-   "attribution_or_limits": "'Built with Llama' on site or docs; copy of license; notice; AUP; license needed above 700M MAU",
+   "attribution_or_limits": "'Built with Llama'; copy of license; notice; AUP; license above 700M MAU",
    "quote": "prominently display 'Built with Llama' on a related website, user interface, blogpost, about page, or product documentation",
    "src": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_3/LICENSE",
    "checked": "2026-10-22"
@@ -7595,7 +7739,7 @@
    "model": "Llama 4 Scout and Maverick",
    "license": "Llama 4 Community License (Apr 5 2025)",
    "commercial_api_ok": true,
-   "attribution_or_limits": "same as 3.3; AUP; no multimodal rights for EU-domiciled licensees; 700M MAU clause",
+   "attribution_or_limits": "same as 3.3; AUP; no multimodal rights in the EU; 700M MAU clause",
    "quote": "the rights granted under Section 1(a) of the Llama 4 Community License Agreement are not being granted to you if you are an individual domiciled in, or a company with a principal place of business in, the European Union",
    "src": "https://www.llama.com/llama4/license/",
    "checked": "2026-10-22"
@@ -7640,7 +7784,7 @@
    "model": "DeepSeek V3 (original, Dec 2024)",
    "license": "DeepSeek License Agreement v1.0 (model); code MIT",
    "commercial_api_ok": true,
-   "attribution_or_limits": "use-based restrictions (Attachment A) must be passed to users; hosted access expressly allowed",
+   "attribution_or_limits": "use restrictions (Attachment A) must bind users; hosting expressly allowed",
    "quote": "You may host for Third Party remote access purposes (e.g. software-as-a-service), reproduce and distribute copies of the Model or Derivatives of the Model",
    "src": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/LICENSE-MODEL",
    "checked": "2026-10-22"
@@ -7677,7 +7821,7 @@
    "license": "Modified MIT",
    "commercial_api_ok": true,
    "attribution_or_limits": "display 'Kimi K2' on the UI only above 100M MAU or $20M monthly revenue",
-   "quote": "if the Software (or any derivative works thereof) is used for any of your commercial products or services that have more than 100 million monthly active users, or more than 20 million US dollars (or equivalent in other currencies) in monthly revenue, you shall prominently display 'Kimi K2' on the user interface",
+   "quote": "used for any of your commercial products or services that have more than 100 million monthly active users, or more than 20 million US dollars ... in monthly revenue, you shall prominently display 'Kimi K2'",
    "src": "https://huggingface.co/moonshotai/Kimi-K2-Instruct/raw/main/LICENSE",
    "checked": "2026-10-22"
   },
@@ -7685,7 +7829,7 @@
    "model": "Kimi K3",
    "license": "Kimi K3 License (MIT-style)",
    "commercial_api_ok": true,
-   "attribution_or_limits": "MaaS over $20M in 12 months needs agreement; 'Kimi K3' display above 100M MAU or $20M/mo",
+   "attribution_or_limits": "MaaS over $20M/12 mo needs agreement; display 'Kimi K3' above 100M MAU",
    "quote": null,
    "src": "https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints",
    "checked": "2026-10-22"
@@ -7757,9 +7901,12 @@
    "model": "Gemma 3",
    "license": "Gemma Terms of Use (Apr 1 2026)",
    "commercial_api_ok": true,
-   "attribution_or_limits": "hosted service allowed; pass-through use restrictions in your ToS; copy of terms; Prohibited Use Policy; Google may restrict remotely",
-   "quote": "You must include the use restrictions referenced in Section 3.2 as an enforceable provision in any agreement (e.g., license agreement, terms of use, etc.) governing the use and/or distribution of Gemma or Model Derivatives",
+   "attribution_or_limits": "hosted service allowed; pass-through use restrictions; Prohibited Use Policy",
+   "quote": "You must include the use restrictions referenced in Section 3.2 as an enforceable provision in any agreement (e.g., license agreement, terms of use, etc.) governing the use and/or distribution of Gemma",
    "src": "https://ai.google.dev/gemma/terms",
+   "more": [
+    "copy of terms to recipients; Google may restrict use remotely"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -7784,7 +7931,7 @@
    "model": "StepFun Step 5 Preview",
    "license": "StepFun Model License 1.0",
    "commercial_api_ok": true,
-   "attribution_or_limits": "MaaS over $20M in 12 months needs license; 'Powered by StepFun AI' above 100M MAU or $20M/mo",
+   "attribution_or_limits": "MaaS over $20M/12 mo needs license; 'Powered by StepFun AI' above 100M MAU",
    "quote": null,
    "src": "https://openrouter.ai/api/v1/models/stepfun/step-5-preview/endpoints",
    "checked": "2026-10-22"
@@ -7811,7 +7958,7 @@
    "model": "Qwen3.8 2.4T A95B",
    "license": "Qwen3.8-Max License (MIT-style)",
    "commercial_api_ok": true,
-   "attribution_or_limits": "MaaS over $50M in 12 months needs license; name display above 100M MAU or $20M/mo",
+   "attribution_or_limits": "MaaS over $50M/12 mo needs license; name display above 100M MAU",
    "quote": null,
    "src": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-2.4t-a95b/endpoints",
    "checked": "2026-10-22"
@@ -7820,9 +7967,12 @@
    "model": "Meta Muse Spark Open",
    "license": "Muse Model License (gated)",
    "commercial_api_ok": true,
-   "attribution_or_limits": "MaaS over $20M gross in 12 months needs agreement; 'Built with Muse Spark Open' required; full text behind gate",
+   "attribution_or_limits": "MaaS over $20M/12 mo needs agreement; 'Built with Muse Spark Open' required",
    "quote": null,
    "src": "https://openrouter.ai/api/v1/models/meta/muse-spark-open/endpoints",
+   "more": [
+    "full text behind gate"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -7838,14 +7988,14 @@
  "privacy": [
   {
    "topic": "OpenRouter provider privacy policy",
-   "requirement": "published privacy policy with clear retention terms; disclose prompt logging and training use",
+   "requirement": "published privacy policy with retention terms; disclose logging and training",
    "src": "https://openrouter.ai/providers/apply",
    "quote": "Have a published privacy policy and clear data retention terms. Providers must disclose whether prompts are logged and if data is used for training.",
    "checked": "2026-10-22"
   },
   {
    "topic": "OpenRouter unknown-policy default",
-   "requirement": "an endpoint without a clear policy is marked as retaining and training on data; ZDR users exclude it",
+   "requirement": "unclear policy = marked as retaining and training; ZDR users exclude it",
    "src": "https://openrouter.ai/docs/guides/features/zdr",
    "quote": "If OpenRouter is not able to establish or ascertain a clear policy for a provider or endpoint, we take a conservative stance and assume that the endpoint both retains and trains on data",
    "checked": "2026-10-22"
@@ -7858,16 +8008,22 @@
   },
   {
    "topic": "CCPA thresholds",
-   "requirement": "applies only above $26,625,000 revenue, or 100,000+ California consumers' data bought/sold/shared, or 50%+ revenue from selling PI",
+   "requirement": "applies above $26,625,000 revenue or 100,000+ California consumers' data",
    "src": "https://oag.ca.gov/privacy/ccpa",
    "quote": "Have a gross annual revenue of over $25 million; Buy, sell, or share the personal information of 100,000 or more California residents or households",
+   "more": [
+    "or 50%+ of revenue from selling personal information"
+   ],
    "checked": "2026-10-22"
   },
   {
    "topic": "CCPA B2B exemption",
-   "requirement": "employee and B2B exemptions expired Dec 31 2022; if thresholds are met, business contacts' data is covered",
+   "requirement": "employee and B2B exemptions expired Dec 31 2022",
    "src": "https://oag.ca.gov/privacy/ccpa",
    "quote": "The exemptions for employment-related personal information and personal information reflecting business-to-business transactions described in Civil Code Sec. 1798.145(m)-(n) expired on December 31, 2022.",
+   "more": [
+    "if thresholds are met, business contacts' data is covered"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -7878,41 +8034,47 @@
   },
   {
    "topic": "CalOPPA privacy policy",
-   "requirement": "any commercial site or online service collecting PII from California consumers must conspicuously post a privacy policy",
+   "requirement": "any online service collecting PII from Californians must post a privacy policy",
    "src": "https://california.public.law/codes/business_and_professions_code_section_22575",
-   "quote": "An operator of a commercial Web site or online service that collects personally identifiable information through the Internet about individual consumers residing in California ... shall conspicuously post its privacy policy",
+   "quote": "An operator of a commercial Web site or online service that collects personally identifiable information ... about individual consumers residing in California ... shall conspicuously post its privacy policy",
    "checked": "2026-10-22"
   },
   {
    "topic": "Terms of service pass-through",
-   "requirement": "Gemma 3, original DeepSeek-V3 and Llama AUP require binding customers to upstream use restrictions",
+   "requirement": "Gemma 3, original DeepSeek-V3 and Llama AUP must bind your customers",
    "src": "https://ai.google.dev/gemma/terms",
    "checked": "2026-10-22"
   },
   {
    "topic": "Export controls: open-weight models",
-   "requirement": "AI Diffusion Rule model-weight control (ECCN 4E091) excluded open-weight models; rule rescission announced May 13 2025, non-enforcement since",
+   "requirement": "AI Diffusion Rule weight control excluded open weights; rescission announced",
    "src": "https://www.akingump.com/en/insights/alerts/bis-rescinds-its-ai-diffusion-rule-and-issues-compliance-guidance-regarding-advanced-computing-items",
    "quote": "BIS has not extended this licensing requirement to model weights of open-weight AI models",
+   "more": [
+    "May 13 2025 announcement; non-enforcement since"
+   ],
    "checked": "2026-10-22"
   },
   {
    "topic": "Export controls: hardware and training",
-   "requirement": "pre-existing chip controls stand; BIS red flag for training AI models for entities headquartered in China or arms-embargoed countries",
+   "requirement": "chip controls stand; BIS red flag for training for China-HQ entities",
    "src": "https://www.akingump.com/en/insights/alerts/bis-rescinds-its-ai-diffusion-rule-and-issues-compliance-guidance-regarding-advanced-computing-items",
    "checked": "2026-10-22"
   },
   {
    "topic": "OFAC sanctions",
-   "requirement": "sanctioned countries (Cuba, Iran, North Korea, Syria, certain regions) still barred; screening obligations not researched",
+   "requirement": "sanctioned countries still barred; screening obligations not researched",
    "src": "https://vast.ai/terms",
    "quote": "User represents that neither it nor any end users of the Services is (i) located in, organized under the laws of, or ordinarily resident in Cuba, Iran, North Korea, Syria",
    "checked": "2026-10-22"
   },
   {
    "topic": "Recommended documents",
-   "requirement": "post a privacy policy (what is logged, retention, no training, datacenter location, deletion) and a ToS passing through model AUPs",
+   "requirement": "post a privacy policy (logging, retention, no training, location, deletion)",
    "src": "https://openrouter.ai/docs/guides/privacy/provider-logging",
+   "more": [
+    "and a ToS passing through model AUPs"
+   ],
    "checked": "2026-10-22"
   }
  ],
@@ -7953,7 +8115,7 @@
    "model": "stepfun/step-5-preview",
    "weights_public": "yes, not gated (weights 2026-10-15)",
    "license": "StepFun Model License 1.0",
-   "paid_api_ok": "conditional: MaaS over $20M/12 mo needs license; attribution above 100M MAU or $20M/mo",
+   "paid_api_ok": "conditional: license above $20M MaaS/12 mo; attribution above 100M MAU",
    "params_total": "600B",
    "params_active": "27B",
    "gb_native": "FP8 650; BF16 about 1,210 (est)",
@@ -8036,9 +8198,12 @@
    "gb_native": "FP8+FP4 mixed 510",
    "smallest_node": "8x H200 (recipe min VRAM 614 GB)",
    "serving_support": "vLLM 0.31.0+ (no Jinja template, DSpark only); SGLang per card",
-   "hosts_selfhost_or_proxy": "38 hosts, no DeepSeek endpoint, 0.07 to 0.60 input: self-host; lab list 0.15/0.60 off-peak",
+   "hosts_selfhost_or_proxy": "38 hosts, no DeepSeek endpoint, 0.07 to 0.60 input: self-host",
    "caveat": "OpenRouter serves 0910 checkpoint; lab serves 1017",
    "src": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
+   "more": [
+    "lab list 0.15/0.60 off-peak"
+   ],
    "checked": "2026-10-22"
   },
   {
@@ -8051,16 +8216,19 @@
    "gb_native": "FP4+FP8 mixed 865 (0813 about 893)",
    "smallest_node": "8x H200 (recipe, 800K context cap)",
    "serving_support": "vLLM 0.20+ (0813 needs 0.25+); SGLang per card",
-   "hosts_selfhost_or_proxy": "16 hosts, no DeepSeek endpoint, 0.44 to 1.91 input: self-host; lab list 0.66/1.98 off-peak",
-   "caveat": "card calls April checkpoint a preview; lab may route V4-Pro to Flash (conflicting reports)",
+   "hosts_selfhost_or_proxy": "16 hosts, no DeepSeek endpoint, 0.44 to 1.91 input: self-host",
+   "caveat": "card calls April checkpoint a preview; lab routing reports conflict",
    "src": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro/endpoints",
+   "more": [
+    "lab list 0.66/1.98 off-peak"
+   ],
    "checked": "2026-10-22"
   },
   {
    "model": "moonshotai/kimi-k3",
    "weights_public": "yes, not gated (weights about 2026-07-27)",
    "license": "Kimi K3 License (MIT-style)",
-   "paid_api_ok": "conditional: MaaS over $20M/12 mo needs agreement; 'Kimi K3' display above 100M MAU or $20M/mo",
+   "paid_api_ok": "conditional: agreement above $20M MaaS/12 mo; 'Kimi K3' above 100M MAU",
    "params_total": "2.8T",
    "params_active": "104B",
    "gb_native": "MXFP4 1,561",
@@ -8105,7 +8273,7 @@
    "model": "qwen/qwen3.8-2.4t-a95b",
    "weights_public": "yes, not gated (2026-08-12)",
    "license": "Qwen3.8-Max License (MIT-style)",
-   "paid_api_ok": "conditional: MaaS over $50M/12 mo needs license; name display above 100M MAU or $20M/mo",
+   "paid_api_ok": "conditional: license above $50M MaaS/12 mo; name display above 100M MAU",
    "params_total": "2.4T",
    "params_active": "95B",
    "gb_native": "BF16 4,892; FP8 about 2,496; NVFP4 about 1,451; MXFP4 about 1,594",
@@ -8120,13 +8288,13 @@
    "model": "meta/muse-spark-open",
    "weights_public": "yes but gated (manual approval), 2026-10-15",
    "license": "Muse Model License",
-   "paid_api_ok": "conditional: MaaS over $20M gross/12 mo needs agreement; 'Built with Muse Spark Open' required",
+   "paid_api_ok": "conditional: agreement above $20M MaaS/12 mo; 'Built with Muse Spark Open'",
    "params_total": "816B",
    "params_active": "42B",
    "gb_native": "BF16 1,644; NVFP4 about 533",
    "smallest_node": "NVFP4: 8x B200; BF16: 8x MI355X only",
    "serving_support": "vLLM 0.33+ via muse-spark-open image until PR #61879 merges; SGLang per card",
-   "hosts_selfhost_or_proxy": "6 hosts all at 1.25/4.25 (Meta's closed API price); Meta has no API, all self-host",
+   "hosts_selfhost_or_proxy": "6 hosts all at 1.25/4.25 (Meta's API price); Meta has no API: self-host",
    "caveat": "full license text behind gate; video audio track not processed",
    "src": "https://openrouter.ai/api/v1/models/meta/muse-spark-open/endpoints",
    "hf_id": "meta-models/Muse-Spark-Open-816B-A42B",
@@ -8139,1571 +8307,1963 @@
  "sources": [
   {
    "url": "https://ai.google.dev/gemma/terms",
-   "title": "Google AI for Developers: terms"
+   "title": "Google AI for Developers: terms",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://aicomputetracker.com/gpu-cloud/h100/",
-   "title": "aicomputetracker.com: h100"
+   "title": "aicomputetracker.com: h100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://aimlapi.com/partner-program",
-   "title": "aimlapi.com: partner program"
+   "title": "aimlapi.com: partner program",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://akash.network/docs/providers/getting-started/hardware-requirements/",
-   "title": "Akash: hardware requirements"
+   "title": "Akash: hardware requirements",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://akash.network/pricing/gpus/",
-   "title": "Akash: gpus"
+   "title": "Akash: gpus",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://app.primeintellect.ai/dashboard/on-demand-gpus",
-   "title": "Prime Intellect: on demand gpus"
+   "title": "Prime Intellect: on demand gpus",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
-   "title": "AWS: pricing"
+   "title": "AWS: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://aws.amazon.com/ec2/instance-types/inf2/",
-   "title": "AWS: inf2"
+   "title": "AWS: inf2",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://aws.amazon.com/startups/credits",
-   "title": "AWS: credits"
+   "title": "AWS: credits",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://bizon-tech.com/bizon-g7000.html",
-   "title": "Bizon: bizon g7000"
+   "title": "Bizon: bizon g7000",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://bizon-tech.com/bizon-x5500.html",
-   "title": "Bizon: bizon x5500"
+   "title": "Bizon: bizon x5500",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://bizon-tech.com/bizon-x7000.html",
-   "title": "Bizon: bizon x7000"
+   "title": "Bizon: bizon x7000",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://blog.sogni.ai/blogs/what-a-gpu-earns-on-sogni/",
-   "title": "blog.sogni.ai: what a gpu earns on sogni"
+   "title": "blog.sogni.ai: what a gpu earns on sogni",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://caladansemi.com/blog/used-nvidia-h100-a100-gpu-buying-guide-2026",
-   "title": "caladansemi.com: used nvidia h100 a100 gpu buying guide 2026"
+   "title": "caladansemi.com: used nvidia h100 a100 gpu buying guide 2",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://california.public.law/codes/business_and_professions_code_section_17910",
-   "title": "California Public Law: business and professions code section 17910"
+   "title": "California Public Law: business and professions code section 17",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://california.public.law/codes/business_and_professions_code_section_22575",
-   "title": "California Public Law: business and professions code section 22575"
+   "title": "California Public Law: business and professions code section 22",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://california.public.law/codes/revenue_and_taxation_code_section_17255",
-   "title": "California Public Law: revenue and taxation code section 17255"
+   "title": "California Public Law: revenue and taxation code section 17255",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://california.public.law/codes/revenue_and_taxation_code_section_17560.5",
-   "title": "California Public Law: revenue and taxation code section 17560.5"
+   "title": "California Public Law: revenue and taxation code section 17560.",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://cdtfa.ca.gov/formspubs/l1036.pdf",
-   "title": "CDTFA: l1036"
+   "title": "CDTFA: l1036",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://cheaperinference.com/",
-   "title": "cheaperinference.com"
+   "title": "cheaperinference.com",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://cheapinference.com",
-   "title": "cheapinference.com"
+   "title": "cheapinference.com",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://chutes.ai/docs/miner-resources/overview",
-   "title": "chutes.ai: overview"
+   "title": "chutes.ai: overview",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://clore.ai/marketplace",
-   "title": "Clore: marketplace"
+   "title": "Clore: marketplace",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://cloud.google.com/tpu/pricing",
-   "title": "Google Cloud: pricing"
+   "title": "Google Cloud: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://cloud.vast.ai/host/agreement",
-   "title": "Vast.ai: agreement"
+   "title": "Vast.ai: agreement",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://cloudninjas.com/products/dell-poweredge-xe9680-gpu-server",
-   "title": "cloudninjas.com: dell poweredge xe9680 gpu server"
+   "title": "cloudninjas.com: dell poweredge xe9680 gpu server",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://clusterbid.com/blog/secondary-gpu-market-2026-used-h100-prices-resale-value-trading-volume",
-   "title": "clusterbid.com: secondary gpu market 2026 used h100 prices resale value trad"
+   "title": "clusterbid.com: secondary gpu market 2026 used h100 pric",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://clustermelt.com/gpus/l40s/price",
-   "title": "clustermelt.com: price"
+   "title": "clustermelt.com: price",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://coloprice.com/guides/h100-rental-prices/",
-   "title": "coloprice.com: h100 rental prices"
+   "title": "coloprice.com: h100 rental prices",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://cppa.ca.gov/announcements/2024/20241217.html",
-   "title": "cppa.ca.gov: 20241217"
+   "title": "cppa.ca.gov: 20241217",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://data.ornn.com/",
-   "title": "Ornn OCPI"
+   "title": "Ornn OCPI",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://data.ornn.com/markets/h200",
-   "title": "Ornn OCPI: h200"
+   "title": "Ornn OCPI: h200",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://deepinfra.com/",
-   "title": "deepinfra.com"
+   "title": "deepinfra.com",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://developers.cloudflare.com/ai-gateway/usage/providers/",
-   "title": "developers.cloudflare.com: providers"
+   "title": "developers.cloudflare.com: providers",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.aethir.com/aethir-cloud/aethir-cloud-host/operational-requirements-for-cloud-hosts",
-   "title": "docs.aethir.com: operational requirements for cloud hosts"
+   "title": "docs.aethir.com: operational requirements for cloud hosts",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.clore.ai/for-hosts/host-fees",
-   "title": "Clore: host fees"
+   "title": "Clore: host fees",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.coreweave.com/policies/terms-of-service",
-   "title": "CoreWeave: terms of service"
+   "title": "CoreWeave: terms of service",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.coreweave.com/policies/terms-of-service/acceptable-use-policy",
-   "title": "CoreWeave: acceptable use policy"
+   "title": "CoreWeave: acceptable use policy",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.cudocompute.com/suppliers/requirements",
-   "title": "docs.cudocompute.com: requirements"
+   "title": "docs.cudocompute.com: requirements",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.gpustack.ai/2.2/performance-lab/deepseek-r1/h200/",
-   "title": "GPUStack performance lab: h200"
+   "title": "GPUStack performance lab: h200",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.gpustack.ai/2.2/performance-lab/glm-4.x/h100/",
-   "title": "GPUStack performance lab: h100"
+   "title": "GPUStack performance lab: h100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.gpustack.ai/2.2/performance-lab/glm-4.x/h200/",
-   "title": "GPUStack performance lab: h200"
+   "title": "GPUStack performance lab: h200",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.gpustack.ai/2.2/performance-lab/qwen3-235b-a22b/h100/",
-   "title": "GPUStack performance lab: h100"
+   "title": "GPUStack performance lab: h100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.gpustack.ai/2.2/performance-lab/qwen3-32b/h100/",
-   "title": "GPUStack performance lab: h100"
+   "title": "GPUStack performance lab: h100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.helicone.ai/",
-   "title": "docs.helicone.ai"
+   "title": "docs.helicone.ai",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.litellm.ai/docs/providers/openai_compatible",
-   "title": "docs.litellm.ai: openai compatible"
+   "title": "docs.litellm.ai: openai compatible",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.lium.io/providers/quickstart",
-   "title": "Lium: quickstart"
+   "title": "Lium: quickstart",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.macstadium.com/macstadium/legal-and-compliance/acceptable-use-policy",
-   "title": "docs.macstadium.com: acceptable use policy"
+   "title": "docs.macstadium.com: acceptable use policy",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
-   "title": "Mistral docs: models overview"
+   "title": "Mistral docs: models overview",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.nano-gpt.com/api-reference/miscellaneous/for-providers",
-   "title": "docs.nano-gpt.com: for providers"
+   "title": "docs.nano-gpt.com: for providers",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.nebius.com/legal/agreement",
-   "title": "Nebius: agreement"
+   "title": "Nebius: agreement",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.nebius.com/legal/aup",
-   "title": "Nebius: aup"
+   "title": "Nebius: aup",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.requesty.ai/",
-   "title": "docs.requesty.ai"
+   "title": "docs.requesty.ai",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.runpod.io/accounts-billing/referrals.md",
-   "title": "RunPod: referrals"
+   "title": "RunPod: referrals",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.sfcompute.com/preview/guides/reselling-introduction",
-   "title": "SF Compute: reselling introduction"
+   "title": "SF Compute: reselling introduction",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.sfcompute.com/preview/guides/reselling.md",
-   "title": "SF Compute: reselling"
+   "title": "SF Compute: reselling",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.sfcompute.com/preview/orders",
-   "title": "SF Compute: orders"
+   "title": "SF Compute: orders",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.sglang.io/basic_usage/deepseek_v3.html",
-   "title": "SGLang docs: deepseek v3"
+   "title": "SGLang docs: deepseek v3",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.shadeform.ai/getting-started/faq",
-   "title": "Shadeform: faq"
+   "title": "Shadeform: faq",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.targon.com/providers/miner/installing-targonos",
-   "title": "docs.targon.com: installing targonos"
+   "title": "docs.targon.com: installing targonos",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.tensordock.com/legal-information/acceptable-use-policy-aup",
-   "title": "TensorDock: acceptable use policy aup"
+   "title": "TensorDock: acceptable use policy aup",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.tensordock.com/legal-information/supplier-hosting-agreement",
-   "title": "TensorDock: supplier hosting agreement"
+   "title": "TensorDock: supplier hosting agreement",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.tensordock.com/legal-information/terms-of-service-tos",
-   "title": "TensorDock: terms of service tos"
+   "title": "TensorDock: terms of service tos",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.tenstorrent.com/tt-quietbox2-guide",
-   "title": "docs.tenstorrent.com: tt quietbox2 guide"
+   "title": "docs.tenstorrent.com: tt quietbox2 guide",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.together.ai/docs/dedicated-endpoints/pricing",
-   "title": "Together AI: pricing"
+   "title": "Together AI: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.vllm.ai/projects/recipes/en/latest/Qwen/Qwen3-Coder-480B-A35B.html",
-   "title": "vLLM docs: Qwen3 Coder 480B A35B"
+   "title": "vLLM docs: Qwen3 Coder 480B A35B",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://docs.vllm.ai/projects/recipes/en/latest/moonshotai/Kimi-K2.html",
-   "title": "vLLM docs: Kimi K2"
+   "title": "vLLM docs: Kimi K2",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://esaitech.com/products/nvidia-rtx-pro-6000-900-2g153-0000-000-96gb-graphic-card",
-   "title": "Saitech: nvidia rtx pro 6000 900 2g153 0000 000 96gb graphic card"
+   "title": "Saitech: nvidia rtx pro 6000 900 2g153 0000 000 9",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://esaitech.com/products/nvidia-vcnrtxpro6000b-pb-rtx-pro-96gb-graphic-card",
-   "title": "Saitech: nvidia vcnrtxpro6000b pb rtx pro 96gb graphic card"
+   "title": "Saitech: nvidia vcnrtxpro6000b pb rtx pro 96gb gr",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://esaitech.com/search?q=H100",
-   "title": "Saitech: search"
+   "title": "Saitech: search",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://evocative.com/colocation/",
-   "title": "evocative.com: colocation"
+   "title": "evocative.com: colocation",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://explore.nosana.com/markets",
-   "title": "Nosana: markets"
+   "title": "Nosana: markets",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://explorer.io.net/",
-   "title": "io.net explorer"
+   "title": "io.net explorer",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://explorer.io.net/explorer/epoch-rewards",
-   "title": "io.net explorer: epoch rewards"
+   "title": "io.net explorer: epoch rewards",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://explorer.livepeer.org/",
-   "title": "explorer.livepeer.org"
+   "title": "explorer.livepeer.org",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://fal.ai/pricing",
-   "title": "fal: pricing"
+   "title": "fal: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://featherless.ai/",
-   "title": "featherless.ai"
+   "title": "featherless.ai",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://fireworks.ai/",
-   "title": "Fireworks"
+   "title": "Fireworks",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://fireworks.ai/pricing",
-   "title": "Fireworks: pricing"
+   "title": "Fireworks: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://fluidstack.io/",
-   "title": "FluidStack"
+   "title": "FluidStack",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://fluidstack.io/legal/acceptable-use",
-   "title": "FluidStack: acceptable use"
+   "title": "FluidStack: acceptable use",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://forums.developer.nvidia.com/t/2-23-2026-price-change-announcement/361713",
-   "title": "forums.developer.nvidia.com: 361713"
+   "title": "forums.developer.nvidia.com: 361713",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://forums.developer.nvidia.com/t/measured-inference-benchmarks-on-a-single-dgx-spark-same-harness-across-ollama-llama-cpp-and-vllm-notes-data-published/379766",
-   "title": "forums.developer.nvidia.com: 379766"
+   "title": "forums.developer.nvidia.com: 379766",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://frame.work/products/desktop-diy-amd-aimax300/configuration/new",
-   "title": "Framework: new"
+   "title": "Framework: new",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://furiosa.ai/",
-   "title": "furiosa.ai"
+   "title": "furiosa.ai",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://gcloud-compute.com/a3-highgpu-8g.html",
-   "title": "gcloud-compute.com: a3 highgpu 8g"
+   "title": "gcloud-compute.com: a3 highgpu 8g",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://getdeploying.com/gpu-price-trends",
-   "title": "GetDeploying: gpu price trends"
+   "title": "GetDeploying: gpu price trends",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://getdeploying.com/gpus/amd-mi355x",
-   "title": "GetDeploying: amd mi355x"
+   "title": "GetDeploying: amd mi355x",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://getdeploying.com/gpus/intel-gaudi3",
-   "title": "GetDeploying: intel gaudi3"
+   "title": "GetDeploying: intel gaudi3",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://getdeploying.com/gpus/nvidia-b200",
-   "title": "GetDeploying: nvidia b200"
+   "title": "GetDeploying: nvidia b200",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://getdeploying.com/gpus/nvidia-h100",
-   "title": "GetDeploying: nvidia h100"
+   "title": "GetDeploying: nvidia h100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://github.com/edenai/edenai-apis",
-   "title": "GitHub: edenai apis"
+   "title": "GitHub: edenai apis",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://github.com/manifold-inc/targon/blob/main/docs/miner/miner.md",
-   "title": "GitHub: miner"
+   "title": "GitHub: miner",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://github.com/rayonlabs/chutes-miner",
-   "title": "GitHub: chutes miner"
+   "title": "GitHub: chutes miner",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://github.com/visorcraft/strix-halo-llm-perf",
-   "title": "GitHub: strix halo llm perf"
+   "title": "GitHub: strix halo llm perf",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://godatacenters.com/blog/colocation-pricing-by-market-2026",
-   "title": "godatacenters.com: colocation pricing by market 2026"
+   "title": "godatacenters.com: colocation pricing by market 2026",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://gonka.ai/docs/host/hardware-specifications/",
-   "title": "gonka.ai: hardware specifications"
+   "title": "gonka.ai: hardware specifications",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://gpu-index.semianalysis.com/",
-   "title": "SemiAnalysis GPU index"
+   "title": "SemiAnalysis GPU index",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://gpu-price-index.vercel.app/",
-   "title": "gpu-price-index.vercel.app"
+   "title": "gpu-price-index.vercel.app",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://gpudojo.com/h100-pcie",
-   "title": "gpudojo.com: h100 pcie"
+   "title": "gpudojo.com: h100 pcie",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://gpudojo.com/h100-sxm",
-   "title": "gpudojo.com: h100 sxm"
+   "title": "gpudojo.com: h100 sxm",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://gpuleaseindex.com/ai-colocation/dallas-fort-worth-tx",
-   "title": "gpuleaseindex.com: dallas fort worth tx"
+   "title": "gpuleaseindex.com: dallas fort worth tx",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://gpupoet.com/gpu/learn/price/october-2026/nvidia-geforce-rtx-4090",
-   "title": "gpupoet.com: nvidia geforce rtx 4090"
+   "title": "gpupoet.com: nvidia geforce rtx 4090",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://gpusmith.com/articles/en/h100-rental-price-history-trends",
-   "title": "gpusmith.com: h100 rental price history trends"
+   "title": "gpusmith.com: h100 rental price history trends",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://gr1d.us/host",
-   "title": "gr1d.us: host"
+   "title": "gr1d.us: host",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://groq.com/",
-   "title": "groq.com"
+   "title": "groq.com",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://hotaisle.xyz/policies/terms-of-service",
-   "title": "Hot Aisle: terms of service"
+   "title": "Hot Aisle: terms of service",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://hotaisle.xyz/pricing/",
-   "title": "Hot Aisle: pricing"
+   "title": "Hot Aisle: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct/raw/main/LICENSE",
-   "title": "Hugging Face: LICENSE"
+   "title": "Hugging Face: LICENSE",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://huggingface.co/Qwen/Qwen3-235B-A22B/raw/main/LICENSE",
-   "title": "Hugging Face: LICENSE"
+   "title": "Hugging Face: LICENSE",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1/raw/main/LICENSE",
-   "title": "Hugging Face: LICENSE"
+   "title": "Hugging Face: LICENSE",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324/raw/main/README.md",
-   "title": "Hugging Face: README"
+   "title": "Hugging Face: README",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://huggingface.co/docs/inference-providers/en/register-as-a-provider",
-   "title": "Hugging Face: register as a provider"
+   "title": "Hugging Face: register as a provider",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506/raw/main/README.md",
-   "title": "Hugging Face: README"
+   "title": "Hugging Face: README",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct/raw/main/LICENSE",
-   "title": "Hugging Face: LICENSE"
+   "title": "Hugging Face: LICENSE",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://huggingface.co/openai/gpt-oss-120b/raw/main/USAGE_POLICY",
-   "title": "Hugging Face: USAGE POLICY"
+   "title": "Hugging Face: USAGE POLICY",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://huggingface.co/zai-org/GLM-4.5/raw/main/README.md",
-   "title": "Hugging Face: README"
+   "title": "Hugging Face: README",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://hydrahost.com/partners/",
-   "title": "hydrahost.com: partners"
+   "title": "hydrahost.com: partners",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/compare/gptoss-120b-h200-vs-mi325x",
-   "title": "InferenceX (SemiAnalysis): gptoss 120b h200 vs mi325x"
+   "title": "InferenceX (SemiAnalysis): gptoss 120b h200 vs mi325x",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/compare/kimi-k26-b300-vs-h200",
-   "title": "InferenceX (SemiAnalysis): kimi k26 b300 vs h200"
+   "title": "InferenceX (SemiAnalysis): kimi k26 b300 vs h200",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/hardware/tpu-v7-ironwood-vs-gb300-nvl72-agentx-results",
-   "title": "InferenceX (SemiAnalysis): tpu v7 ironwood vs gb300 nvl72 agentx results"
+   "title": "InferenceX (SemiAnalysis): tpu v7 ironwood vs gb300 nvl72 agentx re",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/run/deepseek-r1-on-h100",
-   "title": "InferenceX (SemiAnalysis): deepseek r1 on h100"
+   "title": "InferenceX (SemiAnalysis): deepseek r1 on h100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/run/glm-5-1-on-b200",
-   "title": "InferenceX (SemiAnalysis): glm 5 1 on b200"
+   "title": "InferenceX (SemiAnalysis): glm 5 1 on b200",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/run/gptoss-120b-on-b200",
-   "title": "InferenceX (SemiAnalysis): gptoss 120b on b200"
+   "title": "InferenceX (SemiAnalysis): gptoss 120b on b200",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/run/gptoss-120b-on-h100",
-   "title": "InferenceX (SemiAnalysis): gptoss 120b on h100"
+   "title": "InferenceX (SemiAnalysis): gptoss 120b on h100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/run/gptoss-120b-on-h200",
-   "title": "InferenceX (SemiAnalysis): gptoss 120b on h200"
+   "title": "InferenceX (SemiAnalysis): gptoss 120b on h200",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/run/gptoss-120b-on-mi300x",
-   "title": "InferenceX (SemiAnalysis): gptoss 120b on mi300x"
+   "title": "InferenceX (SemiAnalysis): gptoss 120b on mi300x",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/run/gptoss-120b-on-mi355x",
-   "title": "InferenceX (SemiAnalysis): gptoss 120b on mi355x"
+   "title": "InferenceX (SemiAnalysis): gptoss 120b on mi355x",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/run/kimi-k26-on-b200",
-   "title": "InferenceX (SemiAnalysis): kimi k26 on b200"
+   "title": "InferenceX (SemiAnalysis): kimi k26 on b200",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/run/llama-3-3-70b-on-b200",
-   "title": "InferenceX (SemiAnalysis): llama 3 3 70b on b200"
+   "title": "InferenceX (SemiAnalysis): llama 3 3 70b on b200",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://inferencex.semianalysis.com/run/llama-3-3-70b-on-h100",
-   "title": "InferenceX (SemiAnalysis): llama 3 3 70b on h100"
+   "title": "InferenceX (SemiAnalysis): llama 3 3 70b on h100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://instances.vantage.sh/aws/ec2/mac-m3ultra.metal",
-   "title": "Vantage: mac m3ultra.metal"
+   "title": "Vantage: mac m3ultra.metal",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://io.net/docs/guides/workers/device-onboarding",
-   "title": "io.net: device onboarding"
+   "title": "io.net: device onboarding",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://jarvislabs.ai/pricing",
-   "title": "Jarvislabs: pricing"
+   "title": "Jarvislabs: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://jarvislabs.ai/termsandservice",
-   "title": "Jarvislabs: termsandservice"
+   "title": "Jarvislabs: termsandservice",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://jeffgeerling.com/blog/2025/15-tb-vram-on-mac-studio-rdma-over-thunderbolt-5",
-   "title": "jeffgeerling.com: 15 tb vram on mac studio rdma over thunderbolt 5"
+   "title": "jeffgeerling.com: 15 tb vram on mac studio rdma over thund",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://kluster.ai/blog/end-of-life-announcement",
-   "title": "kluster.ai: end of life announcement"
+   "title": "kluster.ai: end of life announcement",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://know.rendernetwork.com/general-render-network/what-role-am-i/how-to-get-started-1",
-   "title": "know.rendernetwork.com: how to get started 1"
+   "title": "know.rendernetwork.com: how to get started 1",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://know.rendernetwork.com/general-render-network/what-role-am-i/how-to-get-started-1.md",
-   "title": "know.rendernetwork.com: how to get started 1"
+   "title": "know.rendernetwork.com: how to get started 1",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://lambda.ai/1-click-clusters",
-   "title": "Lambda: 1 click clusters"
+   "title": "Lambda: 1 click clusters",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://lambda.ai/blog/how-to-serve-kimi-k2-instruct-on-lambda-with-vllm",
-   "title": "Lambda: how to serve kimi k2 instruct on lambda with vllm"
+   "title": "Lambda: how to serve kimi k2 instruct on lambda ",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://lambda.ai/instances",
-   "title": "Lambda: instances"
+   "title": "Lambda: instances",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://lambda.ai/legal/terms-of-service",
-   "title": "Lambda: terms of service"
+   "title": "Lambda: terms of service",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://learn.nosana.com/hosts/grid.html",
-   "title": "Nosana: grid"
+   "title": "Nosana: grid",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://legal.crusoe.ai/",
-   "title": "Crusoe"
+   "title": "Crusoe",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://lightning.ai/pricing",
-   "title": "Lightning AI: pricing"
+   "title": "Lightning AI: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://lium.io/pricing",
-   "title": "Lium: pricing"
+   "title": "Lium: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://lium.io/rent-out-your-gpu",
-   "title": "Lium: rent out your gpu"
+   "title": "Lium: rent out your gpu",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://lium.io/terms",
-   "title": "Lium: terms"
+   "title": "Lium: terms",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://lowendbox.com/?p=47734",
-   "title": "lowendbox.com"
+   "title": "lowendbox.com",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
-   "title": "Apple ML Research: mlx distributed inference"
+   "title": "Apple ML Research: mlx distributed inference",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://macweb.com/colocation",
-   "title": "MacWeb: colocation"
+   "title": "MacWeb: colocation",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://macweb.com/macstudio",
-   "title": "MacWeb: macstudio"
+   "title": "MacWeb: macstudio",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://marketplace-admin.uvation.com/supermicro-sys-a22ga-nbrt-g1-10u-b200-gold-series-gpu-servers.html",
-   "title": "marketplace-admin.uvation.com: supermicro sys a22ga nbrt g1 10u b200 gold series gpu server"
+   "title": "marketplace-admin.uvation.com: supermicro sys a22ga nbrt g1 10u b200 go",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://massedcompute.com/legal/end-user-license-agreement/",
-   "title": "Massed Compute: end user license agreement"
+   "title": "Massed Compute: end user license agreement",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://millionminer.com/gpu-hosting",
-   "title": "millionminer.com: gpu hosting"
+   "title": "millionminer.com: gpu hosting",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://mistral.ai/licenses/MRL-0.1.md",
-   "title": "Mistral: MRL 0.1"
+   "title": "Mistral: MRL 0.1",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://mistral.ai/news/mistral-3",
-   "title": "Mistral: mistral 3"
+   "title": "Mistral: mistral 3",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://modal.com/pricing",
-   "title": "Modal: pricing"
+   "title": "Modal: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://nebius.com/prices",
-   "title": "Nebius: prices"
+   "title": "Nebius: prices",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://nousresearch.com/nous-psyche/",
-   "title": "nousresearch.com: nous psyche"
+   "title": "nousresearch.com: nous psyche",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://novita.ai/",
-   "title": "novita.ai"
+   "title": "novita.ai",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://nvidia.github.io/TensorRT-LLM/latest/developer-guide/perf-overview.html",
-   "title": "NVIDIA TensorRT-LLM docs: perf overview"
+   "title": "NVIDIA TensorRT-LLM docs: perf overview",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://oag.ca.gov/privacy/ccpa",
-   "title": "oag.ca.gov: ccpa"
+   "title": "oag.ca.gov: ccpa",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://omlx.ai/benchmarks/wjn65xp9",
-   "title": "oMLX benchmarks: wjn65xp9"
+   "title": "oMLX benchmarks: wjn65xp9",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openjurist.org/616/f2d/429",
-   "title": "OpenJurist: 429"
+   "title": "OpenJurist: 429",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-chat-v3.1/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-chat/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-r1-0528/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-r1/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v3.2/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash-0731/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro-0813/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash-1017/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/deepseek/deepseek-v4.1-flash/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/google/gemma-4-31b-it/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/meta-llama/llama-3.3-70b-instruct/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/meta-llama/llama-4-maverick/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/meta-llama/llama-4-scout/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/meta/muse-spark-1.3-contributor/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/meta/muse-spark-open/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/minimax/minimax-m2.5/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/minimax/minimax-m2.7/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/minimax/minimax-m3.1-flash/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/minimax/minimax-m3/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/mistralai/mistral-medium-3-5/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/mistralai/mistral-medium-3.1/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/mistralai/mistral-small-2603/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/mistralai/mistral-small-3.2-24b-instruct/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/moonshotai/kimi-k2-0905/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/moonshotai/kimi-k2-thinking/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/moonshotai/kimi-k2.5/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/moonshotai/kimi-k2.6/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/moonshotai/kimi-k2/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/nvidia/nemotron-3-super-120b-a12b/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/nvidia/nemotron-3-ultra-550b-a55b/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/openai/gpt-oss-120b/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/openai/gpt-oss-20b/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3-235b-a22b-2507/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3-235b-a22b-thinking-2507/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3-235b-a22b/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3-32b/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3-coder-flash/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3-coder-next/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3-coder/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3.6-35b-a3b/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-2.4t-a95b/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-27b/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-flash/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/stepfun/step-5-preview/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/tencent/hy3/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/tencent/hy4-preview/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/xiaomi/mimo-v2.6-flash/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/xiaomi/mimo-v2.6-pro/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/z-ai/glm-4.5/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/z-ai/glm-4.6/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/z-ai/glm-4.7/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/z-ai/glm-5.3-flash/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/z-ai/glm-5.3-flashx/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/z-ai/glm-5.3/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/api/v1/models/z-ai/glm-5/endpoints",
-   "title": "OpenRouter: endpoints"
+   "title": "OpenRouter: endpoints",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/docs/guides/features/zdr",
-   "title": "OpenRouter: zdr"
+   "title": "OpenRouter: zdr",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/docs/guides/privacy/provider-logging",
-   "title": "OpenRouter: provider logging"
+   "title": "OpenRouter: provider logging",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/docs/guides/providers/integration",
-   "title": "OpenRouter: integration"
+   "title": "OpenRouter: integration",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://openrouter.ai/providers/apply",
-   "title": "OpenRouter: apply"
+   "title": "OpenRouter: apply",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://opensource.googleblog.com/2026/03/gemma-4-expanding-the-gemmaverse-with-apache-20.html",
-   "title": "opensource.googleblog.com: gemma 4 expanding the gemmaverse with apache 20"
+   "title": "opensource.googleblog.com: gemma 4 expanding the gemmaverse with ap",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://phoronix.com/review/amd-developer-cloud",
-   "title": "phoronix.com: amd developer cloud"
+   "title": "phoronix.com: amd developer cloud",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://pi3g.com/?p=31780",
-   "title": "pi3g"
+   "title": "pi3g",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://pinggy.io/blog/self_hosting_llms_on_512gb_m5_ultra_mac_studio/",
-   "title": "Pinggy: self hosting llms on 512gb m5 ultra mac studio"
+   "title": "Pinggy: self hosting llms on 512gb m5 ultra mac ",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://platform.cheaperinference.com/legal/seller-agreement",
-   "title": "platform.cheaperinference.com: seller agreement"
+   "title": "platform.cheaperinference.com: seller agreement",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://portkey.ai/docs/integrations/llms/byollm",
-   "title": "portkey.ai: byollm"
+   "title": "portkey.ai: byollm",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://primeintellect.ai/blog/compute",
-   "title": "Prime Intellect: compute"
+   "title": "Prime Intellect: compute",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://primeintellect.ai/terms-of-service",
-   "title": "Prime Intellect: terms of service"
+   "title": "Prime Intellect: terms of service",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/LICENSE-MODEL",
-   "title": "GitHub raw: LICENSE MODEL"
+   "title": "GitHub raw: LICENSE MODEL",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_3/LICENSE",
-   "title": "GitHub raw: LICENSE"
+   "title": "GitHub raw: LICENSE",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://raw.githubusercontent.com/rayonlabs/G.O.D/main/README.md",
-   "title": "GitHub raw: README"
+   "title": "GitHub raw: README",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://rebellions.ai/",
-   "title": "rebellions.ai"
+   "title": "rebellions.ai",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://salad.com/earning-rates",
-   "title": "Salad: earning rates"
+   "title": "Salad: earning rates",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://salad.com/earning-rates/",
-   "title": "Salad: earning rates"
+   "title": "Salad: earning rates",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://salad.com/pricing",
-   "title": "Salad: pricing"
+   "title": "Salad: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://salad.com/terms/chefs/",
-   "title": "Salad: chefs"
+   "title": "Salad: chefs",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://salad.com/terms/saladcloud/",
-   "title": "Salad: saladcloud"
+   "title": "Salad: saladcloud",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://sambanova.ai/",
-   "title": "sambanova.ai"
+   "title": "sambanova.ai",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://serverpartdeals.com/products/dell-poweredge-xe9680-xeon-platinum-8462y-8x-nvidia-hgx-h100-80gb-sxm5-nvlink-ai-powered-refurbished-gpu-server",
-   "title": "serverpartdeals.com: dell poweredge xe9680 xeon platinum 8462y 8x nvidia hgx h100"
+   "title": "serverpartdeals.com: dell poweredge xe9680 xeon platinum 8462",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://sfcompute.com/",
-   "title": "SF Compute"
+   "title": "SF Compute",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://sfcompute.com/legal/terms-of-service",
-   "title": "SF Compute: terms of service"
+   "title": "SF Compute: terms of service",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://shadeform.com/directory/clouds/boostrun",
-   "title": "Shadeform: boostrun"
+   "title": "Shadeform: boostrun",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://shadeform.com/directory/instances/excesssupply/H200x8",
-   "title": "Shadeform: H200x8"
+   "title": "Shadeform: H200x8",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://shadeform.com/directory/instances/hyperstack/H100",
-   "title": "Shadeform: H100"
+   "title": "Shadeform: H100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://shadeform.com/directory/instances/lambdalabs/H100_sxm5x8",
-   "title": "Shadeform: H100 sxm5x8"
+   "title": "Shadeform: H100 sxm5x8",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://shadeform.com/prices",
-   "title": "Shadeform: prices"
+   "title": "Shadeform: prices",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://shadeform.com/terms-of-service",
-   "title": "Shadeform: terms of service"
+   "title": "Shadeform: terms of service",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://shattered.io/h100-h200-b200-cloud-gpu-pricing-2026/",
-   "title": "shattered.io: h100 h200 b200 cloud gpu pricing 2026"
+   "title": "shattered.io: h100 h200 b200 cloud gpu pricing 2026",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://smalldog.com/collections/mac-studio-1",
-   "title": "smalldog.com: mac studio 1"
+   "title": "smalldog.com: mac studio 1",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://solanacompass.com/projects/inference",
-   "title": "solanacompass.com: inference"
+   "title": "solanacompass.com: inference",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://spheron.network/blog/azure-h100-pricing",
-   "title": "spheron.network: azure h100 pricing"
+   "title": "spheron.network: azure h100 pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://stats.golem.network/",
-   "title": "stats.golem.network"
+   "title": "stats.golem.network",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://store.supermicro.com/us_en/8u-gpu-superserver-sys-821ge-tnhr.html",
-   "title": "store.supermicro.com: 8u gpu superserver sys 821ge tnhr"
+   "title": "store.supermicro.com: 8u gpu superserver sys 821ge tnhr",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://store.supermicro.com/us_en/supermicro-rtx-pro-6000-gpu-nvrtxpro-6k-b-se.html",
-   "title": "store.supermicro.com: supermicro rtx pro 6000 gpu nvrtxpro 6k b se"
+   "title": "store.supermicro.com: supermicro rtx pro 6000 gpu nvrtxpro 6k ",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://switch.com/?p=29026",
-   "title": "switch.com"
+   "title": "switch.com",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://taalas.com/",
-   "title": "taalas.com"
+   "title": "taalas.com",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://taostats.io/subnets/27",
-   "title": "taostats: 27"
+   "title": "taostats: 27",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://tensordock.com/cloud-gpus.html",
-   "title": "TensorDock: cloud gpus"
+   "title": "TensorDock: cloud gpus",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://tenstorrent.com/hardware/blackhole",
-   "title": "tenstorrent.com: blackhole"
+   "title": "tenstorrent.com: blackhole",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://tenstorrent.com/newsroom/these-ai-workstations-look-like-pcs-but-pack-a-stronger-punch",
-   "title": "tenstorrent.com: these ai workstations look like pcs but pack a stronger punc"
+   "title": "tenstorrent.com: these ai workstations look like pcs but ",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://tinygrad.org/",
-   "title": "tinygrad"
+   "title": "tinygrad",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://unify.ai/",
-   "title": "unify.ai"
+   "title": "unify.ai",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://uvik.net/blog/gpu-price-index/",
-   "title": "uvik.net: gpu price index"
+   "title": "uvik.net: gpu price index",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://vast.ai/article/how-much-money-can-you-earn-renting-out-your-gpu-on-vast-ai",
-   "title": "Vast.ai: how much money can you earn renting out your gpu on vast ai"
+   "title": "Vast.ai: how much money can you earn renting out ",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://vast.ai/pricing",
-   "title": "Vast.ai: pricing"
+   "title": "Vast.ai: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://vast.ai/terms",
-   "title": "Vast.ai: terms"
+   "title": "Vast.ai: terms",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://vercel.com/docs/ai-gateway",
-   "title": "vercel.com: ai gateway"
+   "title": "vercel.com: ai gateway",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://verda.com/pricing",
-   "title": "Verda: pricing"
+   "title": "Verda: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://verda.com/terms-and-conditions",
-   "title": "Verda: terms and conditions"
+   "title": "Verda: terms and conditions",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://videocardprices.com/card/nvidia-rtx-5090/",
-   "title": "videocardprices.com: nvidia rtx 5090"
+   "title": "videocardprices.com: nvidia rtx 5090",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://vm.massedcompute.com/pricing",
-   "title": "Massed Compute: pricing"
+   "title": "Massed Compute: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://voltagepark.com/computer-services-agreement",
-   "title": "Voltage Park: computer services agreement"
+   "title": "Voltage Park: computer services agreement",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://whattomine.com/gpus",
-   "title": "WhatToMine: gpus"
+   "title": "WhatToMine: gpus",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://withmartian.com/",
-   "title": "withmartian.com"
+   "title": "withmartian.com",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.akingump.com/en/insights/alerts/bis-rescinds-its-ai-diffusion-rule-and-issues-compliance-guidance-regarding-advanced-computing-items",
-   "title": "akingump.com: bis rescinds its ai diffusion rule and issues compliance gui"
+   "title": "akingump.com: bis rescinds its ai diffusion rule and i",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.amcompute.com/gpu-server-values/h100",
-   "title": "American Compute: h100"
+   "title": "American Compute: h100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.apple.com/mac-studio/specs/",
-   "title": "Apple: specs"
+   "title": "Apple: specs",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.avadirect.com/AMD-WRX90-4x-RTX-5090-Liquid-Cooled-Rackmount-Workstation/Configure/19763558",
-   "title": "avadirect.com: 19763558"
+   "title": "avadirect.com: 19763558",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.azurespeed.com/AzureVmPricing/Standard_ND96isr_MI300X_v5",
-   "title": "azurespeed.com: Standard ND96isr MI300X v5"
+   "title": "azurespeed.com: Standard ND96isr MI300X v5",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.baseten.co/",
-   "title": "Baseten"
+   "title": "Baseten",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.baseten.co/pricing/",
-   "title": "Baseten: pricing"
+   "title": "Baseten: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.bdo.com/insights/tax/one-big-beautiful-bill-act-expands-100-depreciation-expensing-opportunities",
-   "title": "bdo.com: one big beautiful bill act expands 100 depreciation expensin"
+   "title": "bdo.com: one big beautiful bill act expands 100 d",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.bee-link.com/products/beelink-gtr9-pro-amd-ryzen-ai-max-395",
-   "title": "bee-link.com: beelink gtr9 pro amd ryzen ai max 395"
+   "title": "bee-link.com: beelink gtr9 pro amd ryzen ai max 395",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.businesswire.com/news/home/20250402039147/en/Compute-Exchange-Auction-Model-Broadens-AI-Compute-Access-With-%241B-Supply",
-   "title": "businesswire.com: Compute Exchange Auction Model Broadens AI Compute Access Wi"
+   "title": "businesswire.com: Compute Exchange Auction Model Broadens ",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.cerebras.ai/pricing",
-   "title": "cerebras.ai: pricing"
+   "title": "cerebras.ai: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.cirrascale.com/pricing",
-   "title": "Cirrascale: pricing"
+   "title": "Cirrascale: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.cloudrift.ai/blog/benchmarking-rtx-gpus-for-llm-inference",
-   "title": "cloudrift.ai: benchmarking rtx gpus for llm inference"
+   "title": "cloudrift.ai: benchmarking rtx gpus for llm inference",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.cloudrift.ai/blog/the-true-cost-of-gpu-ownership",
-   "title": "cloudrift.ai: the true cost of gpu ownership"
+   "title": "cloudrift.ai: the true cost of gpu ownership",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.colocrossing.com/colocation/",
-   "title": "colocrossing.com: colocation"
+   "title": "colocrossing.com: colocation",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.colovore.com/",
-   "title": "colovore.com"
+   "title": "colovore.com",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.coreweave.com/pricing",
-   "title": "CoreWeave: pricing"
+   "title": "CoreWeave: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.crusoe.ai/cloud/pricing",
-   "title": "Crusoe: pricing"
+   "title": "Crusoe: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.cyberlynk.net/datacenter-services/speciality-services/mac-mini-colocation",
-   "title": "cyberlynk.net: mac mini colocation"
+   "title": "cyberlynk.net: mac mini colocation",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.cyberwurx.com/colocation/",
-   "title": "cyberwurx.com: colocation"
+   "title": "cyberwurx.com: colocation",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.d-matrix.ai/",
-   "title": "d-matrix.ai"
+   "title": "d-matrix.ai",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.databasemart.com/blog/vllm-gpu-benchmark-pro6000",
-   "title": "databasemart.com: vllm gpu benchmark pro6000"
+   "title": "databasemart.com: vllm gpu benchmark pro6000",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.digitalocean.com/legal/acceptable-use-policy",
-   "title": "DigitalOcean: acceptable use policy"
+   "title": "DigitalOcean: acceptable use policy",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.digitalocean.com/legal/terms-of-service-agreement",
-   "title": "DigitalOcean: terms of service agreement"
+   "title": "DigitalOcean: terms of service agreement",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.digitalocean.com/pricing/gpu-droplets",
-   "title": "DigitalOcean: gpu droplets"
+   "title": "DigitalOcean: gpu droplets",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.ebay.com/itm/117157513315",
-   "title": "ebay.com: 117157513315"
+   "title": "ebay.com: 117157513315",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.ebay.com/itm/167882999886",
-   "title": "ebay.com: 167882999886"
+   "title": "ebay.com: 167882999886",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.ebay.com/itm/306859468669",
-   "title": "ebay.com: 306859468669"
+   "title": "ebay.com: 306859468669",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.ecfr.gov/current/title-26/chapter-I/subchapter-A/part-1/subject-group-ECFR9b4e8d8fb4d5b2b/section-1.263(a)-4",
-   "title": "eCFR: section 1.263(a) 4"
+   "title": "eCFR: section 1.263(a) 4",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.economize.cloud/resources/oci/pricing/compute/BM_GPU_MI300X_8/",
-   "title": "economize.cloud: BM GPU MI300X 8"
+   "title": "economize.cloud: BM GPU MI300X 8",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
-   "title": "EIA: epm table grapher"
+   "title": "EIA: epm table grapher",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.emma.ms/blog/nvidia-h100-cloud-gpu",
-   "title": "emma.ms: nvidia h100 cloud gpu"
+   "title": "emma.ms: nvidia h100 cloud gpu",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.etched.com/",
-   "title": "etched.com"
+   "title": "etched.com",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.exxactcorp.com/Exxact-VWS-158270643-E158270643",
-   "title": "Exxact: Exxact VWS 158270643 E158270643"
+   "title": "Exxact: Exxact VWS 158270643 E158270643",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.ftb.ca.gov/forms/2025/2025-3885a-instructions.html",
-   "title": "California FTB: 2025 3885a instructions"
+   "title": "California FTB: 2025 3885a instructions",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.ftb.ca.gov/forms/2025/2025-540-tax-rate-schedules.pdf",
-   "title": "California FTB: 2025 540 tax rate schedules"
+   "title": "California FTB: 2025 540 tax rate schedules",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.fxempire.com/crypto/wrapped-gonka/profile",
-   "title": "fxempire.com: profile"
+   "title": "fxempire.com: profile",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.gmicloud.ai/en/legal/console-terms-of-service",
-   "title": "GMI Cloud: console terms of service"
+   "title": "GMI Cloud: console terms of service",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.gmicloud.ai/pricing",
-   "title": "GMI Cloud: pricing"
+   "title": "GMI Cloud: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.gmktec.com/products/amd-ryzen™-ai-max-395-evo-x2-ai-mini-pc",
-   "title": "gmktec.com: amd ryzen™ ai max 395 evo x2 ai mini pc"
+   "title": "gmktec.com: amd ryzen™ ai max 395 evo x2 ai mini pc",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.grantthornton.com/library/newsletters/tax/2022/hot-topics/jul-05/tax-court-rules-on-online-business-start-up-expenses.aspx",
-   "title": "grantthornton.com: tax court rules on online business start up expenses.aspx"
+   "title": "grantthornton.com: tax court rules on online business start",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.green-compute.com/",
-   "title": "green-compute.com"
+   "title": "green-compute.com",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.hashrate.no/coins/flux",
-   "title": "hashrate.no: flux"
+   "title": "hashrate.no: flux",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.hashrate.no/gpus/4090",
-   "title": "hashrate.no: 4090"
+   "title": "hashrate.no: 4090",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.he.net/colocation.html",
-   "title": "he.net: colocation"
+   "title": "he.net: colocation",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.hetzner.com/dedicated-rootserver/matrix-gpu/",
-   "title": "Hetzner: matrix gpu"
+   "title": "Hetzner: matrix gpu",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.hetzner.com/legal/terms-and-conditions/",
-   "title": "Hetzner: terms and conditions"
+   "title": "Hetzner: terms and conditions",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.hivelocity.net/colocation/",
-   "title": "hivelocity.net: colocation"
+   "title": "hivelocity.net: colocation",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.hyperbolic.ai/",
-   "title": "Hyperbolic"
+   "title": "Hyperbolic",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.hyperbolic.ai/marketplace",
-   "title": "Hyperbolic: marketplace"
+   "title": "Hyperbolic: marketplace",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.hyperbolic.ai/terms",
-   "title": "Hyperbolic: terms"
+   "title": "Hyperbolic: terms",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.iclarified.com/101883/apple-launches-mac-studio-with-m5-max-and-m5-ultra-starting-at-2499",
-   "title": "iclarified.com: apple launches mac studio with m5 max and m5 ultra starting "
+   "title": "iclarified.com: apple launches mac studio with m5 max an",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.irs.gov/irb/2014-16_IRB",
-   "title": "IRS: 2014 16 IRB"
+   "title": "IRS: 2014 16 IRB",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
-   "title": "IRS: rp 25 32"
+   "title": "IRS: rp 25 32",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.irs.gov/pub/irs-pdf/p946.pdf",
-   "title": "IRS: p946"
+   "title": "IRS: p946",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.irs.gov/publications/p946",
-   "title": "IRS: p946"
+   "title": "IRS: p946",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.itcreations.com/product/160264",
-   "title": "itcreations.com: 160264"
+   "title": "itcreations.com: 160264",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.journalofaccountancy.com/issues/2026/mar/court-determines-taxpayer-lacked-profit-motive/",
-   "title": "Journal of Accountancy: court determines taxpayer lacked profit motive"
+   "title": "Journal of Accountancy: court determines taxpayer lacked profit ",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.klgates.com/thought-leadership/California-Expands-Sales-and-Use-Tax-to-SaaS-and-Certain-Digital-Products-Starting-1-January-2027-CDTFA-Proposes-Emergency-Regulations-to-Implement-the-New-Law-10-8-2026",
-   "title": "klgates.com: California Expands Sales and Use Tax to SaaS and Certain Dig"
+   "title": "klgates.com: California Expands Sales and Use Tax to ",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.koyeb.com/docs/legal/msa",
-   "title": "Koyeb: msa"
+   "title": "Koyeb: msa",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.koyeb.com/pricing",
-   "title": "Koyeb: pricing"
+   "title": "Koyeb: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.latent.space/p/gpu-bubble",
-   "title": "latent.space: gpu bubble"
+   "title": "latent.space: gpu bubble",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.latitude.sh/legal/terms",
-   "title": "Latitude.sh: terms"
+   "title": "Latitude.sh: terms",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.latitude.sh/pricing",
-   "title": "Latitude.sh: pricing"
+   "title": "Latitude.sh: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.law.cornell.edu/cfr/text/26/1.183-2",
-   "title": "Cornell LII: 1.183 2"
+   "title": "Cornell LII: 1.183 2",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.law.cornell.edu/cfr/text/26/1.461-1",
-   "title": "Cornell LII: 1.461 1"
+   "title": "Cornell LII: 1.461 1",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.law.cornell.edu/cfr/text/26/1.469-5T",
-   "title": "Cornell LII: 1.469 5T"
+   "title": "Cornell LII: 1.469 5T",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.law.cornell.edu/uscode/text/26/168",
-   "title": "Cornell LII: 168"
+   "title": "Cornell LII: 168",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.law.cornell.edu/uscode/text/26/183",
-   "title": "Cornell LII: 183"
+   "title": "Cornell LII: 183",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.law.cornell.edu/uscode/text/26/195",
-   "title": "Cornell LII: 195"
+   "title": "Cornell LII: 195",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.law.cornell.edu/uscode/text/26/461",
-   "title": "Cornell LII: 461"
+   "title": "Cornell LII: 461",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.law.cornell.edu/uscode/text/26/465",
-   "title": "Cornell LII: 465"
+   "title": "Cornell LII: 465",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.law.cornell.edu/uscode/text/26/6662",
-   "title": "Cornell LII: 6662"
+   "title": "Cornell LII: 6662",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.law.cornell.edu/uscode/text/26/7701",
-   "title": "Cornell LII: 7701"
+   "title": "Cornell LII: 7701",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.llama.com/llama4/license/",
-   "title": "Meta Llama: license"
+   "title": "Meta Llama: license",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.mercatus-ai.com/blog/b200-server-price",
-   "title": "Mercatus: b200 server price"
+   "title": "Mercatus: b200 server price",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.mercatus-ai.com/blog/gpu-rental-prices",
-   "title": "Mercatus: gpu rental prices"
+   "title": "Mercatus: gpu rental prices",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.mercatus-ai.com/blog/h100-server-price",
-   "title": "Mercatus: h100 server price"
+   "title": "Mercatus: h100 server price",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.mercatus-ai.com/blog/h200-server-price",
-   "title": "Mercatus: h200 server price"
+   "title": "Mercatus: h200 server price",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/",
-   "title": "nvidia.com: dgx cloud lepton"
+   "title": "nvidia.com: dgx cloud lepton",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.ovhcloud.com/en/public-cloud/prices/",
-   "title": "OVHcloud: prices"
+   "title": "OVHcloud: prices",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.parasail.io/",
-   "title": "parasail.io"
+   "title": "parasail.io",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.plushcap.com/companies/runpod/blog/summaries/2026/2",
-   "title": "plushcap.com: 2"
+   "title": "plushcap.com: 2",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.positron.ai/",
-   "title": "positron.ai"
+   "title": "positron.ai",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.psychz.net/colocation.html",
-   "title": "Psychz: colocation"
+   "title": "Psychz: colocation",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.quotecolo.com/colocation-hosting/nevada/reno/",
-   "title": "QuoteColo: reno"
+   "title": "QuoteColo: reno",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.quotecolo.com/colocation-hosting/tennessee/nashville/",
-   "title": "QuoteColo: nashville"
+   "title": "QuoteColo: nashville",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.quotecolo.com/colocation-hosting/texas/houston/",
-   "title": "QuoteColo: houston"
+   "title": "QuoteColo: houston",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.quotecolo.com/single-rack-ai-colocation/",
-   "title": "QuoteColo: single rack ai colocation"
+   "title": "QuoteColo: single rack ai colocation",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.redwoodcity.org/departments/administrative-services/finance/taxes-assessments-fees/business-licensing/business-license-tax-frequently-asked-questions",
-   "title": "redwoodcity.org: business license tax frequently asked questions"
+   "title": "redwoodcity.org: business license tax frequently asked qu",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.refurb.me/stats/mac-mini/mac-mini-m5-pro-late-2026",
-   "title": "refurb.me: mac mini m5 pro late 2026"
+   "title": "refurb.me: mac mini m5 pro late 2026",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.runpod.io/legal/terms-of-service",
-   "title": "RunPod: terms of service"
+   "title": "RunPod: terms of service",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.runpod.io/pricing",
-   "title": "RunPod: pricing"
+   "title": "RunPod: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.sectorlink.com/data-center-colocation/tower-server-colocation",
-   "title": "sectorlink.com: tower server colocation"
+   "title": "sectorlink.com: tower server colocation",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.silicondata.com/blog/h100-rental-price-over-time",
-   "title": "Silicon Data: h100 rental price over time"
+   "title": "Silicon Data: h100 rental price over time",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.silicondata.com/products/silicon-index/h100",
-   "title": "Silicon Data: h100"
+   "title": "Silicon Data: h100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.ssa.gov/oact/cola/cbb.html",
-   "title": "ssa.gov: cbb"
+   "title": "ssa.gov: cbb",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.thetaxadviser.com/issues/2022/mar/prior-business-success-credence-donkey-breeders-profit-motive/",
-   "title": "The Tax Adviser: prior business success credence donkey breeders profit motiv"
+   "title": "The Tax Adviser: prior business success credence donkey b",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.thundercompute.com/blog/ai-gpu-rental-market-trends",
-   "title": "thundercompute.com: ai gpu rental market trends"
+   "title": "thundercompute.com: ai gpu rental market trends",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.thundercompute.com/blog/nvidia-h200-pricing",
-   "title": "thundercompute.com: nvidia h200 pricing"
+   "title": "thundercompute.com: nvidia h200 pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.thundercompute.com/blog/oracle-cloud-oci-gpu-pricing",
-   "title": "thundercompute.com: oracle cloud oci gpu pricing"
+   "title": "thundercompute.com: oracle cloud oci gpu pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.together.ai/gpu-clusters",
-   "title": "Together AI: gpu clusters"
+   "title": "Together AI: gpu clusters",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.together.ai/terms-of-service",
-   "title": "Together AI: terms of service"
+   "title": "Together AI: terms of service",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.trgdatacenters.com/colocation/nvidia-h100/",
-   "title": "trgdatacenters.com: nvidia h100"
+   "title": "trgdatacenters.com: nvidia h100",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.upwork.com/freelance-jobs/apply/Open-WebUI-Engineer-Self-Hosted-LLM-Platform-Deployment-Production-Support_~022069931536353701997/",
-   "title": "upwork.com: Open WebUI Engineer Self Hosted LLM Platform Deployment Prod"
+   "title": "upwork.com: Open WebUI Engineer Self Hosted LLM Plat",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.voltagepark.com/computer-services-agreement",
-   "title": "Voltage Park: computer services agreement"
+   "title": "Voltage Park: computer services agreement",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.voltagepark.com/pricing",
-   "title": "Voltage Park: pricing"
+   "title": "Voltage Park: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.vultr.com/legal/use-policy/",
-   "title": "Vultr: use policy"
+   "title": "Vultr: use policy",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.vultr.com/pricing/",
-   "title": "Vultr: pricing"
+   "title": "Vultr: pricing",
+   "checked": "2026-10-22"
   },
   {
    "url": "https://www.whtop.com/plans/colocationamerica.com/5888",
-   "title": "whtop.com: 5888"
+   "title": "whtop.com: 5888",
+   "checked": "2026-10-22"
   }
  ],
  "meta": {
